@@ -178,7 +178,9 @@ li {
 .btn-one {
     position: relative;
     display: inline-block;
-    background: #195382;
+    background-color: #ba141a;
+background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
+
     color: #ffffff;
     font-size: 18px;
     line-height: 18px;
@@ -757,12 +759,15 @@ li {
     left: 0;
     width: 100%;
     z-index: 99999999;
-    background: #195382;
+    background-color: #ba141a;
+background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
+
     margin: 0;
     animation-name: menu_sticky;
     animation-duration: 0.60s;
     animation-timing-function: ease-out;
     transition: all .25s ease-in-out;
+    
 }
 
 .header-style2-area.stricky-fixed {
@@ -1488,9 +1493,12 @@ select:focus {
 .mainmenu-area .inner-content {
     position: relative;
     display: block;
-    background: #195382;
+    background-color: #ba141a;
+background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
+
     padding-left: 30px;
     padding-right: 30px;
+    opacity: 99%;
 }
 
 .main-menu {
@@ -1879,12 +1887,21 @@ select:focus {
     position: relative;
     z-index: 10;
     border-top: 3px solid #241f40;
+    background-color: #ba141a;
+background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
+
+    opacity: 100%;
 }
 
 .main-slider .tp-caption {
     z-index: 5;
 }
 
+.main-slider .rev_slider_one{
+    background-color: #ba141a;
+background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
+
+}
 .main-slider .tp-dottedoverlay {
     background: none !important;
 }
@@ -1892,6 +1909,7 @@ select:focus {
 .main-slider .slide-content {
     position: relative;
     display: block;
+    
 }
 
 .main-slider .slide-content .big-title {
@@ -2074,7 +2092,9 @@ select:focus {
 }
 
 .slogan-area::before {
-    background: rgba(22,110,158,0.90) none repeat scroll 0 0;
+    background-color: #ba141a;
+background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
+
     position: absolute;
     top: 0;
     left: 0;
@@ -2082,6 +2102,7 @@ select:focus {
     width: 100%;
     content: "";
     z-index: -1;
+    opacity: 80%;
 }
 
 .slogan-area .title {
@@ -2193,6 +2214,7 @@ select:focus {
     padding: 24px 19px 23px;
     transition: all 700ms ease;
 }
+
 
 .single-service-style1:hover .text-holder {
     -webkit-box-shadow: 0px 2px 10px 3px #f0eef9;
@@ -2408,7 +2430,9 @@ select:focus {
     position: relative;
     display: block;
     overflow: hidden;
-    background: #ffffff;
+    background-color: #ba141a;
+background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
+
     padding-left: 80px;
     min-height: 110px;
     margin: 40px auto 0;
@@ -2445,7 +2469,9 @@ select:focus {
 }
 
 .single-info-of-company.two {
-    background: #195382;
+    background-color: #ba141a;
+background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
+
 }
 
 .single-info-of-company .icon-holder.two {
@@ -2466,7 +2492,9 @@ select:focus {
 }
 
 .single-info-of-company.three {
-    background: #195382;
+    background-color: #ba141a;
+background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
+
 }
 
 .single-info-of-company .icon-holder.three {
@@ -2513,7 +2541,9 @@ select:focus {
 .latest-project-area {
     position: relative;
     display: block;
-    background: #01537d;
+    background-color: #ba141a;
+background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
+
     padding: 100px 0 100px;
 }
 
@@ -3074,7 +3104,9 @@ select:focus {
 .contact-info-box {
     position: relative;
     display: block;
-    background: #195382;
+    background-color: #ba141a;
+background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
+
     border-radius: 5px;
     padding: 35px 40px 17px;
 }
@@ -3263,7 +3295,9 @@ select:focus {
 .footer-area {
     position: relative;
     display: block;
-    background: #195382;
+    background-color: #ba141a;
+background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
+
     padding-top: 98px;
     padding-bottom: 100px;
 }
@@ -3572,7 +3606,9 @@ select:focus {
 .footer-bottom-area {
     position: relative;
     display: block;
-    background: #195382;
+    background-color: #ba141a;
+background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
+
     padding: 32px 0 31px;
 }
 
@@ -5145,7 +5181,9 @@ select:focus {
     position: relative;
     display: block;
     width: 50%;
-    background: #195382;
+    background-color: #ba141a;
+background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
+
     float: left;
     padding: 60px 50px 60px;
 }
@@ -5164,11 +5202,11 @@ select:focus {
 }
 
 .mission-vision-tab-box .sec-title .title span:before {
-    background: #4e4a6d;
+    background: #ffffff;
 }
 
 .mission-vision-tab-box .sec-title .title span:after {
-    background: #4e4a6d;
+    background: #f3441e;
 }
 
 .mission-vision-tab-box .inner-content {
@@ -6917,7 +6955,9 @@ select:focus {
 }
 
 .challenge-solution-box .img-holder .icon span:before {
-    color: #195382;
+    background-color: #ba141a;
+background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
+
     font-size: 65px;
     line-height: 65px;
     transition: all 900ms ease;
