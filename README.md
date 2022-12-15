@@ -1,16 +1,34 @@
-# Interview Portal
+[![KalifoTechnologies - Emirates-Power-Link](https://img.shields.io/static/v1?label=KalifoTechnologies&message=Emirates-Power-Link&color=blue&logo=github)](https://github.com/KalifoTechnologies/Emirates-Power-Link "Go to GitHub repo")
+[![stars - Emirates-Power-Link](https://img.shields.io/github/stars/KalifoTechnologies/Emirates-Power-Link?style=social)](https://github.com/KalifoTechnologies/Emirates-Power-Link)
+[![forks - Emirates-Power-Link](https://img.shields.io/github/forks/KalifoTechnologies/Emirates-Power-Link?style=social)](https://github.com/KalifoTechnologies/Emirates-Power-Link)
 
+# Emirates-Power-Link Website
 
+Contribution
 
 ## Getting started
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+Website Designed By Arjun in FIGMA - [ ] [Profile](https://github.com/Esdark)
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+<div align="center">
+
+
+
+
+
+</div>
+
+## Documentation
+
+<div align="center">
+
+[![view - Documentation](https://img.shields.io/badge/view-Documentation-blue?style=for-the-badge)](/docs/ "Go to project documentation")
+
+</div>
 
 ## Add your files
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
+- [ ] [Create](https://github.com/KalifoTechnologies/Emirates-Power-Link/new/main) or [upload](https://github.com/KalifoTechnologies/Emirates-Power-Link/upload/main) files
 - [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
 
 ```
@@ -26,11 +44,11 @@ git push -uf origin main
 
 ## Collaborate with your team
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Automatically merge when pipeline succeeds](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
+- [ ] [Invite team members and collaborators](https://github.com/KalifoTechnologies/Emirates-Power-Link)
+- [ ] [Create a new merge request](https://github.com/KalifoTechnologies/Emirates-Power-Link/compare)
+- [ ] [Automatically close issues from merge requests](https://github.com/KalifoTechnologies/Emirates-Power-Link/compare#closing-issues-automatically)
+- [ ] [Enable merge request approvals](https://github.com/KalifoTechnologies/Emirates-Power-Link/pulls)
+- [ ] [Automatically merge when pipeline succeeds](https://github.com/KalifoTechnologies/Emirates-Power-Link/pulls)
 
 ## Test and Deploy
 
@@ -44,12 +62,7 @@ Use the built-in continuous integration in GitLab.
 
 ***
 
-# Editing this README
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thank you to [makeareadme.com](https://www.makeareadme.com/) for this template.
-
-## Suggestions for a good README
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
 
 ## Name
 Choose a self-explaining name for your project.
@@ -58,7 +71,12 @@ Choose a self-explaining name for your project.
 Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
 
 ## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
+
+
+
+
+
+
 
 ## Visuals
 Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
