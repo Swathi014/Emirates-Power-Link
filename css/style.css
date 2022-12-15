@@ -282,7 +282,7 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
 }
 
 .sec-title.clr-white .title span:before {
-    background: #302c4a;
+    background: #ffffff;
 }
 
 .sec-title.center .title span:after {
@@ -737,6 +737,7 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
     background-position: center center;
     background-repeat: no-repeat;
     background-image: url(../images/icon/preloader.gif);
+    
 }
 
 /* Update header Style */
@@ -2671,7 +2672,7 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
     line-height: 42px;
     margin: 0;
     padding: 0;
-    border: 1px solid #302c4a;
+    border: 1px solid #ffffff;
     transition: all 700ms ease 0s;
     border-radius: 50%;
 }
@@ -7874,7 +7875,7 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
     display: block;
     margin: 0;
     margin-top: -50px;
-    border: 1px solid #f0eef9;
+    border: 1px solid  #868298;
     padding: 95px 99px 80px;
     border-radius: 5px;
     background: #ffffff;
