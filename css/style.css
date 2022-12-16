@@ -1,5 +1,5 @@
 /***************************************************************************************************************
-||||||||||||||||||||||||||       MASTER STYLESHEET FOR PowerLink By Arjun            |||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||||||||       MASTER STYLESHEET FOR SCREWER             |||||||||||||||||||||||||||||||||||||
 ****************************************************************************************************************
 ||||||||||||||||||||||||||                TABLE OF CONTENT               |||||||||||||||||||||||||||||||||||||||
 ****************************************************************************************************************
@@ -282,7 +282,7 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
 }
 
 .sec-title.clr-white .title span:before {
-    background: #302c4a;
+    background: #ffffff;
 }
 
 .sec-title.center .title span:after {
@@ -710,7 +710,7 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
 }
 
 .slick-dots li.slick-active button {
-    background: #166e9e;
+    background: #fec144;
     color: #222222;
 }
 
@@ -737,6 +737,7 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
     background-position: center center;
     background-repeat: no-repeat;
     background-image: url(../images/icon/preloader.gif);
+    
 }
 
 /* Update header Style */
@@ -1366,7 +1367,7 @@ select:focus {
 }
 
 .headers1-header-right ul li .single-item .text h3 {
-    color: #0A0203;
+    color: #4e4e4e;
     font-size: 18px;
     text-transform: uppercase;
 }
@@ -1377,7 +1378,7 @@ select:focus {
     float: right;
     width: 280px;
     height: 85px;
-    border: 1px solid #195382;
+    border: 1px solid #f0eef9;
     border-radius: 5px;
     padding: 14px 15px 14px;
 }
@@ -1458,13 +1459,13 @@ select:focus {
 }
 
 .main-menu.style2 .navigation li a {
-    color: #0A0203;
+    color: #222222;
     padding-top: 47px;
     padding-bottom: 48px;
 }
 
 .main-menu.style2 .navigation li ul li a {
-    color: #0A0203;
+    color: #222222;
     padding: 18px 30px 15px;
 }
 
@@ -1664,7 +1665,7 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
     width: 100%;
     height: 100%;
     background: #ffffff;
-    border-bottom: 3px solid #166e9e;
+    border-bottom: 3px solid #fec144;
     content: "";
     z-index: -1;
     border-radius: 6px;    
@@ -1715,7 +1716,7 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
     right: auto;
     width: 7px;
     height: 7px;
-    background: #166e9e;
+    background: #fec144;
     border-radius: 50%;
     content: "";
     margin: 23px 0;
@@ -1730,7 +1731,7 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
     left: 30px;
 }
 .main-menu .navigation > li > ul > li > ul > li:hover a{
-    color: #166e9e;
+    color: #fec144;
     padding-left: 45px;  
 }
 **/
@@ -2671,7 +2672,7 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
     line-height: 42px;
     margin: 0;
     padding: 0;
-    border: 1px solid #302c4a;
+    border: 1px solid #ffffff;
     transition: all 700ms ease 0s;
     border-radius: 50%;
 }
@@ -7400,7 +7401,7 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
     font-size: 14px;
     height: 60px;
     width: 60px;
-    border: 0px solid #166e9e;
+    border: 0px solid #fec144;
     line-height: 58px;
     text-align: center;
     border-radius: 5px;
@@ -7874,7 +7875,7 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
     display: block;
     margin: 0;
     margin-top: -50px;
-    border: 1px solid #f0eef9;
+    border: 1px solid  #868298;
     padding: 95px 99px 80px;
     border-radius: 5px;
     background: #ffffff;
@@ -9713,7 +9714,7 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
 
 .product-tab-box .review-form .add-rating-box ul li:hover a i {
     opacity: 1;
-    color: #166e9e;
+    color: #fec144;
 }
 
 .related-product {
