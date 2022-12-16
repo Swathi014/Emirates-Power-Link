@@ -374,7 +374,7 @@ input:-webkit-autofill:focus {
 }
 
 #html5box-html5-lightbox #html5-image {
-    border: 10px solid #BA141A;
+    border: 10px solid #f36727;
     padding: 0 !important;
 }
 
@@ -394,7 +394,7 @@ input:-webkit-autofill:focus {
 }
 
 .main-slider .slide-content .btn-box a.sb1:hover {
-    background: #BA141A;
+    background: #ff612a;
     color: #ffffff;
 }
 
@@ -428,7 +428,7 @@ input:-webkit-autofill:focus {
 }
 
 .tparrows:hover {
-    background: BA141A !important;
+    background: rgba(243, 103, 40, .95) !important;
     color: #ffffff;
 }
 

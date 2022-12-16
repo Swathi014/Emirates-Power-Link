@@ -1,2348 +1,2346 @@
 /* Large Layout: 1200px. */
 
 @media only screen and (min-width: 1200px) {
-  .container {
-    padding: 0;
-  }
-  .container-fluid {
-    padding: 0;
-  }
+    .container {
+        padding: 0;
+    }
+    .container-fluid {
+        padding: 0;
+    }
 }
 
 /* Medium screen  */
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  /*** 
+    /*** 
 =============================================
     Top Bar Style1 Style
 =============================================
 ***/
-  .top-left-style1 {
-    max-width: 580px;
-    width: 100%;
-  }
-  /*** 
+    .top-left-style1 {
+        max-width: 580px;
+        width: 100%;
+    }
+    /*** 
 =============================================
     header-style1-area Style
 =============================================
 ***/
-  .header-style1-logo {
-    margin: 17px 0 18px;
-    margin-right: 30px;
-  }
-  .headers1-header-right ul {
-    margin-right: 20px;
-    padding: 16px 0;
-  }
-  .headers1-header-right ul li {
-    margin-right: 10px;
-  }
-  /*** 
+    .header-style1-logo {
+        margin: 17px 0 18px;
+        margin-right: 30px;
+    }
+    .headers1-header-right ul {
+        margin-right: 20px;
+        padding: 16px 0;
+    }
+    .headers1-header-right ul li {
+        margin-right: 10px;
+    }
+    /*** 
 =============================================
     Mainmenu Area Style
 =============================================
 ***/
-  .main-menu .navigation li {
-    margin-right: 25px;
-  }
-  /*** 
+    .main-menu .navigation li {
+        margin-right: 25px;
+    }
+    /*** 
 =============================================
     About Area Style
 =============================================
 ***/
-  .about-title h1 {
-    font-size: 36px;
-    line-height: 58px;
-    margin: 0 0 20px;
-  }
-  .single-service-style2 {
-    padding: 24px 15px 22px;
-    margin: 0 auto 40px;
-  }
-  .single-service-style2 .inner {
-    padding-left: 80px;
-  }
-  .single-service-style2 .text-box h3 {
-    margin: 0 0 9px;
-    font-size: 17px;
-  }
-  /*** 
+    .about-title h1 {
+        font-size: 36px;
+        line-height: 58px;
+        margin: 0 0 20px;
+    }
+    .single-service-style2 {
+        padding: 24px 15px 22px;
+        margin: 0 auto 40px;
+    }
+    .single-service-style2 .inner {
+        padding-left: 80px;
+    }
+    .single-service-style2 .text-box h3 {
+        margin: 0 0 9px;
+        font-size: 17px;
+    }
+    /*** 
 =============================================
     Slogan Area style
 =============================================
 ***/
-  .slogan-area {
-    padding: 46px 0 50px;
-  }
-  .slogan-area .title {
-    margin: 0px 0 18px;
-    float: none !important;
-    text-align: center;
-  }
-  .slogan-area .button {
-    float: none !important;
-    max-width: 194px;
-    margin: 0 auto;
-  }
-  /*** 
+    .slogan-area {
+        padding: 46px 0 50px;
+    }
+    .slogan-area .title {
+        margin: 0px 0 18px;
+        float: none !important;
+        text-align: center;
+    }
+    .slogan-area .button {
+        float: none !important;
+        max-width: 194px;
+        margin: 0 auto;
+    }
+    /*** 
 =============================================
     Services Style1 Area style
 =============================================
 ***/
-  .service_s1_text {
-    max-width: 530px;
-    padding-left: 60px;
-    margin-top: -7px;
-  }
-  .single-service-style1 .text-holder {
-    padding: 24px 10px 23px;
-  }
-  .single-service-style1 .text-holder .text-box h3 {
-    margin: 0 0 18px;
-    font-size: 18px;
-  }
-  /*** 
+    .service_s1_text {
+        max-width: 530px;
+        padding-left: 60px;
+        margin-top: -7px;
+    }
+    .single-service-style1 .text-holder {
+        padding: 24px 10px 23px;
+    }
+    .single-service-style1 .text-holder .text-box h3 {
+        margin: 0 0 18px;
+        font-size: 18px;
+    }
+    /*** 
 =============================================
     Company Info Area style
 =============================================
 ***/
-  .company-info-content {
-    margin-top: 39px;
-  }
-  .single-info-of-company .title-holder h3 {
-    font-size: 14px;
-  }
-  /*** 
+    .company-info-content {
+        margin-top: 39px;
+    }
+    .single-info-of-company .title-holder h3 {
+        font-size: 14px;
+    }
+    /*** 
 =============================================
     Latest project area style
 =============================================
 ***/
-  .latest-project-area .sec-title {
-    padding-bottom: 133px;
-  }
-  .latest-project .owl-theme .owl-nav {
-    position: absolute;
-    left: -240px;
-    right: auto;
-    top: -90px;
-    margin: 0;
-  }
-  /*** 
+    .latest-project-area .sec-title {
+        padding-bottom: 133px;
+    }
+    .latest-project .owl-theme .owl-nav {
+        position: absolute;
+        left: -240px;
+        right: auto;
+        top: -90px;
+        margin: 0;
+    }
+    /*** 
 =============================================
     Latest Blog Area style
 =============================================
 ***/
-  .single-blog-post .text-holder .blog-title {
-    font-size: 20px;
-  }
-  /*** 
+    .single-blog-post .text-holder .blog-title {
+        font-size: 20px;
+    }
+    /*** 
 =============================================
     Call Us Area style
 =============================================
 ***/
-  .sec-title.call-us-title {
-    display: block;
-    float: none;
-    padding-right: 0;
-    padding-bottom: 43px;
-  }
-  .call-us-text {
-    display: block;
-    float: none;
-    max-width: 600px;
-    width: 100%;
-    margin-top: -7px;
-    margin-bottom: 42px;
-  }
-  /*** 
+    .sec-title.call-us-title {
+        display: block;
+        float: none;
+        padding-right: 0;
+        padding-bottom: 43px;
+    }
+    .call-us-text {
+        display: block;
+        float: none;
+        max-width: 600px;
+        width: 100%;
+        margin-top: -7px;
+        margin-bottom: 42px;
+    }
+    /*** 
 =============================================
     Footer Area style
 =============================================
 ***/
-  .single-footer-widget.marbtm50 {
-    margin-bottom: 50px;
-  }
-  /*** 
+    .single-footer-widget.marbtm50 {
+        margin-bottom: 50px;
+    }
+    /*** 
 =============================================
     Top Bar style2 style
 =============================================
 ***/
-  .top-left-style2 {
-    padding-left: 120px;
-    max-width: 800px;
-  }
-  .top-right-style2 {
-    max-width: 115px;
-  }
-  /*** 
+    .top-left-style2 {
+        padding-left: 120px;
+        max-width: 800px;
+    }
+    .top-right-style2 {
+        max-width: 115px;
+    }
+    /*** 
 =============================================
     Header Style2 Area style
 =============================================
 ***/
-  .header-style2-logo {
-    margin-right: 20px;
-  }
-  .main-menu.style2 .navigation li {
-    margin-right: 13px;
-  }
-  /*** 
+    .header-style2-logo {
+        margin-right: 20px;
+    }
+    .main-menu.style2 .navigation li {
+        margin-right: 13px;
+    }
+    /*** 
 =============================================
     Call To Action Area style
 =============================================
 ***/
-  .call-to-action {
-    padding-bottom: 41px;
-  }
-  .call_to_action_title {
-    position: relative;
-    display: block;
-    float: none;
-    margin: 0;
-  }
-  .call_to_action_text {
-    float: none;
-    padding-left: 0;
-    max-width: 520px;
-    margin: 21px 0 32px;
-  }
-  .video-holder-box2 {
-    float: none;
-  }
-  /*** 
+    .call-to-action {
+        padding-bottom: 41px;
+    }
+    .call_to_action_title {
+        position: relative;
+        display: block;
+        float: none;
+        margin: 0;
+    }
+    .call_to_action_text {
+        float: none;
+        padding-left: 0;
+        max-width: 520px;
+        margin: 21px 0 32px;
+    }
+    .video-holder-box2 {
+        float: none;
+    }
+    /*** 
 =============================================
     Capabilities Area style
 =============================================
 ***/
-  .capabilities-content .icon {
-    display: block;
-    margin-bottom: 10px;
-  }
-  .capabilities-content .icon span:before {
-    font-size: 40px;
-    line-height: 40px;
-  }
-  .capabilities-content h1 {
-    font-size: 24px;
-    margin: 0 0 6px;
-  }
-  .capabilities-content p {
-    margin: 10px 0 0;
-  }
-  .capabilities-content ul {
-    margin-top: 10px;
-    margin-bottom: 13px;
-  }
-  /*** 
+    .capabilities-content .icon {
+        display: block;
+        margin-bottom: 10px;
+    }
+    .capabilities-content .icon span:before {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .capabilities-content h1 {
+        font-size: 24px;
+        margin: 0 0 6px;
+    }
+    .capabilities-content p {
+        margin: 10px 0 0;
+    }
+    .capabilities-content ul {
+        margin-top: 10px;
+        margin-bottom: 13px;
+    }
+    /*** 
 =============================================
     Testimonial Area style
 =============================================
 ***/
-  .testimonial-area {
-    padding-top: 100px;
-    padding-bottom: 120px;
-  }
-  .testimonial-image {
-    min-height: 600px;
-    max-width: 720px;
-    width: 100%;
-    box-shadow: 0px 6px 20px #f0eef9;
-  }
-  .testimonial-image .img-box {
-    position: static;
-    max-width: 570px;
-    height: 600px;
-  }
-  /*** 
+    .testimonial-area {
+        padding-top: 100px;
+        padding-bottom: 120px;
+    }
+    .testimonial-image {
+        min-height: 600px;
+        max-width: 720px;
+        width: 100%;
+        box-shadow: 0px 6px 20px #f0eef9;
+    }
+    .testimonial-image .img-box {
+        position: static;
+        max-width: 570px;
+        height: 600px;
+    }
+    /*** 
 =============================================
     Subscribe Area style
 =============================================
 ***/
-  .subscribe-title {
-    margin: 0px 0 17px;
-    text-align: center;
-  }
-  .subscribe-form {
-    max-width: 470px;
-    margin: 0 auto;
-  }
-  /*** 
+    .subscribe-title {
+        margin: 0px 0 17px;
+        text-align: center;
+    }
+    .subscribe-form {
+        max-width: 470px;
+        margin: 0 auto;
+    }
+    /*** 
 =============================================
     About Area Style2 style
 =============================================
 ***/
-  .mission-vision-image img {
-    min-height: 441px;
-    max-width: none;
-  }
-  /*** 
+    .mission-vision-image img {
+        min-height: 441px;
+        max-width: none;
+    }
+    /*** 
 =============================================
     Team Area style
 =============================================
 ***/
-  .team_s2_title {
-    display: block;
-    float: none;
-    padding-bottom: 46px;
-  }
-  .team_s2_text {
-    display: block;
-    float: none;
-    max-width: 670px;
-    width: 100%;
-    padding-left: 0;
-    margin-top: 0;
-  }
-  .team_s2_button {
-    float: none;
-    margin-top: 26px;
-    padding-bottom: 42px;
-  }
-  /*** 
+    .team_s2_title {
+        display: block;
+        float: none;
+        padding-bottom: 46px;
+    }
+    .team_s2_text {
+        display: block;
+        float: none;
+        max-width: 670px;
+        width: 100%;
+        padding-left: 0;
+        margin-top: 0;
+    }
+    .team_s2_button {
+        float: none;
+        margin-top: 26px;
+        padding-bottom: 42px;
+    }
+    /*** 
 =============================================
     Testimonial Area s2 style
 =============================================
 ***/
-  .testimonial_s2_title {
-    display: block;
-    float: none;
-    padding-bottom: 46px;
-  }
-  .testimonial_s2_text {
-    display: block;
-    float: none;
-    max-width: 670px;
-    width: 100%;
-    padding-left: 0;
-    margin-top: 0;
-  }
-  .testimonial_s2_button {
-    float: none;
-    margin-top: 26px;
-    padding-bottom: 42px;
-  }
-  /*** 
+    .testimonial_s2_title {
+        display: block;
+        float: none;
+        padding-bottom: 46px;
+    }
+    .testimonial_s2_text {
+        display: block;
+        float: none;
+        max-width: 670px;
+        width: 100%;
+        padding-left: 0;
+        margin-top: 0;
+    }
+    .testimonial_s2_button {
+        float: none;
+        margin-top: 26px;
+        padding-bottom: 42px;
+    }
+    /*** 
 =============================================
     Single Service Area style
 =============================================
 ***/
-  .team-support h2 br {
-    display: none;
-  }
-  .team-support .img-holder {
-    margin-top: 52px;
-  }
-  .business-growth-right {
-    margin-top: 34px;
-  }
-  .single-service-bottom-box:before {
-    display: none;
-  }
-  .single-service-bottom-box .single-item {
-    display: block;
-    max-width: 400px;
-    width: 100%;
-  }
-  .single-service-bottom-box .single-item.left {
-    float: none;
-  }
-  .single-service-bottom-box .single-item.right {
-    float: none;
-    margin-top: 27px;
-  }
-  /*** 
+    .team-support h2 br {
+        display: none;
+    }
+    .team-support .img-holder {
+        margin-top: 52px;
+    }
+    .business-growth-right {
+        margin-top: 34px;
+    }
+    .single-service-bottom-box:before {
+        display: none;
+    }
+    .single-service-bottom-box .single-item {
+        display: block;
+        max-width: 400px;
+        width: 100%;
+    }
+    .single-service-bottom-box .single-item.left {
+        float: none;
+    }
+    .single-service-bottom-box .single-item.right {
+        float: none;
+        margin-top: 27px;
+    }
+    /*** 
 =============================================
     History Area style
 =============================================
 ***/
-  .history-area {
-    padding-top: 100px;
-  }
-  .history-image {
-    margin-right: 0;
-  }
-  .history-image img {
-    max-width: 100%;
-    float: none;
-    width: 100%;
-  }
-  .history-content {
-    margin-left: 0;
-    padding-left: 0;
-  }
-  .accordion-holder {
-    padding-top: 75px;
-    padding-bottom: 105px;
-  }
-  /*** 
+    .history-area {
+        padding-top: 100px;
+    }
+    .history-image {
+        margin-right: 0;
+    }
+    .history-image img {
+        max-width: 100%;
+        float: none;
+        width: 100%;
+    }
+    .history-content {
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .accordion-holder {
+        padding-top: 75px;
+        padding-bottom: 105px;
+    }
+    /*** 
 =============================================
     Project Single Area style
 =============================================
 ***/
-  .project-carousel-box {
-    margin-right: 0px;
-  }
-  .challenge-solution-box .img-holder .icon {
-    position: absolute;
-    top: 0;
-    right: 0px;
-  }
-  .challenge-solution-box .img-holder .icon.solutions {
-    top: 0px;
-    left: 0px;
-    -webkit-box-shadow: -3px 0px 6px 0px #f6f6f6;
-    box-shadow: -3px 0px 6px 0px #f6f6f6;
-  }
-  .challenge-solution-box .text-holder {
-    position: relative;
-    display: block;
-    padding-top: 0px;
-  }
-  /*** 
+    .project-carousel-box {
+        margin-right: 0px;
+    }
+    .challenge-solution-box .img-holder .icon {
+        position: absolute;
+        top: 0;
+        right: 0px;
+    }
+    .challenge-solution-box .img-holder .icon.solutions {
+        top: 0px;
+        left: 0px;
+        -webkit-box-shadow: -3px 0px 6px 0px #F6F6F6;
+        box-shadow: -3px 0px 6px 0px #F6F6F6;
+    }
+    .challenge-solution-box .text-holder {
+        position: relative;
+        display: block;
+        padding-top: 0px;
+    }
+    /*** 
 =============================================
     Blog Single Area style
 =============================================
 ***/
-  .quality-with-integrity .img-box {
-    margin-top: 30px;
-  }
-  /*** 
+    .quality-with-integrity .img-box {
+        margin-top: 30px;
+    }
+    /*** 
 =============================================
     Shop Area style
 =============================================
 ***/
-  .single-highlights-box {
-    max-width: 310px;
-  }
-  /*** 
+    .single-highlights-box {
+        max-width: 310px;
+    }
+    /*** 
 =============================================
     Single Shop Area style
 =============================================
 ***/
-  /*** 
+    /*** 
 =============================================
     Login Register Area style
 =============================================
 ***/
-  .login-register-area .form a.forgot-password {
-    margin: 70px 0 0;
-  }
-  .login-register-area .form.register {
-    overflow: hidden;
-    margin-top: 50px;
-  }
-  .login-register-area .form h6 {
-    margin: 28px 0 0;
-  }
-  /*** 
+    .login-register-area .form a.forgot-password {
+        margin: 70px 0 0;
+    }
+    .login-register-area .form.register {
+        overflow: hidden;
+        margin-top: 50px;
+    }
+    .login-register-area .form h6 {
+        margin: 28px 0 0;
+    }
+    /*** 
 =============================================
     Contact Info Area style
 =============================================
 ***/
-  .how-can-help-box {
-    margin-top: 50px;
-  }
-  /*** 
+    .how-can-help-box {
+        margin-top: 50px;
+    }
+    /*** 
 =============================================
     Branches Section style
 =============================================
 ***/
-  .branches_s2_title {
-    display: block;
-    float: none;
-    padding-bottom: 53px;
-  }
-  .branches_s2_text {
-    display: block;
-    float: none;
-    max-width: 670px;
-    width: 100%;
-    padding-left: 0;
-    margin-top: -7px;
-    padding-bottom: 40px;
-  }
+    .branches_s2_title {
+        display: block;
+        float: none;
+        padding-bottom: 53px;
+    }
+    .branches_s2_text {
+        display: block;
+        float: none;
+        max-width: 670px;
+        width: 100%;
+        padding-left: 0;
+        margin-top: -7px;
+        padding-bottom: 40px;
+    }
 }
 
 /* Tablet Layout: 768px. */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  /*** 
+    /*** 
 =============================================
     Top Bar Style1 Style
 =============================================
 ***/
-  .top-bar-style1 {
-    padding: 14px 0 24px;
-  }
-  .top-left-style1 {
-    max-width: 100%;
-    width: 100%;
-    float: none !important;
-    text-align: center;
-  }
-  .top-right-style1 {
-    position: relative;
-    display: block;
-    max-width: 300px;
-    width: 100%;
-    float: none !important;
-    min-height: 35px;
-    margin: 7px auto 0;
-  }
-  /*** 
+    .top-bar-style1 {
+        padding: 14px 0 24px;
+    }
+    .top-left-style1 {
+        max-width: 100%;
+        width: 100%;
+        float: none !important;
+        text-align: center;
+    }
+    .top-right-style1 {
+        position: relative;
+        display: block;
+        max-width: 300px;
+        width: 100%;
+        float: none !important;
+        min-height: 35px;
+        margin: 7px auto 0;
+    }
+    /*** 
 =============================================
     header-style1-area Style
 =============================================
 ***/
-  .header-style1-area {
-    padding: 30px 0 30px;
-  }
-  .header-style1-logo {
-    float: none !important;
-    text-align: center;
-    margin: 0 0 25px;
-  }
-  .header-style1-logo a {
-    display: inline-block;
-  }
-  .headers1-header-right {
-    position: relative;
-    display: block;
-    float: none !important;
-    overflow: hidden;
-  }
-  .headers1-header-right ul {
-    overflow: hidden;
-    float: left;
-    margin-right: 0px;
-    padding: 16px 0;
-  }
-  .headers1-header-right ul li {
-    margin-right: 20px;
-  }
-  /*** 
+    .header-style1-area {
+        padding: 30px 0 30px;
+    }
+    .header-style1-logo {
+        float: none !important;
+        text-align: center;
+        margin: 0 0 25px;
+    }
+    .header-style1-logo a {
+        display: inline-block;
+    }
+    .headers1-header-right {
+        position: relative;
+        display: block;
+        float: none !important;
+        overflow: hidden;
+    }
+    .headers1-header-right ul {
+        overflow: hidden;
+        float: left;
+        margin-right: 0px;
+        padding: 16px 0;
+    }
+    .headers1-header-right ul li {
+        margin-right: 20px;
+    }
+    /*** 
 =============================================
     Mainmenu Area Style
 =============================================
 ***/
-  .mainmenu-area {
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-  .mainmenu-area .inner-content {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  .mainmenu-right {
-    position: absolute;
-    top: 0;
-    right: 20px;
-    float: none;
-    z-index: 99;
-  }
-  /*** 
+    .mainmenu-area {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .mainmenu-area .inner-content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .mainmenu-right {
+        position: absolute;
+        top: 0;
+        right: 20px;
+        float: none;
+        z-index: 99;
+    }
+    /*** 
 =============================================
     About Area Style
 =============================================
 ***/
-  .about-title h1 {
-    font-size: 36px;
-    line-height: 58px;
-    margin: 0 0 20px;
-  }
-  /*** 
+    .about-title h1 {
+        font-size: 36px;
+        line-height: 58px;
+        margin: 0 0 20px;
+    }
+    /*** 
 =============================================
     Slogan Area style
 =============================================
 ***/
-  .slogan-area {
-    padding: 46px 0 50px;
-  }
-  .slogan-area .title {
-    margin: 0px 0 18px;
-    float: none !important;
-    text-align: center;
-  }
-  .slogan-area .button {
-    float: none !important;
-    max-width: 194px;
-    margin: 0 auto;
-  }
-  /*** 
+    .slogan-area {
+        padding: 46px 0 50px;
+    }
+    .slogan-area .title {
+        margin: 0px 0 18px;
+        float: none !important;
+        text-align: center;
+    }
+    .slogan-area .button {
+        float: none !important;
+        max-width: 194px;
+        margin: 0 auto;
+    }
+    /*** 
 =============================================
     Services Style1 Area style
 =============================================
 ***/
-  .services-style1-area {
-    padding-bottom: 60px;
-  }
-  .service_s1_title {
-    display: block;
-    float: none;
-    padding-bottom: 36px;
-  }
-  .service_s1_text {
-    display: block;
-    float: none;
-    max-width: 100%;
-    padding-left: 0;
-    margin-top: 0;
-  }
-  .service_s1_button {
-    float: none;
-    margin: 16px 0 42px;
-    display: block;
-  }
-  .single-service-style1 {
-    margin-bottom: 40px;
-  }
-  .single-service-style1 .text-holder {
-    min-height: 191px;
-  }
-  /*** 
+    .services-style1-area {
+        padding-bottom: 60px;
+    }
+    .service_s1_title {
+        display: block;
+        float: none;
+        padding-bottom: 36px;
+    }
+    .service_s1_text {
+        display: block;
+        float: none;
+        max-width: 100%;
+        padding-left: 0;
+        margin-top: 0;
+    }
+    .service_s1_button {
+        float: none;
+        margin: 16px 0 42px;
+        display: block;
+    }
+    .single-service-style1 {
+        margin-bottom: 40px;
+    }
+    .single-service-style1 .text-holder {
+        min-height: 191px;
+    }
+    /*** 
 =============================================
     Company Info Area style
 =============================================
 ***/
-  .company-info-content {
-    margin-top: 39px;
-  }
-  .single-info-of-company .title-holder h3 {
-    font-size: 14px;
-  }
-  /*** 
+    .company-info-content {
+        margin-top: 39px;
+    }
+    .single-info-of-company .title-holder h3 {
+        font-size: 14px;
+    }
+    /*** 
 =============================================
     Latest project area style
 =============================================
 ***/
-  .latest-project-area .sec-title {
-    padding-bottom: 133px;
-  }
-  .latest-project .owl-theme .owl-nav {
-    position: absolute;
-    left: -120px;
-    right: auto;
-    top: -90px;
-    margin: 0;
-  }
-  /*** 
+    .latest-project-area .sec-title {
+        padding-bottom: 133px;
+    }
+    .latest-project .owl-theme .owl-nav {
+        position: absolute;
+        left: -120px;
+        right: auto;
+        top: -90px;
+        margin: 0;
+    }
+    /*** 
 =============================================
     Choose Area style
 =============================================
 ***/
-  .single-choose-item {
-    padding: 60px 70px 52px;
-  }
-  /*** 
+    .single-choose-item {
+        padding: 60px 70px 52px;
+    }
+    /*** 
 =============================================
     Call Us Area style
 =============================================
 ***/
-  .sec-title.call-us-title {
-    display: block;
-    float: none;
-    padding-right: 0;
-    padding-bottom: 43px;
-  }
-  .call-us-text {
-    display: block;
-    float: none;
-    max-width: 600px;
-    width: 100%;
-    margin-top: -7px;
-    margin-bottom: 42px;
-  }
-  .contact-info-form {
-    margin-top: 30px;
-  }
-  /*** 
+    .sec-title.call-us-title {
+        display: block;
+        float: none;
+        padding-right: 0;
+        padding-bottom: 43px;
+    }
+    .call-us-text {
+        display: block;
+        float: none;
+        max-width: 600px;
+        width: 100%;
+        margin-top: -7px;
+        margin-bottom: 42px;
+    }
+    .contact-info-form {
+        margin-top: 30px;
+    }
+    /*** 
 =============================================
     Footer Area style
 =============================================
 ***/
-  .single-footer-widget.marbtm50 {
-    margin-bottom: 50px;
-  }
-  /*** 
+    .single-footer-widget.marbtm50 {
+        margin-bottom: 50px;
+    }
+    /*** 
 =============================================
     Footer Bottom area  style
 =============================================
 ***/
-  .footer-bottom-area {
-    padding: 31px 0 27px;
-  }
-  .footer-bottom-area .copyright-text {
-    float: none !important;
-    display: block;
-    text-align: center;
-    margin: 0 0 13px;
-  }
-  .footer-menu {
-    float: none !important;
-    overflow: hidden;
-    text-align: center;
-  }
-  .footer-menu li {
-    float: none;
-    margin-right: 15px;
-    padding-right: 15px;
-  }
-  /*** 
+    .footer-bottom-area {
+        padding: 31px 0 27px;
+    }
+    .footer-bottom-area .copyright-text {
+        float: none !important;
+        display: block;
+        text-align: center;
+        margin: 0 0 13px;
+    }
+    .footer-menu {
+        float: none !important;
+        overflow: hidden;
+        text-align: center;
+    }
+    .footer-menu li {
+        float: none;
+        margin-right: 15px;
+        padding-right: 15px;
+    }
+    /*** 
 =============================================
     Top Bar Style2  style
 =============================================
 ***/
-  .top-bar-style2 {
-    position: relative;
-    display: block;
-    background: #39345a;
-    padding: 15px 0 17px;
-  }
-  .top-left-style2 {
-    padding-left: 0px;
-    max-width: 100%;
-    width: 100%;
-    float: none !important;
-  }
-  .top-left-style2 .language-switcher {
-    position: static;
-    width: 125px;
-    height: 35px;
-    background: transparent;
-    margin: 0 auto;
-  }
-  .top-left-style2 .top-contact-info {
-    text-align: center;
-    margin-top: 5px;
-  }
-  .top-left-style2 .top-contact-info ul {
-    margin: 0;
-  }
-  .top-left-style2 .top-contact-info ul li {
-    display: inline-block;
-    float: none;
-    border-left: none;
-    padding-left: 0;
-    margin-left: 0;
-    line-height: 18px;
-    margin: 0 10px;
-  }
-  .top-right-style2 {
-    max-width: 100%;
-    width: 100%;
-    float: none !important;
-    overflow: hidden;
-  }
-  .top-right-style2 .sociallinks-style-one {
-    float: none;
-    margin: 8px 0 0;
-    text-align: center;
-  }
-  .top-right-style2 .sociallinks-style-one li {
-    display: inline-block;
-    float: none;
-    margin-right: 0;
-    margin: 0 12px;
-  }
-  /*** 
+    .top-bar-style2 {
+        position: relative;
+        display: block;
+        background: #39345a;
+        padding: 15px 0 17px;
+    }
+    .top-left-style2 {
+        padding-left: 0px;
+        max-width: 100%;
+        width: 100%;
+        float: none !important;
+    }
+    .top-left-style2 .language-switcher {
+        position: static;
+        width: 125px;
+        height: 35px;
+        background: transparent;
+        margin: 0 auto;
+    }
+    .top-left-style2 .top-contact-info {
+        text-align: center;
+        margin-top: 5px;
+    }
+    .top-left-style2 .top-contact-info ul {
+        margin: 0;
+    }
+    .top-left-style2 .top-contact-info ul li {
+        display: inline-block;
+        float: none;
+        border-left: none;
+        padding-left: 0;
+        margin-left: 0;
+        line-height: 18px;
+        margin: 0 10px;
+    }
+    .top-right-style2 {
+        max-width: 100%;
+        width: 100%;
+        float: none !important;
+        overflow: hidden;
+    }
+    .top-right-style2 .sociallinks-style-one {
+        float: none;
+        margin: 8px 0 0;
+        text-align: center;
+    }
+    .top-right-style2 .sociallinks-style-one li {
+        display: inline-block;
+        float: none;
+        margin-right: 0;
+        margin: 0 12px;
+    }
+    /*** 
 =============================================
     Header Style2 Area Style
 =============================================
 ***/
-  .header-style2-logo {
-    position: absolute;
-    top: 0;
-    left: 75px;
-    padding: 0;
-    margin-right: 0;
-    float: none !important;
-    z-index: 99;
-    margin: 15px 0;
-  }
-  .headers2-header-right {
-    float: none !important;
-    display: block;
-    width: 100%;
-  }
-  .headers2.quote-button-box {
-    position: absolute;
-    display: block;
-    top: 0;
-    right: 15px;
-    margin: 14px 0 15px;
-    padding: 0;
-    z-index: 99;
-  }
-  .header-style2-area.stricky-fixed .header-style2-logo {
-    padding: 0;
-  }
-  .header-style2-area.stricky-fixed .headers2.quote-button-box {
-    padding: 0;
-  }
-  /*** 
+    .header-style2-logo {
+        position: absolute;
+        top: 0;
+        left: 75px;
+        padding: 0;
+        margin-right: 0;
+        float: none !important;
+        z-index: 99;
+        margin: 15px 0;
+    }
+    .headers2-header-right {
+        float: none !important;
+        display: block;
+        width: 100%;
+    }
+    .headers2.quote-button-box {
+        position: absolute;
+        display: block;
+        top: 0;
+        right: 15px;
+        margin: 14px 0 15px;
+        padding: 0;
+        z-index: 99;
+    }
+    .header-style2-area.stricky-fixed .header-style2-logo {
+        padding: 0;
+    }
+    .header-style2-area.stricky-fixed .headers2.quote-button-box {
+        padding: 0;
+    }
+    /*** 
 =============================================
     Call To Action Area style
 =============================================
 ***/
-  .call-to-action {
-    padding-bottom: 41px;
-  }
-  .call_to_action_title {
-    position: relative;
-    display: block;
-    float: none;
-    margin: 0;
-  }
-  .call_to_action_text {
-    float: none;
-    padding-left: 0;
-    max-width: 520px;
-    margin: 21px 0 32px;
-  }
-  .video-holder-box2 {
-    float: none;
-  }
-  /*** 
+    .call-to-action {
+        padding-bottom: 41px;
+    }
+    .call_to_action_title {
+        position: relative;
+        display: block;
+        float: none;
+        margin: 0;
+    }
+    .call_to_action_text {
+        float: none;
+        padding-left: 0;
+        max-width: 520px;
+        margin: 21px 0 32px;
+    }
+    .video-holder-box2 {
+        float: none;
+    }
+    /*** 
 =============================================
     Choose Area style2 Style
 =============================================
 ***/
-  .single-choose-item.style2 {
-    padding: 55px 90px 52px;
-  }
-  /*** 
+    .single-choose-item.style2 {
+        padding: 55px 90px 52px;
+    }
+    /*** 
 =============================================
     Capabilities Area style
 =============================================
 ***/
-  .capabilities-content {
-    margin-top: 40px;
-  }
-  /*** 
+    .capabilities-content {
+        margin-top: 40px;
+    }
+    /*** 
 =============================================
     Testimonial Area style
 =============================================
 ***/
-  .testimonial-area {
-    padding-top: 100px;
-    padding-bottom: 120px;
-  }
-  .testimonial-image {
-    min-height: 600px;
-    max-width: 720px;
-    width: 100%;
-    box-shadow: 0px 6px 20px #f0eef9;
-  }
-  .testimonial-image .img-box {
-    position: static;
-    max-width: 570px;
-    height: 600px;
-  }
-  /*** 
+    .testimonial-area {
+        padding-top: 100px;
+        padding-bottom: 120px;
+    }
+    .testimonial-image {
+        min-height: 600px;
+        max-width: 720px;
+        width: 100%;
+        box-shadow: 0px 6px 20px #f0eef9;
+    }
+    .testimonial-image .img-box {
+        position: static;
+        max-width: 570px;
+        height: 600px;
+    }
+    /*** 
 =============================================
     Subscribe Area style
 =============================================
 ***/
-  .subscribe-title {
-    margin: 0px 0 17px;
-    text-align: center;
-  }
-  .subscribe-form {
-    max-width: 470px;
-    margin: 0 auto;
-  }
-  /*** 
+    .subscribe-title {
+        margin: 0px 0 17px;
+        text-align: center;
+    }
+    .subscribe-form {
+        max-width: 470px;
+        margin: 0 auto;
+    }
+    /*** 
 =============================================
     About Area Style2 style
 =============================================
 ***/
-  .mission-vision-tab-box {
-    width: 100%;
-    float: none;
-    padding: 60px 50px 60px;
-  }
-  .mission-vision-image {
-    width: 100%;
-    float: none;
-  }
-  .mission-vision-image img {
-    width: 100%;
-  }
-  /*** 
+    .mission-vision-tab-box {
+        width: 100%;
+        float: none;
+        padding: 60px 50px 60px;
+    }
+    .mission-vision-image {
+        width: 100%;
+        float: none;
+    }
+    .mission-vision-image img {
+        width: 100%;
+    }
+    /*** 
 =============================================
     Choose Area Style3 style
 =============================================
 ***/
-  .choose-area.style3 .single-choose-item.style2 {
-    padding: 55px 100px 52px;
-  }
-  /*** 
+    .choose-area.style3 .single-choose-item.style2 {
+        padding: 55px 100px 52px;
+    }
+    /*** 
 =============================================
     Team Area style
 =============================================
 ***/
-  .team_s2_title {
-    display: block;
-    float: none;
-    padding-bottom: 46px;
-  }
-  .team_s2_text {
-    display: block;
-    float: none;
-    max-width: 670px;
-    width: 100%;
-    padding-left: 0;
-    margin-top: 0;
-  }
-  .team_s2_button {
-    float: none;
-    margin-top: 26px;
-    padding-bottom: 42px;
-  }
-  /*** 
+    .team_s2_title {
+        display: block;
+        float: none;
+        padding-bottom: 46px;
+    }
+    .team_s2_text {
+        display: block;
+        float: none;
+        max-width: 670px;
+        width: 100%;
+        padding-left: 0;
+        margin-top: 0;
+    }
+    .team_s2_button {
+        float: none;
+        margin-top: 26px;
+        padding-bottom: 42px;
+    }
+    /*** 
 =============================================
     Testimonial Area s2 style
 =============================================
 ***/
-  .testimonial_s2_title {
-    display: block;
-    float: none;
-    padding-bottom: 46px;
-  }
-  .testimonial_s2_text {
-    display: block;
-    float: none;
-    max-width: 670px;
-    width: 100%;
-    padding-left: 0;
-    margin-top: 0;
-  }
-  .testimonial_s2_button {
-    float: none;
-    margin-top: 26px;
-    padding-bottom: 42px;
-  }
-  /*** 
+    .testimonial_s2_title {
+        display: block;
+        float: none;
+        padding-bottom: 46px;
+    }
+    .testimonial_s2_text {
+        display: block;
+        float: none;
+        max-width: 670px;
+        width: 100%;
+        padding-left: 0;
+        margin-top: 0;
+    }
+    .testimonial_s2_button {
+        float: none;
+        margin-top: 26px;
+        padding-bottom: 42px;
+    }
+    /*** 
 =============================================
     Single Service Area style
 =============================================
 ***/
-  .team-support h2 br {
-    display: none;
-  }
-  .team-support .img-holder {
-    margin-top: 52px;
-  }
-  .business-growth-right {
-    margin-top: 34px;
-  }
-  .single-service-bottom-box:before {
-    display: none;
-  }
-  .single-service-bottom-box .single-item {
-    display: block;
-    max-width: 400px;
-    width: 100%;
-  }
-  .single-service-bottom-box .single-item.left {
-    float: none;
-  }
-  .single-service-bottom-box .single-item.right {
-    float: none;
-    margin-top: 27px;
-  }
-  .single-service-sidebar {
-    margin-top: 92px;
-  }
-  /*** 
+    .team-support h2 br {
+        display: none;
+    }
+    .team-support .img-holder {
+        margin-top: 52px;
+    }
+    .business-growth-right {
+        margin-top: 34px;
+    }
+    .single-service-bottom-box:before {
+        display: none;
+    }
+    .single-service-bottom-box .single-item {
+        display: block;
+        max-width: 400px;
+        width: 100%;
+    }
+    .single-service-bottom-box .single-item.left {
+        float: none;
+    }
+    .single-service-bottom-box .single-item.right {
+        float: none;
+        margin-top: 27px;
+    }
+    .single-service-sidebar {
+        margin-top: 92px;
+    }
+    /*** 
 =============================================
     History Area style
 =============================================
 ***/
-  .history-area {
-    padding-top: 100px;
-  }
-  .history-image {
-    margin-right: 0;
-  }
-  .history-image img {
-    max-width: 100%;
-    float: none;
-    width: 100%;
-  }
-  .history-content {
-    margin-left: 0;
-    padding-left: 0;
-  }
-  .accordion-holder {
-    padding-top: 75px;
-    padding-bottom: 105px;
-  }
-  /*** 
+    .history-area {
+        padding-top: 100px;
+    }
+    .history-image {
+        margin-right: 0;
+    }
+    .history-image img {
+        max-width: 100%;
+        float: none;
+        width: 100%;
+    }
+    .history-content {
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .accordion-holder {
+        padding-top: 75px;
+        padding-bottom: 105px;
+    }
+    /*** 
 =============================================
     Breadcrumb Area style
 =============================================
 ***/
-  .breadcrumb-area {
-    padding: 100px 0 132px;
-  }
-  /*** 
+    .breadcrumb-area {
+        padding: 100px 0 132px;
+    }
+    /*** 
 =============================================
     Main project area style
 =============================================
 ***/
-  .project-filter li span {
-    padding: 15px 7px 15px;
-  }
-  /*** 
+    .project-filter li span {
+        padding: 15px 7px 15px;
+    }
+    /*** 
 =============================================
     Project Single Area style
 =============================================
 ***/
-  .project-carousel-box {
-    margin-right: 0px;
-  }
-  .challenge-solution-box .img-holder .icon {
-    position: absolute;
-    top: 0;
-    right: 0px;
-  }
-  .challenge-solution-box .img-holder .icon.solutions {
-    top: 0px;
-    left: 0px;
-    -webkit-box-shadow: -3px 0px 6px 0px #f6f6f6;
-    box-shadow: -3px 0px 6px 0px #f6f6f6;
-  }
-  .challenge-solution-box .text-holder {
-    position: relative;
-    display: block;
-    padding-top: 0px;
-  }
-  /*** 
+    .project-carousel-box {
+        margin-right: 0px;
+    }
+    .challenge-solution-box .img-holder .icon {
+        position: absolute;
+        top: 0;
+        right: 0px;
+    }
+    .challenge-solution-box .img-holder .icon.solutions {
+        top: 0px;
+        left: 0px;
+        -webkit-box-shadow: -3px 0px 6px 0px #F6F6F6;
+        box-shadow: -3px 0px 6px 0px #F6F6F6;
+    }
+    .challenge-solution-box .text-holder {
+        position: relative;
+        display: block;
+        padding-top: 0px;
+    }
+    /*** 
 =============================================
     Blog Area Style
 =============================================
 ***/
-  #blog-area .sidebar-wrapper {
-    margin-top: 80px;
-    padding-left: 0px;
-  }
-  .sidebar-wrapper .single-sidebar.instagram-box {
-    max-width: 370px;
-  }
-  .sidebar-wrapper .single-sidebar.categories-box {
-    max-width: 370px;
-  }
-  .sidebar-wrapper .single-sidebar.popular-post-box {
-    max-width: 370px;
-  }
-  .sidebar-wrapper .single-sidebar.tag-box {
-    max-width: 370px;
-  }
-  /*** 
+    #blog-area .sidebar-wrapper {
+        margin-top: 80px;
+        padding-left: 0px;
+    }
+    .sidebar-wrapper .single-sidebar.instagram-box {
+        max-width: 370px;
+    }
+    .sidebar-wrapper .single-sidebar.categories-box {
+        max-width: 370px;
+    }
+    .sidebar-wrapper .single-sidebar.popular-post-box {
+        max-width: 370px;
+    }
+    .sidebar-wrapper .single-sidebar.tag-box {
+        max-width: 370px;
+    }
+    /*** 
 =============================================
     Blog Single Area style
 =============================================
 ***/
-  .quality-with-integrity .img-box {
-    margin-top: 30px;
-  }
-  .blog-single-area .quote:before {
-    display: none;
-  }
-  .blog-single-area .quote h2 br {
-    display: none;
-  }
-  /*** 
+    .quality-with-integrity .img-box {
+        margin-top: 30px;
+    }
+    .blog-single-area .quote:before {
+        display: none;
+    }
+    .blog-single-area .quote h2 br {
+        display: none;
+    }
+    /*** 
 =============================================
     Shop Area style
 =============================================
 ***/
-  .single-highlights-box {
-    max-width: 230px;
-    padding: 0 20px;
-  }
-  .single-highlights-box p {
-    line-height: 22px;
-  }
-  .shop-sidebar-wrapper {
-    margin-bottom: 80px;
-  }
-  /*** 
+    .single-highlights-box {
+        max-width: 230px;
+        padding: 0 20px;
+    }
+    .single-highlights-box p {
+        line-height: 22px;
+    }
+    .shop-sidebar-wrapper {
+        margin-bottom: 80px;
+    }
+    /*** 
 =============================================
     Single Shop Area style
 =============================================
 ***/
-  .single-shop-content .content-box {
-    margin-top: 40px;
-  }
-  .single-product-carousel {
-    margin-right: 0;
-  }
-  /*** 
+    .single-shop-content .content-box {
+        margin-top: 40px;
+    }
+    .single-product-carousel {
+        margin-right: 0;
+    }
+    /*** 
 =============================================
     Cart Area style
 =============================================
 ***/
-  .cart-area .cart-bottom .calculate-shipping {
-    padding-bottom: 60px;
-  }
-  /*** 
+    .cart-area .cart-bottom .calculate-shipping {
+        padding-bottom: 60px;
+    }
+    /*** 
 =============================================
     Checkout Area style
 =============================================
 ***/
-  .checkout-area .form.shipping-info {
-    padding-top: 60px;
-  }
-  .checkout-area .cart-total {
-    padding-top: 60px;
-  }
-  /*** 
+    .checkout-area .form.shipping-info {
+        padding-top: 60px;
+    }
+    .checkout-area .cart-total {
+        padding-top: 60px;
+    }
+    /*** 
 =============================================
     Login Register Area style
 =============================================
 ***/
-  .login-register-area .form a.forgot-password {
-    margin: 70px 0 0;
-  }
-  .login-register-area .register {
-    padding-top: 50px;
-  }
-  .login-register-area .form h6 {
-    color: #797979;
-    float: left;
-    font-size: 14px;
-    margin-bottom: 0;
-    margin-right: 0;
-    margin-top: 27px;
-  }
-  /*** 
+    .login-register-area .form a.forgot-password {
+        margin: 70px 0 0;
+    }
+    .login-register-area .register {
+        padding-top: 50px;
+    }
+    .login-register-area .form h6 {
+        color: #797979;
+        float: left;
+        font-size: 14px;
+        margin-bottom: 0;
+        margin-right: 0;
+        margin-top: 27px;
+    }
+    /*** 
 =============================================
     Contact Info Area style
 =============================================
 ***/
-  .how-can-help-box {
-    margin-top: 50px;
-  }
-  /*** 
+    .how-can-help-box {
+        margin-top: 50px;
+    }
+    /*** 
 =============================================
     Branches Section style
 =============================================
 ***/
-  .branches_s2_title {
-    display: block;
-    float: none;
-    padding-bottom: 53px;
-  }
-  .branches_s2_text {
-    display: block;
-    float: none;
-    max-width: 670px;
-    width: 100%;
-    padding-left: 0;
-    margin-top: -7px;
-    padding-bottom: 40px;
-  }
+    .branches_s2_title {
+        display: block;
+        float: none;
+        padding-bottom: 53px;
+    }
+    .branches_s2_text {
+        display: block;
+        float: none;
+        max-width: 670px;
+        width: 100%;
+        padding-left: 0;
+        margin-top: -7px;
+        padding-bottom: 40px;
+    }
 }
 
 /* Mobile Layout: 320px. */
 
 @media only screen and (max-width: 767px) {
-  /*** 
+    /*** 
 =============================================
     Top Bar Style1 Style
 =============================================
 ***/
-  .top-bar-style1 {
-    padding: 14px 0 24px;
-  }
-  .top-left-style1 {
-    max-width: 100%;
-    width: 100%;
-    float: none !important;
-    text-align: center;
-  }
-  .top-right-style1 {
-    position: relative;
-    display: block;
-    max-width: 300px;
-    width: 100%;
-    float: none !important;
-    min-height: 35px;
-    margin: 7px auto 0;
-  }
-  /*** 
+    .top-bar-style1 {
+        padding: 14px 0 24px;
+    }
+    .top-left-style1 {
+        max-width: 100%;
+        width: 100%;
+        float: none !important;
+        text-align: center;
+    }
+    .top-right-style1 {
+        position: relative;
+        display: block;
+        max-width: 300px;
+        width: 100%;
+        float: none !important;
+        min-height: 35px;
+        margin: 7px auto 0;
+    }
+    /*** 
 =============================================
     header-style1-area Style
 =============================================
 ***/
-  .header-style1-area {
-    padding: 40px 0 40px;
-  }
-  .header-style1-logo {
-    float: none !important;
-    text-align: center;
-    margin: 0 0 25px;
-  }
-  .header-style1-logo a {
-    display: inline-block;
-  }
-  .headers1-header-right {
-    position: relative;
-    display: block;
-    float: none !important;
-    overflow: hidden;
-  }
-  .headers1-header-right ul {
-    overflow: hidden;
-    float: none;
-    margin-right: 0px;
-    padding: 0;
-    width: 200px;
-    margin: 0 auto;
-  }
-  .headers1-header-right ul li {
-    display: block;
-    float: none;
-    margin-right: 0;
-    margin-bottom: 17px;
-  }
-  .headers1-header-right ul li:last-child {
-    margin-bottom: 0;
-  }
-  .headers1-button {
-    float: none;
-    margin: 22px auto 0;
-  }
-  /*** 
+    .header-style1-area {
+        padding: 40px 0 40px;
+    }
+    .header-style1-logo {
+        float: none !important;
+        text-align: center;
+        margin: 0 0 25px;
+    }
+    .header-style1-logo a {
+        display: inline-block;
+    }
+    .headers1-header-right {
+        position: relative;
+        display: block;
+        float: none !important;
+        overflow: hidden;
+    }
+    .headers1-header-right ul {
+        overflow: hidden;
+        float: none;
+        margin-right: 0px;
+        padding: 0;
+        width: 200px;
+        margin: 0 auto;
+    }
+    .headers1-header-right ul li {
+        display: block;
+        float: none;
+        margin-right: 0;
+        margin-bottom: 17px;
+    }
+    .headers1-header-right ul li:last-child {
+        margin-bottom: 0;
+    }
+    .headers1-button {
+        float: none;
+        margin: 22px auto 0;
+    }
+    /*** 
 =============================================
     Mainmenu Area Style
 =============================================
 ***/
-  .mainmenu-area {
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-  .mainmenu-area .inner-content {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  .mainmenu-right {
-    position: absolute;
-    top: 0;
-    right: 20px;
-    float: none;
-    z-index: 99;
-  }
-  .mainmenu-right .quote-button-box a {
-    padding: 15px 13px 16px;
-  }
-  .search-box {
-    top: 120%;
-    left: -30%;
-    margin-left: 0;
-  }
-  .outer-search-box {
-    margin-right: 0px;
-  }
-  /*** 
+    .mainmenu-area {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .mainmenu-area .inner-content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .mainmenu-right {
+        position: absolute;
+        top: 0;
+        right: 20px;
+        float: none;
+        z-index: 99;
+    }
+    .mainmenu-right .quote-button-box a {
+        padding: 15px 13px 16px;
+    }
+    .search-box {
+        top: 120%;
+        left: -30%;
+        margin-left: 0;
+    }
+    .outer-search-box {
+        margin-right: 0px;
+    }
+    /*** 
 =============================================
     About Area Style
 =============================================
 ***/
-  .about-title h1 {
-    font-size: 36px;
-    line-height: 50px;
-    margin: 0 0 20px;
-  }
-  .single-service-style2 {
-    padding: 24px 15px 22px;
-  }
-  .single-service-style2 .inner {
-    padding-left: 85px;
-  }
-  /*** 
+    .about-title h1 {
+        font-size: 36px;
+        line-height: 50px;
+        margin: 0 0 20px;
+    }
+    .single-service-style2 {
+        padding: 24px 15px 22px;
+    }
+    .single-service-style2 .inner {
+        padding-left: 85px;
+    }
+    /*** 
 =============================================
     Slogan Area style
 =============================================
 ***/
-  .slogan-area {
-    padding: 46px 0 50px;
-  }
-  .slogan-area .title {
-    margin: 0px 0 18px;
-    float: none !important;
-    text-align: center;
-  }
-  .slogan-area .button {
-    float: none !important;
-    max-width: 194px;
-    margin: 0 auto;
-  }
-  /*** 
+    .slogan-area {
+        padding: 46px 0 50px;
+    }
+    .slogan-area .title {
+        margin: 0px 0 18px;
+        float: none !important;
+        text-align: center;
+    }
+    .slogan-area .button {
+        float: none !important;
+        max-width: 194px;
+        margin: 0 auto;
+    }
+    /*** 
 =============================================
     Services Style1 Area style
 =============================================
 ***/
-  .services-style1-area {
-    padding-bottom: 60px;
-  }
-  .service_s1_title {
-    display: block;
-    float: none;
-    padding-bottom: 36px;
-  }
-  .service_s1_text {
-    display: block;
-    float: none;
-    max-width: 100%;
-    padding-left: 0;
-    margin-top: 0;
-  }
-  .service_s1_button {
-    float: none;
-    margin: 16px 0 42px;
-    display: block;
-  }
-  .single-service-style1 {
-    margin-bottom: 40px;
-  }
-  .single-service-style1 .text-holder {
-    min-height: 191px;
-  }
-  /*** 
+    .services-style1-area {
+        padding-bottom: 60px;
+    }
+    .service_s1_title {
+        display: block;
+        float: none;
+        padding-bottom: 36px;
+    }
+    .service_s1_text {
+        display: block;
+        float: none;
+        max-width: 100%;
+        padding-left: 0;
+        margin-top: 0;
+    }
+    .service_s1_button {
+        float: none;
+        margin: 16px 0 42px;
+        display: block;
+    }
+    .single-service-style1 {
+        margin-bottom: 40px;
+    }
+    .single-service-style1 .text-holder {
+        min-height: 191px;
+    }
+    /*** 
 =============================================
     Company Info Area style
 =============================================
 ***/
-  .company-info-content {
-    margin-top: 39px;
-  }
-  .single-info-of-company .title-holder h3 {
-    font-size: 14px;
-  }
-  /*** 
+    .company-info-content {
+        margin-top: 39px;
+    }
+    .single-info-of-company .title-holder h3 {
+        font-size: 14px;
+    }
+    /*** 
 =============================================
     Latest project area style
 =============================================
 ***/
-  .latest-project-area .sec-title {
-    padding-bottom: 133px;
-  }
-  .latest-project .owl-theme .owl-nav {
-    position: absolute;
-    left: 0px;
-    right: auto;
-    top: -90px;
-    margin: 0;
-  }
-  /*** 
+    .latest-project-area .sec-title {
+        padding-bottom: 133px;
+    }
+    .latest-project .owl-theme .owl-nav {
+        position: absolute;
+        left: 0px;
+        right: auto;
+        top: -90px;
+        margin: 0;
+    }
+    /*** 
 =============================================
     Choose Area style
 =============================================
 ***/
-  .single-choose-item {
-    padding: 60px 40px 52px;
-  }
-  /*** 
+    .single-choose-item {
+        padding: 60px 40px 52px;
+    }
+    /*** 
 =============================================
     Call Us Area style
 =============================================
 ***/
-  .call-us-area {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-  .sec-title.call-us-title {
-    display: block;
-    float: none;
-    padding-right: 0;
-    padding-bottom: 43px;
-  }
-  .call-us-text {
-    display: block;
-    float: none;
-    max-width: 600px;
-    width: 100%;
-    margin-top: -7px;
-    margin-bottom: 50px;
-  }
-  .call-us-text p {
-    font-size: 17px;
-  }
-  .contact-info-form {
-    margin-top: 30px;
-  }
-  /*** 
+    .call-us-area {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .sec-title.call-us-title {
+        display: block;
+        float: none;
+        padding-right: 0;
+        padding-bottom: 43px;
+    }
+    .call-us-text {
+        display: block;
+        float: none;
+        max-width: 600px;
+        width: 100%;
+        margin-top: -7px;
+        margin-bottom: 50px;
+    }
+    .call-us-text p {
+        font-size: 17px;
+    }
+    .contact-info-form {
+        margin-top: 30px;
+    }
+    /*** 
 =============================================
     Footer Area style
 =============================================
 ***/
-  .single-footer-widget.marbtm50 {
-    margin-bottom: 50px;
-  }
-  .single-footer-widget.pdtop50 {
-    padding-top: 50px;
-  }
-  /*** 
+    .single-footer-widget.marbtm50 {
+        margin-bottom: 50px;
+    }
+    .single-footer-widget.pdtop50 {
+        padding-top: 50px;
+    }
+    /*** 
 =============================================
     Footer Bottom area  style
 =============================================
 ***/
-  .footer-bottom-area {
-    padding: 31px 0 27px;
-  }
-  .footer-bottom-area .copyright-text {
-    float: none !important;
-    display: block;
-    text-align: center;
-    margin: 0 0 13px;
-  }
-  .footer-menu {
-    float: none !important;
-    overflow: hidden;
-    text-align: center;
-  }
-  .footer-menu li {
-    float: none;
-    margin-right: 15px;
-    padding-right: 15px;
-  }
-  /*** 
+    .footer-bottom-area {
+        padding: 31px 0 27px;
+    }
+    .footer-bottom-area .copyright-text {
+        float: none !important;
+        display: block;
+        text-align: center;
+        margin: 0 0 13px;
+    }
+    .footer-menu {
+        float: none !important;
+        overflow: hidden;
+        text-align: center;
+    }
+    .footer-menu li {
+        float: none;
+        margin-right: 15px;
+        padding-right: 15px;
+    }
+    /*** 
 =============================================
     Top Bar Style2  style
 =============================================
 ***/
-  .top-bar-style2 {
-    position: relative;
-    display: block;
-    background: #39345a;
-    padding: 15px 0 17px;
-  }
-  .top-left-style2 {
-    padding-left: 0px;
-    max-width: 100%;
-    width: 100%;
-    float: none !important;
-  }
-  .top-left-style2 .language-switcher {
-    position: static;
-    width: 125px;
-    height: 35px;
-    background: transparent;
-    margin: 0 auto;
-  }
-  .top-left-style2 .top-contact-info {
-    text-align: center;
-    margin-top: 5px;
-  }
-  .top-left-style2 .top-contact-info ul {
-    margin: 0;
-  }
-  .top-left-style2 .top-contact-info ul li {
-    display: inline-block;
-    float: none;
-    border-left: none;
-    padding-left: 0;
-    margin-left: 0;
-    line-height: 18px;
-    margin: 0 10px;
-  }
-  .top-right-style2 {
-    max-width: 100%;
-    width: 100%;
-    float: none !important;
-    overflow: hidden;
-  }
-  .top-right-style2 .sociallinks-style-one {
-    float: none;
-    margin: 8px 0 0;
-    text-align: center;
-  }
-  .top-right-style2 .sociallinks-style-one li {
-    display: inline-block;
-    float: none;
-    margin-right: 0;
-    margin: 0 12px;
-  }
-  /*** 
+    .top-bar-style2 {
+        position: relative;
+        display: block;
+        background: #39345a;
+        padding: 15px 0 17px;
+    }
+    .top-left-style2 {
+        padding-left: 0px;
+        max-width: 100%;
+        width: 100%;
+        float: none !important;
+    }
+    .top-left-style2 .language-switcher {
+        position: static;
+        width: 125px;
+        height: 35px;
+        background: transparent;
+        margin: 0 auto;
+    }
+    .top-left-style2 .top-contact-info {
+        text-align: center;
+        margin-top: 5px;
+    }
+    .top-left-style2 .top-contact-info ul {
+        margin: 0;
+    }
+    .top-left-style2 .top-contact-info ul li {
+        display: inline-block;
+        float: none;
+        border-left: none;
+        padding-left: 0;
+        margin-left: 0;
+        line-height: 18px;
+        margin: 0 10px;
+    }
+    .top-right-style2 {
+        max-width: 100%;
+        width: 100%;
+        float: none !important;
+        overflow: hidden;
+    }
+    .top-right-style2 .sociallinks-style-one {
+        float: none;
+        margin: 8px 0 0;
+        text-align: center;
+    }
+    .top-right-style2 .sociallinks-style-one li {
+        display: inline-block;
+        float: none;
+        margin-right: 0;
+        margin: 0 12px;
+    }
+    /*** 
 =============================================
     Header Style2 Area Style
 =============================================
 ***/
-  .header-style2-logo {
-    position: absolute;
-    top: 0;
-    right: 15px;
-    padding: 0;
-    margin-right: 0;
-    float: none !important;
-    z-index: 99;
-    margin: 15px 0;
-  }
-  .headers2-header-right {
-    float: none !important;
-    display: block;
-    width: 100%;
-  }
-  .headers2.quote-button-box {
-    position: absolute;
-    display: block;
-    top: 0;
-    right: 15px;
-    margin: 14px 0 15px;
-    padding: 0;
-    z-index: 99;
-    display: none;
-  }
-  .header-style2-area.stricky-fixed .header-style2-logo {
-    padding: 0;
-  }
-  .header-style2-area.stricky-fixed .headers2.quote-button-box {
-    padding: 0;
-  }
-  .headers2.quote-button-box .btn-one {
-    font-size: 14px;
-    line-height: 12px;
-    padding: 15px 10px 16px;
-    text-transform: uppercase;
-  }
-  .headers2.quote-button-box .btn-one span:before {
-    display: none;
-  }
-  .header-style2-logo a img {
-    width: 100%;
-  }
-  /*** 
+    .header-style2-logo {
+        position: absolute;
+        top: 0;
+        right: 15px;
+        padding: 0;
+        margin-right: 0;
+        float: none !important;
+        z-index: 99;
+        margin: 15px 0;
+    }
+    .headers2-header-right {
+        float: none !important;
+        display: block;
+        width: 100%;
+    }
+    .headers2.quote-button-box {
+        position: absolute;
+        display: block;
+        top: 0;
+        right: 15px;
+        margin: 14px 0 15px;
+        padding: 0;
+        z-index: 99;
+        display: none;
+    }
+    .header-style2-area.stricky-fixed .header-style2-logo {
+        padding: 0;
+    }
+    .header-style2-area.stricky-fixed .headers2.quote-button-box {
+        padding: 0;
+    }
+    .headers2.quote-button-box .btn-one {
+        font-size: 14px;
+        line-height: 12px;
+        padding: 15px 10px 16px;
+        text-transform: uppercase;
+    }
+    .headers2.quote-button-box .btn-one span:before {
+        display: none;
+    }
+    .header-style2-logo a img {
+        width: 100%;
+    }
+    /*** 
 =============================================
     Call To Action Area style
 =============================================
 ***/
-  .call-to-action {
-    padding-bottom: 41px;
-  }
-  .call_to_action_title {
-    position: relative;
-    display: block;
-    float: none;
-    margin: 0;
-  }
-  .call_to_action_text {
-    float: none;
-    padding-left: 0;
-    max-width: 520px;
-    margin: 21px 0 32px;
-  }
-  .video-holder-box2 {
-    float: none;
-  }
-  /*** 
+    .call-to-action {
+        padding-bottom: 41px;
+    }
+    .call_to_action_title {
+        position: relative;
+        display: block;
+        float: none;
+        margin: 0;
+    }
+    .call_to_action_text {
+        float: none;
+        padding-left: 0;
+        max-width: 520px;
+        margin: 21px 0 32px;
+    }
+    .video-holder-box2 {
+        float: none;
+    }
+    /*** 
 =============================================
     Choose Area style2 Style
 =============================================
 ***/
-  .single-choose-item.style2 {
-    padding: 55px 40px 52px;
-  }
-  /*** 
+    .single-choose-item.style2 {
+        padding: 55px 40px 52px;
+    }
+    /*** 
 =============================================
     Capabilities Area style
 =============================================
 ***/
-  .capabilities-content {
-    margin-top: 40px;
-  }
-  /*** 
+    .capabilities-content {
+        margin-top: 40px;
+    }
+    /*** 
 =============================================
     Testimonial Area style
 =============================================
 ***/
-  .testimonial-area {
-    padding-top: 100px;
-    padding-bottom: 120px;
-  }
-  .testimonial-image {
-    min-height: auto;
-    max-width: 720px;
-    width: 100%;
-    box-shadow: 0px 6px 20px #f0eef9;
-  }
-  .testimonial-image .img-box {
-    position: static;
-    max-width: 570px;
-    height: auto;
-  }
-  .testimonial-image .quote-icon-box {
-    display: none;
-  }
-  /*** 
+    .testimonial-area {
+        padding-top: 100px;
+        padding-bottom: 120px;
+    }
+    .testimonial-image {
+        min-height: auto;
+        max-width: 720px;
+        width: 100%;
+        box-shadow: 0px 6px 20px #f0eef9;
+    }
+    .testimonial-image .img-box {
+        position: static;
+        max-width: 570px;
+        height: auto;
+    }
+    .testimonial-image .quote-icon-box {
+        display: none;
+    }
+    /*** 
 =============================================
     Latest Blog Area S2 style
 =============================================
 ***/
-  .single-blog-style2.image-box .post-date-readmore {
-    margin-top: 50px;
-  }
-  /*** 
+    .single-blog-style2.image-box .post-date-readmore {
+        margin-top: 50px;
+    }
+    /*** 
 =============================================
     Subscribe Area style
 =============================================
 ***/
-  .subscribe-title {
-    margin: 0px 0 17px;
-    text-align: center;
-  }
-  .subscribe-form {
-    max-width: 470px;
-    margin: 0 auto;
-  }
-  /*** 
+    .subscribe-title {
+        margin: 0px 0 17px;
+        text-align: center;
+    }
+    .subscribe-form {
+        max-width: 470px;
+        margin: 0 auto;
+    }
+    /*** 
 =============================================
     About Area Style2 style
 =============================================
 ***/
-  .mission-vision-tab-box {
-    width: 100%;
-    float: none;
-    padding: 60px 30px 60px;
-  }
-  .mission-vision-tab-box .tab-btns li {
-    margin-right: 15px;
-    padding-right: 15px;
-    padding-left: 40px;
-  }
-  .mission-vision-tab-box .inner-content {
-    padding-right: 0px;
-  }
-  .mission {
-    top: -25px;
-    right: 0;
-  }
-  .vision {
-    top: -25px;
-    right: 0;
-  }
-  .mission-vision-image {
-    width: 100%;
-    float: none;
-  }
-  .mission-vision-image img {
-    width: 100%;
-  }
-  /*** 
+    .mission-vision-tab-box {
+        width: 100%;
+        float: none;
+        padding: 60px 30px 60px;
+    }
+    .mission-vision-tab-box .tab-btns li {
+        margin-right: 15px;
+        padding-right: 15px;
+        padding-left: 40px;
+    }
+    .mission-vision-tab-box .inner-content {
+        padding-right: 0px;
+    }
+    .mission {
+        top: -25px;
+        right: 0;
+    }
+    .vision {
+        top: -25px;
+        right: 0;
+    }
+    .mission-vision-image {
+        width: 100%;
+        float: none;
+    }
+    .mission-vision-image img {
+        width: 100%;
+    }
+    /*** 
 =============================================
     Choose Area Style3 style
 =============================================
 ***/
-  .choose-area.style3 .single-choose-item.style2 {
-    padding: 55px 30px 52px;
-  }
-  /*** 
+    .choose-area.style3 .single-choose-item.style2 {
+        padding: 55px 30px 52px;
+    }
+    /*** 
 =============================================
     Team Area style
 =============================================
 ***/
-  .team_s2_title {
-    display: block;
-    float: none;
-    padding-bottom: 46px;
-  }
-  .team_s2_text {
-    display: block;
-    float: none;
-    max-width: 670px;
-    width: 100%;
-    padding-left: 0;
-    margin-top: 0;
-  }
-  .team_s2_button {
-    float: none;
-    margin-top: 26px;
-    padding-bottom: 42px;
-  }
-  /*** 
+    .team_s2_title {
+        display: block;
+        float: none;
+        padding-bottom: 46px;
+    }
+    .team_s2_text {
+        display: block;
+        float: none;
+        max-width: 670px;
+        width: 100%;
+        padding-left: 0;
+        margin-top: 0;
+    }
+    .team_s2_button {
+        float: none;
+        margin-top: 26px;
+        padding-bottom: 42px;
+    }
+    /*** 
 =============================================
     Testimonial Area s2 style
 =============================================
 ***/
-  .testimonial_s2_title {
-    display: block;
-    float: none;
-    padding-bottom: 46px;
-  }
-  .testimonial_s2_text {
-    display: block;
-    float: none;
-    max-width: 670px;
-    width: 100%;
-    padding-left: 0;
-    margin-top: 0;
-  }
-  .testimonial_s2_button {
-    float: none;
-    margin-top: 26px;
-    padding-bottom: 42px;
-  }
-  /*** 
+    .testimonial_s2_title {
+        display: block;
+        float: none;
+        padding-bottom: 46px;
+    }
+    .testimonial_s2_text {
+        display: block;
+        float: none;
+        max-width: 670px;
+        width: 100%;
+        padding-left: 0;
+        margin-top: 0;
+    }
+    .testimonial_s2_button {
+        float: none;
+        margin-top: 26px;
+        padding-bottom: 42px;
+    }
+    /*** 
 =============================================
     Single Service Area style
 =============================================
 ***/
-  .team-support h2 br {
-    display: none;
-  }
-  .team-support .img-holder {
-    margin-top: 52px;
-  }
-  .business-growth-right {
-    margin-top: 34px;
-  }
-  .single-service-bottom-box:before {
-    display: none;
-  }
-  .single-service-bottom-box .single-item {
-    display: block;
-    max-width: 400px;
-    width: 100%;
-  }
-  .single-service-bottom-box .single-item.left {
-    float: none;
-  }
-  .single-service-bottom-box .single-item.right {
-    float: none;
-    margin-top: 27px;
-  }
-  .single-service-sidebar {
-    margin-top: 92px;
-  }
-  /*** 
+    .team-support h2 br {
+        display: none;
+    }
+    .team-support .img-holder {
+        margin-top: 52px;
+    }
+    .business-growth-right {
+        margin-top: 34px;
+    }
+    .single-service-bottom-box:before {
+        display: none;
+    }
+    .single-service-bottom-box .single-item {
+        display: block;
+        max-width: 400px;
+        width: 100%;
+    }
+    .single-service-bottom-box .single-item.left {
+        float: none;
+    }
+    .single-service-bottom-box .single-item.right {
+        float: none;
+        margin-top: 27px;
+    }
+    .single-service-sidebar {
+        margin-top: 92px;
+    }
+    /*** 
 =============================================
     History Area style
 =============================================
 ***/
-  .history-area {
-    padding-top: 100px;
-  }
-  .history-image {
-    margin-right: 0;
-  }
-  .history-image img {
-    max-width: 100%;
-    float: none;
-    width: 100%;
-  }
-  .history-content {
-    margin-left: 0;
-    padding-left: 0;
-  }
-  .accordion-holder {
-    padding-top: 75px;
-    padding-bottom: 75px;
-  }
-  .accordion-holder .accordion .acc-btn {
-    padding-left: 0;
-    margin-bottom: 30px;
-  }
-  .accordion-holder .accordion .acc-btn .year {
-    position: static;
-    width: 160px;
-  }
-  .accordion-holder .accordion .acc-btn .title {
-    padding-left: 0;
-    margin-top: 10px;
-  }
-  .accordion-holder .accordion .acc-btn .year:before {
-    display: none;
-  }
-  .accordion-holder .accordion .acc-btn:before {
-    display: none;
-  }
-  .accordion-holder .accordion .acc-content .inner {
-    padding: 0px 0px 30px;
-    padding-left: 0;
-  }
-  .accordion-holder .accordion .acc-content .inner:before {
-    display: none;
-  }
-  /*** 
+    .history-area {
+        padding-top: 100px;
+    }
+    .history-image {
+        margin-right: 0;
+    }
+    .history-image img {
+        max-width: 100%;
+        float: none;
+        width: 100%;
+    }
+    .history-content {
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .accordion-holder {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+    .accordion-holder .accordion .acc-btn {
+        padding-left: 0;
+        margin-bottom: 30px;
+    }
+    .accordion-holder .accordion .acc-btn .year {
+        position: static;
+        width: 160px;
+    }
+    .accordion-holder .accordion .acc-btn .title {
+        padding-left: 0;
+        margin-top: 10px;
+    }
+    .accordion-holder .accordion .acc-btn .year:before {
+        display: none;
+    }
+    .accordion-holder .accordion .acc-btn:before {
+        display: none;
+    }
+    .accordion-holder .accordion .acc-content .inner {
+        padding: 0px 0px 30px;
+        padding-left: 0;
+    }
+    .accordion-holder .accordion .acc-content .inner:before {
+        display: none;
+    }
+    /*** 
 =============================================
     Breadcrumb Area S1 style
 =============================================
 ***/
-  .breadcrumb-area {
-    padding: 100px 0 132px;
-  }
-  /*** 
+    .breadcrumb-area {
+        padding: 100px 0 132px;
+    }
+    /*** 
 =============================================
     Main project area style
 =============================================
 ***/
-  .project-filter {
-    display: inline-block;
-    border: 0px solid #f0eef9;
-    margin-bottom: 32px;
-  }
-  .project-filter li span {
-    padding: 7px 7px 7px;
-    border: none;
-  }
-  /*** 
+    .project-filter {
+        display: inline-block;
+        border: 0px solid #f0eef9;
+        margin-bottom: 32px;
+    }
+    .project-filter li span {
+        padding: 7px 7px 7px;
+        border: none;
+    }
+    /*** 
 =============================================
     Project Single Area style
 =============================================
 ***/
-  .project-carousel-box {
-    margin-right: 0px;
-  }
-  .challenge-solution-box .img-holder .icon {
-    position: absolute;
-    top: 0;
-    right: 0px;
-  }
-  .challenge-solution-box .img-holder .icon.solutions {
-    top: 0px;
-    left: 0px;
-    -webkit-box-shadow: -3px 0px 6px 0px #f6f6f6;
-    box-shadow: -3px 0px 6px 0px #f6f6f6;
-  }
-  .challenge-solution-box .text-holder {
-    position: relative;
-    display: block;
-    padding-top: 0px;
-  }
-  /*** 
+    .project-carousel-box {
+        margin-right: 0px;
+    }
+    .challenge-solution-box .img-holder .icon {
+        position: absolute;
+        top: 0;
+        right: 0px;
+    }
+    .challenge-solution-box .img-holder .icon.solutions {
+        top: 0px;
+        left: 0px;
+        -webkit-box-shadow: -3px 0px 6px 0px #F6F6F6;
+        box-shadow: -3px 0px 6px 0px #F6F6F6;
+    }
+    .challenge-solution-box .text-holder {
+        position: relative;
+        display: block;
+        padding-top: 0px;
+    }
+    /*** 
 =============================================
     Blog Area style
 =============================================
 ***/
-  .single-blog-post .meta-box .meta-info {
-    margin: 13px 0 10px;
-    float: none !important;
-  }
-  .single-blog-post .meta-box .reamore {
-    float: none !important;
-    display: block;
-  }
-  #blog-area .sidebar-wrapper {
-    margin-top: 80px;
-    padding-left: 0px;
-  }
-  .sidebar-wrapper .single-sidebar.instagram-box {
-    max-width: 370px;
-  }
-  .sidebar-wrapper .single-sidebar.categories-box {
-    max-width: 370px;
-  }
-  .sidebar-wrapper .single-sidebar.popular-post-box {
-    max-width: 370px;
-  }
-  .sidebar-wrapper .single-sidebar.tag-box {
-    max-width: 370px;
-  }
-  /*** 
+    .single-blog-post .meta-box .meta-info {
+        margin: 13px 0 10px;
+        float: none !important;
+    }
+    .single-blog-post .meta-box .reamore {
+        float: none !important;
+        display: block;
+    }
+    #blog-area .sidebar-wrapper {
+        margin-top: 80px;
+        padding-left: 0px;
+    }
+    .sidebar-wrapper .single-sidebar.instagram-box {
+        max-width: 370px;
+    }
+    .sidebar-wrapper .single-sidebar.categories-box {
+        max-width: 370px;
+    }
+    .sidebar-wrapper .single-sidebar.popular-post-box {
+        max-width: 370px;
+    }
+    .sidebar-wrapper .single-sidebar.tag-box {
+        max-width: 370px;
+    }
+    /*** 
 =============================================
     Blog Single area style
 =============================================
 ***/
-  .blog-single-area .single-blog-post {
-    padding: 95px 30px 80px;
-  }
-  .quality-with-integrity .img-box {
-    margin-top: 30px;
-  }
-  .single-blog-post .meta-box .meta-info li:before {
-    display: none;
-  }
-  .blog-single-social-links {
-    top: 5px;
-    left: 5px;
-  }
-  .blog-single-area .blog-title {
-    font-size: 24px;
-    line-height: 32px;
-    margin: 0 0 32px;
-  }
-  .blog-single-area .quote h2 br {
-    display: none;
-  }
-  .blog-single-area .quote:before {
-    display: none;
-  }
-  .author-quote-box .text {
-    padding-left: 30px;
-  }
-  .author-box-holder {
-    padding: 45px 25px 50px;
-  }
-  .author-box-holder .inner-box .img-box,
-  .author-box-holder .inner-box .text {
-    display: block;
-  }
-  .author-box-holder .inner-box .text {
-    padding-left: 0;
-    margin-top: 25px;
-  }
-  .blog-single-area .inner-comment-box .single-comment-box {
-    padding-left: 0;
-  }
-  .blog-single-area .inner-comment-box .single-comment-box .img-box {
-    position: static;
-  }
-  .blog-single-area .inner-comment-box .single-comment-box .text-box {
-    margin-left: 0;
-    margin-top: 20px;
-  }
-  .blog-prev-next-option .single.prev {
-    float: none;
-    padding-left: 90px;
-    min-height: 90px;
-    width: 100%;
-  }
-  .blog-prev-next-option:before {
-    display: none;
-  }
-  .blog-prev-next-option .single.next {
-    float: none;
-    padding-right: 90px;
-    min-height: 90px;
-    width: 100%;
-    margin-top: 40px;
-  }
-  /*** 
+    .blog-single-area .single-blog-post {
+        padding: 95px 30px 80px;
+    }
+    .quality-with-integrity .img-box {
+        margin-top: 30px;
+    }
+    .single-blog-post .meta-box .meta-info li:before {
+        display: none;
+    }
+    .blog-single-social-links {
+        top: 5px;
+        left: 5px;
+    }
+    .blog-single-area .blog-title {
+        font-size: 24px;
+        line-height: 32px;
+        margin: 0 0 32px;
+    }
+    .blog-single-area .quote h2 br {
+        display: none;
+    }
+    .blog-single-area .quote:before {
+        display: none;
+    }
+    .author-quote-box .text {
+        padding-left: 30px;
+    }
+    .author-box-holder {
+        padding: 45px 25px 50px;
+    }
+    .author-box-holder .inner-box .img-box,
+    .author-box-holder .inner-box .text {
+        display: block;
+    }
+    .author-box-holder .inner-box .text {
+        padding-left: 0;
+        margin-top: 25px;
+    }
+    .blog-single-area .inner-comment-box .single-comment-box {
+        padding-left: 0;
+    }
+    .blog-single-area .inner-comment-box .single-comment-box .img-box {
+        position: static;
+    }
+    .blog-single-area .inner-comment-box .single-comment-box .text-box {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .blog-prev-next-option .single.prev {
+        float: none;
+        padding-left: 90px;
+        min-height: 90px;
+        width: 100%;
+    }
+    .blog-prev-next-option:before {
+        display: none;
+    }
+    .blog-prev-next-option .single.next {
+        float: none;
+        padding-right: 90px;
+        min-height: 90px;
+        width: 100%;
+        margin-top: 40px;
+    }
+    /*** 
 =============================================
     Shop Area style
 =============================================
 ***/
-  .highlights-area {
-    padding-top: 60px;
-    padding-bottom: 54px;
-  }
-  .single-highlights-box {
-    display: block;
-    border: none;
-    float: none;
-    max-width: 100%;
-    padding: 0 20px;
-  }
-  .single-highlights-box p {
-    line-height: 22px;
-  }
-  .single-categories-box {
-    display: block;
-    width: 100%;
-    float: none;
-    padding: 85px 30px 90px;
-  }
-  .shop-sidebar-wrapper {
-    margin-bottom: 100px;
-  }
-  /*** 
+    .highlights-area {
+        padding-top: 60px;
+        padding-bottom: 54px;
+    }
+    .single-highlights-box {
+        display: block;
+        border: none;
+        float: none;
+        max-width: 100%;
+        padding: 0 20px;
+    }
+    .single-highlights-box p {
+        line-height: 22px;
+    }
+    .single-categories-box {
+        display: block;
+        width: 100%;
+        float: none;
+        padding: 85px 30px 90px;
+    }
+    .shop-sidebar-wrapper {
+        margin-bottom: 100px;
+    }
+    /*** 
 =============================================
     Single Shop Area style
 =============================================
 ***/
-  .single-shop-content .content-box {
-    margin-top: 40px;
-  }
-  .single-product-carousel {
-    margin-right: 0;
-  }
-  /*** 
+    .single-shop-content .content-box {
+        margin-top: 40px;
+    }
+    .single-product-carousel {
+        margin-right: 0;
+    }
+    /*** 
 =============================================
     Cart Area style
 =============================================
 ***/
-  .cart-middle .apply-coupon {
-    padding-left: 0;
-  }
-  .cart-middle .apply-coupon input[type="text"] {
-    margin: 0 0 20px;
-    position: static;
-    width: 225px;
-  }
-  .cart-area .cart-bottom .calculate-shipping {
-    padding-bottom: 60px;
-  }
-  .cart-middle .update-cart {
-    float: left !important;
-    margin: 20px 0 0;
-  }
-  .cart-bottom .calculate-shipping input[type="text"] {
-    margin-bottom: 25px;
-  }
-  /*** 
+    .cart-middle .apply-coupon {
+        padding-left: 0;
+    }
+    .cart-middle .apply-coupon input[type="text"] {
+        margin: 0 0 20px;
+        position: static;
+        width: 225px;
+    }
+    .cart-area .cart-bottom .calculate-shipping {
+        padding-bottom: 60px;
+    }
+    .cart-middle .update-cart {
+        float: left !important;
+        margin: 20px 0 0;
+    }
+    .cart-bottom .calculate-shipping input[type="text"] {
+        margin-bottom: 25px;
+    }
+    /*** 
 =============================================
     Checkout Area style
 =============================================
 ***/
-  .checkout-area .form.shipping-info {
-    padding-top: 60px;
-  }
-  .checkout-area .cart-total {
-    padding-top: 60px;
-  }
-  .checkout-area .exisitng-customer h5 a {
-    display: block;
-    width: 100%;
-    padding: 0;
-    margin-top: 7px;
-  }
-  .checkout-area .coupon h5 a {
-    display: block;
-    width: 100%;
-    padding: 0;
-    margin-top: 7px;
-  }
-  /*** 
+    .checkout-area .form.shipping-info {
+        padding-top: 60px;
+    }
+    .checkout-area .cart-total {
+        padding-top: 60px;
+    }
+    .checkout-area .exisitng-customer h5 a {
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin-top: 7px;
+    }
+    .checkout-area .coupon h5 a {
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin-top: 7px;
+    }
+    /*** 
 =============================================
     Login Register Area style
 =============================================
 ***/
-  .login-register-area .form a.forgot-password {
-    float: left;
-    margin: 35px 0 0;
-  }
-  .login-register-area .form.register {
-    padding-top: 60px;
-  }
-  .login-register-area .form .social-icon {
-    float: left;
-    margin-right: 0;
-    margin-top: 30px;
-  }
-  .login-register-area .form .social-icon span {
-    left: 0;
-    position: relative;
-  }
-  .login-register-area .form .social-icon .login-with {
-    position: static;
-  }
-  .login-register-area .form h6 {
-    margin: 20px 0 0;
-  }
-  .login-register-area .form .right {
-    display: block;
-    overflow: hidden;
-    margin-left: 0px;
-  }
-  /*** 
+    .login-register-area .form a.forgot-password {
+        float: left;
+        margin: 35px 0 0;
+    }
+    .login-register-area .form.register {
+        padding-top: 60px;
+    }
+    .login-register-area .form .social-icon {
+        float: left;
+        margin-right: 0;
+        margin-top: 30px;
+    }
+    .login-register-area .form .social-icon span {
+        left: 0;
+        position: relative;
+    }
+    .login-register-area .form .social-icon .login-with {
+        position: static;
+    }
+    .login-register-area .form h6 {
+        margin: 20px 0 0;
+    }
+    .login-register-area .form .right {
+        display: block;
+        overflow: hidden;
+        margin-left: 0px;
+    }
+    /*** 
 =============================================
     Global Office Area style
 =============================================
 ***/
-  .single-global-office {
-    padding: 39px 20px 31px;
-  }
-  .single-global-office .inner .text {
-    padding-left: 20px;
-  }
-  /*** 
+    .single-global-office {
+        padding: 39px 20px 31px;
+    }
+    .single-global-office .inner .text {
+        padding-left: 20px;
+    }
+    /*** 
 =============================================
     Contact Info Area style
 =============================================
 ***/
-  .how-can-help-box {
-    margin-top: 50px;
-  }
-  .how-can-help-box .inner-content ul li .left {
-    padding-left: 50px;
-    max-width: 300px;
-  }
-  /*** 
+    .how-can-help-box {
+        margin-top: 50px;
+    }
+    .how-can-help-box .inner-content ul li .left {
+        padding-left: 50px;
+        max-width: 300px;
+    }
+    /*** 
 =============================================
     Branches Section style
 =============================================
 ***/
-  .branches_s2_title {
-    display: block;
-    float: none;
-    padding-bottom: 53px;
-  }
-  .branches_s2_text {
-    display: block;
-    float: none;
-    max-width: 670px;
-    width: 100%;
-    padding-left: 0;
-    margin-top: -7px;
-    padding-bottom: 40px;
-  }
+    .branches_s2_title {
+        display: block;
+        float: none;
+        padding-bottom: 53px;
+    }
+    .branches_s2_text {
+        display: block;
+        float: none;
+        max-width: 670px;
+        width: 100%;
+        padding-left: 0;
+        margin-top: -7px;
+        padding-bottom: 40px;
+    }
 }
 
 /* Wide Mobile Layout: 480px. */
 
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-}
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
 
 @media (min-width: 992px) {
-  .navbar-collapse.collapse {
-    display: block !important;
-    height: auto;
-    padding-bottom: 0;
-    overflow: visible !important;
-  }
-  .navbar-toggle {
-    display: none !important;
-  }
+    .navbar-collapse.collapse {
+        display: block !important;
+        height: auto;
+        padding-bottom: 0;
+        overflow: visible !important;
+    }
+    .navbar-toggle {
+        display: none !important;
+    }
 }
 
 @media only screen and (max-width: 991px) {
-  .mainmenu-area .inner-content {
-    position: relative;
-    display: block;
-  }
-  .main-menu {
-    display: block;
-    float: none;
-    padding-top: 17px;
-    padding-bottom: 0px;
-    z-index: 5;
-    width: 100%;
-  }
-  .main-menu .navigation li {
-    margin-left: 0;
-    margin-right: 0;
-    padding: 0;
-    float: none;
-  }
-  .main-menu .collapse {
-    border: none;
-    border-radius: 0px !important;
-    float: none;
-    margin: 0;
-    height: auto;
-    overflow: auto;
-    padding: 0;
-    width: 100%;
-  }
-  .main-menu .collapse.in,
-  .main-menu .collapsing {
-    border: none;
-    border-radius: 0px;
-    margin: 0;
-    padding: 0;
-    border-top: none;
-  }
-  .main-menu .navbar-header {
-    position: relative;
-    float: none;
-    display: block;
-    text-align: right;
-    width: 100%;
-    padding: 63px 0 0;
-    right: 0px;
-    z-index: 12;
-  }
-  .main-menu .navbar-header .navbar-toggle {
-    background: #000100;
-    border: 1px dashed #000100;
-    display: inline-block;
-    border-radius: 3px;
-    float: none;
-    margin: 0;
-    z-index: 7;
-    width: 50px;
-    height: 47px;
-    cursor: pointer;
-    padding: 0 9px;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-  .main-menu .navbar-header .navbar-toggle .icon-bar {
-    display: block;
-    background: #e7e7e7;
-    width: 30px;
-    height: 2px;
-    border-radius: 1px;
-  }
-  .main-menu .navbar-header .navbar-toggle .icon-bar + .icon-bar {
-    margin-top: 6px;
-  }
-  .main-menu .navbar-collapse > .navigation {
-    float: none !important;
-    width: 100% !important;
-    margin-top: 0px;
-    margin-bottom: 0px;
-  }
-  .main-menu .navbar-collapse .navigation > li {
-    display: block;
-    margin: 0px !important;
-    padding: 0;
-    float: none !important;
-    width: 100%;
-  }
-  .main-menu .navbar-collapse > .navigation > li > ul,
-  .main-menu .navbar-collapse > .navigation > li > ul > li > ul {
-    position: relative;
-    float: none;
-    visibility: visible;
-    opacity: 1;
-    display: none;
-    margin: 0px;
-    padding: 0;
-    left: auto !important;
-    right: auto !important;
-    top: auto !important;
-    width: 100%;
-    background: none;
-    border-radius: 0px;
-    transition: none !important;
-  }
-  .main-menu .navbar-collapse .navigation li,
-  .main-menu .navbar-collapse .navigation li ul li,
-  .main-menu .navbar-collapse .navigation li ul li ul li {
-    background: #1a172c;
-    border-top: 1px solid #131121;
-    opacity: 1 !important;
-    top: 0px !important;
-    left: 0px !important;
-    visibility: visible !important;
-  }
-  .main-menu .navbar-collapse > .navigation > li:last-child,
-  .main-menu .navbar-collapse > .navigation > li > ul > li:last-child {
-    border-bottom: 1px solid #131121;
-  }
-  .main-menu .navbar-collapse > .navigation > li > a {
-    padding: 10px 10px !important;
-    line-height: 22px;
-    color: #ffffff;
-    text-align: left;
-  }
-  .main-menu .navbar-collapse .navigation li ul li {
-    padding: 0;
-  }
-  .main-menu .navbar-collapse .navigation li ul li:last-child {
-    border-bottom: none;
-  }
-  .main-menu .navbar-collapse .navigation li ul li a {
-    padding: 10px 10px !important;
-    line-height: 22px;
-    color: #ffffff;
-    text-align: left;
-    font-size: 14px;
-    font-weight: 400;
-    text-transform: capitalize;
-    font-family: "Rubik", sans-serif;
-  }
-  .main-menu .navbar-collapse .navigation li ul li a:before {
-    display: none !important;
-  }
-  .main-menu .navbar-collapse > .navigation > li > a:hover,
-  .main-menu .navbar-collapse > .navigation > li > a:active,
-  .main-menu .navbar-collapse > .navigation > li > a:focus {
-  }
-  .main-menu .navbar-collapse > .navigation > li:hover > a,
-  .main-menu .navbar-collapse > .navigation > li > ul > li:hover > a,
-  .main-menu .navbar-collapse > .navigation > li > ul > li > ul > li:hover > a,
-  .main-menu .navbar-collapse > .navigation > li.current > a {
-    background: #ba141a;
-    color: #222222 !important;
-  }
-  .main-menu .navbar-collapse > .navigation li.dropdown .dropdown-btn {
-    display: block;
-  }
-  .main-menu .navbar-collapse .navigation > li > ul {
-    border: none;
-    padding: 0;
-    margin: 0;
-  }
-  .main-menu .navbar-collapse .navigation > li > ul:before {
-    display: none;
-  }
-  .main-menu .navbar-collapse .navigation > li > ul > li:before {
-    display: none;
-  }
+    .mainmenu-area .inner-content {
+        position: relative;
+        display: block;
+    }
+    .main-menu {
+        display: block;
+        float: none;
+        padding-top: 17px;
+        padding-bottom: 0px;
+        z-index: 5;
+        width: 100%;
+    }
+    .main-menu .navigation li {
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0;
+        float: none;
+    }
+    .main-menu .collapse {
+        border: none;
+        border-radius: 0px !important;
+        float: none;
+        margin: 0;
+        height: auto;
+        overflow: auto;
+        padding: 0;
+        width: 100%;
+    }
+    .main-menu .collapse.in,
+    .main-menu .collapsing {
+        border: none;
+        border-radius: 0px;
+        margin: 0;
+        padding: 0;
+        border-top: none;
+    }
+    .main-menu .navbar-header {
+        position: relative;
+        float: none;
+        display: block;
+        text-align: right;
+        width: 100%;
+        padding: 63px 0 0;
+        right: 0px;
+        z-index: 12;
+    }
+    .main-menu .navbar-header .navbar-toggle {
+        background: #000100;
+        border: 1px dashed #000100;
+        display: inline-block;
+        border-radius: 3px;
+        float: none;
+        margin: 0;
+        z-index: 7;
+        width: 50px;
+        height: 47px;
+        cursor: pointer;
+        padding: 0 9px;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .main-menu .navbar-header .navbar-toggle .icon-bar {
+        display: block;
+        background: #e7e7e7;
+        width: 30px;
+        height: 2px;
+        border-radius: 1px;
+    }
+    .main-menu .navbar-header .navbar-toggle .icon-bar+.icon-bar {
+        margin-top: 6px;
+    }
+    .main-menu .navbar-collapse>.navigation {
+        float: none !important;
+        width: 100% !important;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .main-menu .navbar-collapse .navigation>li {
+        display: block;
+        margin: 0px !important;
+        padding: 0;
+        float: none !important;
+        width: 100%;
+    }
+    .main-menu .navbar-collapse>.navigation>li>ul,
+    .main-menu .navbar-collapse>.navigation>li>ul>li>ul {
+        position: relative;
+        float: none;
+        visibility: visible;
+        opacity: 1;
+        display: none;
+        margin: 0px;
+        padding: 0;
+        left: auto !important;
+        right: auto !important;
+        top: auto !important;
+        width: 100%;
+        background: none;
+        border-radius: 0px;
+        transition: none !important;
+    }
+    .main-menu .navbar-collapse .navigation li,
+    .main-menu .navbar-collapse .navigation li ul li,
+    .main-menu .navbar-collapse .navigation li ul li ul li {
+        background: #1a172c;
+        border-top: 1px solid #131121;
+        opacity: 1 !important;
+        top: 0px !important;
+        left: 0px !important;
+        visibility: visible !important;
+    }
+    .main-menu .navbar-collapse>.navigation>li:last-child,
+    .main-menu .navbar-collapse>.navigation>li>ul>li:last-child {
+        border-bottom: 1px solid #131121;
+    }
+    .main-menu .navbar-collapse>.navigation>li>a {
+        padding: 10px 10px !important;
+        line-height: 22px;
+        color: #ffffff;
+        text-align: left;
+    }
+    .main-menu .navbar-collapse .navigation li ul li {
+        padding: 0;
+    }
+    .main-menu .navbar-collapse .navigation li ul li:last-child {
+        border-bottom: none;
+    }
+    .main-menu .navbar-collapse .navigation li ul li a {
+        padding: 10px 10px !important;
+        line-height: 22px;
+        color: #ffffff;
+        text-align: left;
+        font-size: 14px;
+        font-weight: 400;
+        text-transform: capitalize;
+        font-family: 'Rubik', sans-serif;
+    }
+    .main-menu .navbar-collapse .navigation li ul li a:before {
+        display: none !important;
+    }
+    .main-menu .navbar-collapse>.navigation>li>a:hover,
+    .main-menu .navbar-collapse>.navigation>li>a:active,
+    .main-menu .navbar-collapse>.navigation>li>a:focus {}
+    .main-menu .navbar-collapse>.navigation>li:hover>a,
+    .main-menu .navbar-collapse>.navigation>li>ul>li:hover>a,
+    .main-menu .navbar-collapse>.navigation>li>ul>li>ul>li:hover>a,
+    .main-menu .navbar-collapse>.navigation>li.current>a {
+        background: #f36727;
+        color: #222222 !important;
+    }
+    .main-menu .navbar-collapse>.navigation li.dropdown .dropdown-btn {
+        display: block;
+    }
+    .main-menu .navbar-collapse .navigation>li>ul {
+        border: none;
+        padding: 0;
+        margin: 0;
+    }
+    .main-menu .navbar-collapse .navigation>li>ul:before {
+        display: none;
+    }
+    .main-menu .navbar-collapse .navigation>li>ul>li:before {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1300px) {
-  .main-slider .slide-content.left-slide {
-    margin-left: 100px;
-  }
+    .main-slider .slide-content.left-slide {
+        margin-left: 100px;
+    }
 }
 
 @media only screen and (max-width: 1199px) {
-  .main-slider .slide-content.left-slide {
-    margin-left: 100px;
-  }
-  .main-slider .slide-content .big-title {
-    font-size: 55px;
-  }
-  .main-slider .slide-content .text {
-    font-size: 20px;
-  }
+    .main-slider .slide-content.left-slide {
+        margin-left: 100px;
+    }
+    .main-slider .slide-content .big-title {
+        font-size: 55px;
+    }
+    .main-slider .slide-content .text {
+        font-size: 20px;
+    }
 }
 
 @media only screen and (max-width: 1039px) {
-  .main-slider .slide-content.left-slide {
-    margin-left: 50px;
-  }
-  .main-slider .slide-content .big-title {
-    font-size: 45px;
-  }
-  .main-slider .slide-content .text {
-    font-size: 18px;
-  }
-  .main-slider .slide-content .btn-box a {
-    padding: 20px 30px 20px;
-  }
+    .main-slider .slide-content.left-slide {
+        margin-left: 50px;
+    }
+    .main-slider .slide-content .big-title {
+        font-size: 45px;
+    }
+    .main-slider .slide-content .text {
+        font-size: 18px;
+    }
+    .main-slider .slide-content .btn-box a {
+        padding: 20px 30px 20px;
+    }
 }
 
 @media only screen and (max-width: 777px) {
-  .tparrows {
-    display: block;
-  }
-  .main-slider .slide-content .big-title {
-    font-size: 35px;
-  }
-  .main-slider .slide-content .text {
-    font-size: 16px;
-  }
-  .main-slider .slide-content .btn-box a {
-    padding: 17px 30px 17px;
-  }
+    .tparrows {
+        display: block;
+    }
+    .main-slider .slide-content .big-title {
+        font-size: 35px;
+    }
+    .main-slider .slide-content .text {
+        font-size: 16px;
+    }
+    .main-slider .slide-content .btn-box a {
+        padding: 17px 30px 17px;
+    }
 }
 
 @media only screen and (max-width: 599px) {
-  /*** 
+    /*** 
 =============================================
     Rev slider wrapper style
 =============================================
 ***/
-  .main-slider {
-    position: relative;
-    margin-top: 0;
-  }
-  .tparrows {
-    display: block;
-  }
-  .main-slider .slide-content.left-slide {
-    margin-left: 0px;
-  }
-  .main-slider .slide-content .big-title {
-    font-size: 25px;
-  }
-  .main-slider .slide-content .btn-box a {
-    padding: 17px 20px 17px;
-  }
+    .main-slider {
+        position: relative;
+        margin-top: 0;
+    }
+    .tparrows {
+        display: block;
+    }
+    .main-slider .slide-content.left-slide {
+        margin-left: 0px;
+    }
+    .main-slider .slide-content .big-title {
+        font-size: 25px;
+    }
+    .main-slider .slide-content .btn-box a {
+        padding: 17px 20px 17px;
+    }
 }
 
 @media only screen and (max-width: 479px) {
-  .main-slider .slide-content .big-title {
-    font-size: 22px;
-    font-weight: 600;
-    line-height: 1.4em;
-  }
-  .main-slider .slide-content .big-title br {
-    display: none;
-  }
-  .main-slider .slide-content .text {
-    font-size: 16px;
-  }
-  .main-slider .slide-content .text span {
-    display: none;
-  }
-  .main-slider .slide-content .btn-box a {
-    padding: 11px 20px 11px;
-  }
+    .main-slider .slide-content .big-title {
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 1.4em;
+    }
+    .main-slider .slide-content .big-title br {
+        display: none;
+    }
+    .main-slider .slide-content .text {
+        font-size: 16px;
+    }
+    .main-slider .slide-content .text span {
+        display: none;
+    }
+    .main-slider .slide-content .btn-box a {
+        padding: 11px 20px 11px;
+    }
 }
