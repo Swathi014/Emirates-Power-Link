@@ -2185,7 +2185,7 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
 }
 
 .single-service-style1 .img-holder::before {
-    background: rgba(60, 55, 90, 0.85);
+    background: rgba(25, 83, 130, 0.75);
     top: 0px;
     left: 0px;
     bottom: 0px;
@@ -2263,7 +2263,7 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
 .single-service-style1 .text-holder .icon-box span:before {
     position: relative;
     top: 0;
-    color: #39345a;
+    color: rgba(25, 83, 130, 0.75);
     font-size: 35px;
     line-height: 64px;
     transition: all 500ms ease;
@@ -2435,8 +2435,10 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
     background-color: #ba141a;
 background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
 
-    padding-left: 80px;
-    min-height: 110px;
+    padding: 20px;
+    padding-top: 20px;
+    text-align: center;
+    
     margin: 40px auto 0;
     max-width: 370px;
     width: 100%;
@@ -2803,7 +2805,7 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
 }
 
 .single-blog-post .img-holder1::before {
-    background: rgba(60, 55, 90, 0.85);
+    background: rgba(25, 83, 130, 0.75);
     top: 0px;
     left: 0px;
     bottom: 0px;
@@ -2844,7 +2846,7 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
 }
 
 .single-blog-post .img-holder2::before {
-    background: rgba(60, 55, 90, 0.85);
+    background: rgba(25, 83, 130, 0.75);
     top: 0px;
     left: 0px;
     bottom: 0px;
@@ -5313,7 +5315,7 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
 .mission-vision-image {
     position: relative;
     display: block;
-    width: 50%;
+    width: 49%;
     float: right;
 }
 
@@ -5660,7 +5662,7 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
 
 .team-support ul li .icon span:before {
     color: #195382;
-    font-size: 25px;
+    font-size: 18px;
     line-height: 25px;
 }
 
@@ -6923,6 +6925,7 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
 
 .challenge-solution-box .img-holder img {
     width: 100%;
+    height: 500px;
 }
 
 .challenge-solution-box .img-holder .icon {
@@ -10816,7 +10819,7 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
     position: relative;
     display: block;
     background: #f8f7ff;
-    padding: 100px 0 100px;
+    padding: 0px 0 100px;
 }
 
 .contact-form {
