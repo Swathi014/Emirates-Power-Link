@@ -428,7 +428,7 @@ input:-webkit-autofill:focus {
 }
 
 .tparrows:hover {
-    background: rgba(243, 103, 40, .95) !important;
+    background: rgb(25, 83, 130) !important;
     color: #ffffff;
 }
 
