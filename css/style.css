@@ -5431,6 +5431,8 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
 .single-service-top .img-holder {
     position: relative;
     display: block;
+    height: 500px;
+    width: 620px;
 }
 
 .single-service-top .img-holder img {
