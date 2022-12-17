@@ -172,7 +172,7 @@ li {
 }
 
 .secpd3 {
-    padding: 100px 0 70px;
+    padding: 40px 0 70px;
 }
 
 .btn-one {
@@ -1544,7 +1544,7 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
 
 .main-menu .navigation>li:hover>a,
 .main-menu .navigation>li.current>a {
-    color: #195382;
+    color: #ffffff;
 }
 
 .main-menu .navigation>li>ul {
@@ -2182,6 +2182,7 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
     display: block;
     overflow: hidden;
     z-index: 1;
+    height: 210px;
 }
 
 .single-service-style1 .img-holder::before {
