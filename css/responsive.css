@@ -45,6 +45,9 @@
     .main-menu .navigation li {
         margin-right: 25px;
     }
+    .class2{ 
+        padding: 0% !important;
+    }
     /*** 
 =============================================
     About Area Style
@@ -548,6 +551,9 @@
         right: 20px;
         float: none;
         z-index: 99;
+    }
+    .class2{ 
+        padding: 0% !important;
     }
     /*** 
 =============================================
@@ -1262,6 +1268,9 @@
     }
     .outer-search-box {
         margin-right: 0px;
+    }
+    .class2{ 
+        padding: 0% !important;
     }
     /*** 
 =============================================

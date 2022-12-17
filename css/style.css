@@ -1888,7 +1888,7 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
 .main-slider {
     position: relative;
     z-index: 10;
-    border-top: 3px solid #241f40;
+    
     background-color: #ba141a;
 background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
 
@@ -2580,6 +2580,7 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
 .single-project-style1 .img-holder img {
     width: 100%;
     transition: all 500ms ease;
+    height: 620px;
 }
 
 .single-project-style1:hover .img-holder img {
