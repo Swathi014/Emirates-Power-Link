@@ -11316,7 +11316,7 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
 # Cta
 --------------------------------------------------------------*/
 .cta {
-    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("/images/resources//hero.jpg") center center;
+    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("https://img.freepik.com/free-vector/digital-technology-engineering-digital-telecoms-concept-futuristic-technology-background-vector-illustration_587448-310.jpg?w=1800&t=st=1671618699~exp=1671619299~hmac=6a7642eccb1a4bf8f99cfe1a0b376e9f52915f30584a83a48c175d4096394740") center center;
     background-size: cover;
     padding: 60px 0;
   }
