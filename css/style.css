@@ -11210,7 +11210,7 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
 #hero {
     width: 100%;
     height: 100vh;
-    background: url("/images/resources/s1.jpg") top center;
+    background: url("/images/resources/hero.jpg") top center;
     background-size: cover;
     position: relative;
   }
@@ -11316,7 +11316,7 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
 # Cta
 --------------------------------------------------------------*/
 .cta {
-    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("/images/resources/tools.jpg") center center;
+    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("/images/resources//hero.jpg") center center;
     background-size: cover;
     padding: 60px 0;
   }
@@ -11363,7 +11363,7 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
 # Cta
 --------------------------------------------------------------*/
 .ctb {
-    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("/images/projects/lat-pro-2.jpg") center center;
+    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("/images/resources/hero.jpg") center center;
     background-size: cover;
     padding: 60px 0;
   }
