@@ -11210,7 +11210,7 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
 #hero {
     width: 100%;
     height: 100vh;
-    background: url("./images/resources/hero.jpg") top center;
+    background: url("https://img.freepik.com/free-vector/digital-technology-engineering-digital-telecoms-concept-futuristic-technology-background-vector-illustration_587448-310.jpg?w=1800&t=st=1671618699~exp=1671619299~hmac=6a7642eccb1a4bf8f99cfe1a0b376e9f52915f30584a83a48c175d4096394740") top center;
     background-size: cover;
     position: relative;
   }
