@@ -468,6 +468,30 @@
 /* Tablet Layout: 768px. */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
+/*** 
+=============================================
+    Hero Section
+=============================================
+***/
+
+#hero {
+    width: 100%;
+    height: 100vh;
+    background: url("/images/resources/tools.jpg") top center;
+    background-size: cover;
+    position: relative;
+  }
+
+  .ctb {
+    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("/images/resources/tools.jpg") center center;
+    background-size: cover;
+    padding: 60px 0;
+  }
+  
+  
+
+
     /*** 
 =============================================
     Top Bar Style1 Style
@@ -1164,6 +1188,29 @@
 /* Mobile Layout: 320px. */
 
 @media only screen and (max-width: 767px) {
+
+
+/*** 
+=============================================
+    Hero Section
+=============================================
+***/
+
+#hero {
+    width: 100%;
+    height: 100vh;
+    background: url("/images/resources/tools.jpg") top center;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .ctb {
+    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("/images/resources/tools.jpg") center center;
+    background-size: cover;
+    padding: 60px 0;
+  }
+  
+
     /*** 
 =============================================
     Top Bar Style1 Style
@@ -2098,7 +2145,30 @@
 
 /* Wide Mobile Layout: 480px. */
 
-@media only screen and (min-width: 480px) and (max-width: 767px) {}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    /*** 
+=============================================
+    Hero Section
+=============================================
+***/
+
+#hero {
+    width: 100%;
+    height: 100vh;
+    background: url("/images/resources/tools.jpg") top center;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .cta {
+    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("/images/resources/tools.jpg") center center;
+    background-size: cover;
+    padding: 60px 0;
+  }
+  
+
+}
 
 @media (min-width: 992px) {
     .navbar-collapse.collapse {
@@ -2314,6 +2384,27 @@
 }
 
 @media only screen and (max-width: 777px) {
+    /*** 
+=============================================
+    Hero Section
+=============================================
+***/
+
+#hero {
+    width: 100%;
+    height: 100vh;
+    background: url("/images/resources/tools.jpg") top center;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .cta {
+    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("/images/resources/tools.jpg") center center;
+    background-size: cover;
+    padding: 60px 0;
+  }
+  
+
     .tparrows {
         display: block;
     }
@@ -2329,6 +2420,14 @@
 }
 
 @media only screen and (max-width: 599px) {
+
+    
+  .ctb {
+    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("/images/resources/tools.jpg") center center;
+    background-size: cover;
+    padding: 60px 0;
+  }
+  
     /*** 
 =============================================
     Rev slider wrapper style
@@ -2371,3 +2470,10 @@
         padding: 11px 20px 11px;
     }
 }
+
+.ctb {
+    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("/images/resources/tools.jpg") center center;
+    background-size: cover;
+    padding: 60px 0;
+  }
+  
