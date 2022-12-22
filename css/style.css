@@ -246,7 +246,7 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
 .sec-title .title span {
     position: relative;
     display: inline-block;
-    color: #222222;
+    color: #545050;
     font-size: 30px;
     line-height: 36px;
     font-weight: 700;
@@ -2291,7 +2291,7 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
 }
 
 .single-service-style1 .text-holder .text-box h3 a {
-    color: #222222;
+    color: #ffffff;
     transition: all 500ms ease;
 }
 
@@ -3613,8 +3613,7 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
 .footer-bottom-area {
     position: relative;
     display: block;
-    background-color: #ba141a;
-background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
+    background-color: #1e1b31;
 
     padding: 32px 0 31px;
 }
