@@ -1,5 +1,5 @@
 /***************************************************************************************************************
-||||||||||||||||||||||||||       MASTER STYLESHEET FOR SCREWER             |||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||||||||       MASTER STYLESHEET           |||||||||||||||||||||||||||||||||||||
 ****************************************************************************************************************
 ||||||||||||||||||||||||||                TABLE OF CONTENT               |||||||||||||||||||||||||||||||||||||||
 ****************************************************************************************************************
@@ -11209,7 +11209,7 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
 #hero {
     width: 100%;
     height: 100vh;
-    background: url("/images/resources/hero.jpg") top center;
+    background: url("https://img.freepik.com/free-vector/digital-technology-engineering-digital-telecoms-concept-futuristic-technology-background-vector-illustration_587448-310.jpg?w=1800&t=st=1671618699~exp=1671619299~hmac=6a7642eccb1a4bf8f99cfe1a0b376e9f52915f30584a83a48c175d4096394740") top center;
     background-size: cover;
     position: relative;
   }
@@ -11315,7 +11315,7 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
 # Cta
 --------------------------------------------------------------*/
 .cta {
-    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("/images/resources//hero.jpg") center center;
+    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("https://img.freepik.com/free-vector/digital-technology-engineering-digital-telecoms-concept-futuristic-technology-background-vector-illustration_587448-310.jpg?w=1800&t=st=1671618699~exp=1671619299~hmac=6a7642eccb1a4bf8f99cfe1a0b376e9f52915f30584a83a48c175d4096394740") center center;
     background-size: cover;
     padding: 60px 0;
   }
@@ -11359,10 +11359,10 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
 
 
   /*--------------------------------------------------------------
-# Cta
+# Ctb
 --------------------------------------------------------------*/
 .ctb {
-    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("/images/resources/hero.jpg") center center;
+    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("https://img.freepik.com/free-vector/digital-technology-engineering-digital-telecoms-concept-futuristic-technology-background-vector-illustration_587448-310.jpg?w=1800&t=st=1671618699~exp=1671619299~hmac=6a7642eccb1a4bf8f99cfe1a0b376e9f52915f30584a83a48c175d4096394740") center center;
     background-size: cover;
     padding: 60px 0;
   }
