@@ -129,7 +129,7 @@
         right: auto;
         top: -90px;
         margin: 0;
-        display: none;
+        
     }
     /*** 
 =============================================
@@ -666,12 +666,10 @@
         right: auto;
         top: -90px;
         margin: 0;
-        display: none;
+        
     }
 
-    .latest-project .owl-theme .owl-nav .owl-next {
-        display: none;
-    }
+
     /*** 
 =============================================
     Choose Area style
@@ -1417,12 +1415,10 @@
         right: auto;
         top: -90px;
         margin: 0;
-        display: none;
+       
     }
 
-    .latest-project .owl-theme .owl-nav .owl-next {
-        display: none;
-    }
+   
     /*** 
 =============================================
     Choose Area style
@@ -2165,7 +2161,12 @@
     Hero Section
 =============================================
 ***/
-
+.latest-project .owl-theme .owl-nav .owl-next {
+    display: none;
+ }
+ .latest-project .owl-theme .owl-nav .owl-prev{
+    display: none;
+ }
 #hero {
     width: 100%;
     height: 100vh;
@@ -2431,9 +2432,6 @@
         padding: 17px 30px 17px;
     }
 
-    .latest-project .owl-theme .owl-nav .owl-next {
-        display: none;
-    }
 }
 
 @media only screen and (max-width: 599px) {
@@ -2444,10 +2442,15 @@
     background-size: cover;
     padding: 60px 0;
   }
-
-
   .latest-project .owl-theme .owl-nav .owl-next {
     display: none;
+ }
+ .latest-project .owl-theme .owl-nav .owl-prev{
+    display: none;
+ }
+
+
+   
 }
   
     /*** 
@@ -2491,11 +2494,15 @@
     .main-slider .slide-content .btn-box a {
         padding: 11px 20px 11px;
     }
-}
-
+    
 .latest-project .owl-theme .owl-nav .owl-next {
     display: none;
+ }
+ .latest-project .owl-theme .owl-nav .owl-prev{
+    display: none;
+ }
 }
+
 
 .ctb {
     background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("/images/resources/tools.jpg") center center;
