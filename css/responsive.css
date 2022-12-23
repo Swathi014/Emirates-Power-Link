@@ -484,12 +484,11 @@
     position: relative;
   }
 
-  .ctb {
-    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("/images/resources/tools.jpg") center center;
+  .cta .ctb {
+    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url(/images/resources/tools.jpg) center center;
     background-size: cover;
     padding: 60px 0;
-  }
-
+}
 
   
   
@@ -2394,6 +2393,11 @@
     }
     .main-slider .slide-content .btn-box a {
         padding: 20px 30px 20px;
+    }
+    .cta {
+        background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url(/images/resources/tools.jpg) center center;
+        background-size: cover;
+        padding: 60px 0;
     }
 }
 
