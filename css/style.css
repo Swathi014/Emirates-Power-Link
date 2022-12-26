@@ -2203,7 +2203,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endCo
     display: block;
     overflow: hidden;
     z-index: 1;
-    height: 210px;
+    height: 184px;
 }
 
 .single-service-style1 .img-holder::before {
@@ -2312,7 +2312,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endCo
 }
 
 .single-service-style1 .text-holder .text-box h3 a {
-    color: #ffffff;
+    color: #091925;
     transition: all 500ms ease;
 }
 
