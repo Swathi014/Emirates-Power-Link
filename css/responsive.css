@@ -9,6 +9,7 @@
     }
 }
 
+
 /* Medium screen  */
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -490,7 +491,9 @@
     padding: 60px 0;
 }
 
-  
+.mainmenu-right .quote-button-box{
+    display: none;
+}
   
 
 
@@ -1214,6 +1217,16 @@
     background-size: cover;
     padding: 60px 0;
   }
+
+
+
+  .mainmenu-right .quote-button-box {
+    /* margin: 14px 0; */
+    display: none;
+}
+.mainmenu-right .quote-button-box{
+    display: none;
+}
   
 
     /*** 
@@ -1880,6 +1893,7 @@
         position: absolute;
         top: 0;
         right: 0px;
+        display: none;
     }
     .challenge-solution-box .img-holder .icon.solutions {
         top: 0px;
@@ -1891,6 +1905,12 @@
         position: relative;
         display: block;
         padding-top: 0px;
+    }
+    .challenge-solution-box .img-holder img{
+        height: 380px;
+    }
+    .mainmenu-right .quote-button-box{
+        display: none;
     }
     /*** 
 =============================================
@@ -2367,6 +2387,9 @@
     .main-slider .slide-content.left-slide {
         margin-left: 100px;
     }
+    .mainmenu-right .quote-button-box{
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 1199px) {
@@ -2378,6 +2401,9 @@
     }
     .main-slider .slide-content .text {
         font-size: 20px;
+    }
+    .mainmenu-right .quote-button-box{
+        display: none;
     }
 }
 
@@ -2407,6 +2433,10 @@
     Hero Section
 =============================================
 ***/
+
+.mainmenu-right .quote-button-box{
+    display: none;
+}
 
 #hero {
     width: 100%;
