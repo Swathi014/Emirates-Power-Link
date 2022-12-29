@@ -231,6 +231,30 @@ li {
     color: #195382;
 }
 
+
+.btn-three {
+    color: #195382;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: 'Rubik', sans-serif;
+    transition: all 500ms ease;
+}
+
+.btn-three span:before {
+    position: relative;
+    top: 2px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 10px;
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.btn-three:hover {
+    color: #195382;
+}
+
 .sec-title {
     position: relative;
     display: block;
