@@ -209,7 +209,7 @@ li {
 }
 
 .btn-two {
-    color: #195382;
+    color: #fcfeff;
     font-size: 18px;
     font-weight: 700;
     text-transform: capitalize;
@@ -228,6 +228,30 @@ li {
 }
 
 .btn-two:hover {
+    color: #195382;
+}
+
+
+.btn-three {
+    color: #195382;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: 'Rubik', sans-serif;
+    transition: all 500ms ease;
+}
+
+.btn-three span:before {
+    position: relative;
+    top: 2px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 10px;
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.btn-three:hover {
     color: #195382;
 }
 
@@ -892,7 +916,9 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endCo
 /* scroll to top styles */
 
 .scroll-to-top {
-    background: #195382;
+    background-image: url(/images/resources/texture\ -01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 50%;
     bottom: 25px;
     color: #ffffff;
@@ -1587,6 +1613,8 @@ background: linear-gradient(45deg, rgba(186,20,26,1) 0%, rgba(97,45,52,1) 50%, r
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endColorstr="#195382",GradientType=1);
 */
 background-image: url("/images/resources/texture\ -01.png");
+background-repeat: no-repeat;
+background-size: cover;
     padding-left: 30px;
     padding-right: 30px;
     opacity: 99%;
@@ -2393,6 +2421,11 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endCo
     transition: all 500ms ease;
 }
 
+.single-service-style1 .text-holder .text-box-one h3 a {
+    color: #ffffff;
+    transition: all 500ms ease;
+}
+
 .single-service-style1 .text-holder .text-box h3 a:hover {
     color: #195382;
 }
@@ -2401,6 +2434,34 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endCo
     line-height: 24px;
     margin: 0;
 }
+
+
+/* text-box-one */
+
+
+.single-service-style1 .text-holder .text-box-one h3 {
+    margin: 0 0 18px;
+}
+
+.single-service-style1 .text-holder .text-box-one h3 a {
+    color: #000000;
+    transition: all 500ms ease;
+}
+
+.single-service-style1 .text-holder .text-box-one h3 a {
+    color: #ffffff;
+    transition: all 500ms ease;
+}
+
+.single-service-style1 .text-holder .text-box-one h3 a:hover {
+    color: #195382;
+}
+
+.single-service-style1 .text-holder .text-box-one p {
+    line-height: 24px;
+    margin: 0;
+}
+
 
 /*** 
 =============================================
@@ -6556,8 +6617,8 @@ background-image: url(/images/resources/texture\ -01.png);
     padding-bottom: 37px;
 }
 .single-project .img-holder .inner img{
-    height: 250px;
-    width: 350px;
+    height: 350px;
+    width: 500px;
     padding: 10px;
 }
 
@@ -6567,7 +6628,7 @@ background-image: url(/images/resources/texture\ -01.png);
     left: 0px;
     bottom: 37px;
     right: 0px;
-    background: rgb(25, 83, 130, 0.65);
+ /*   background: rgb(25, 83, 130, 0.65);  */
     content: "";
     transition: all 0.5s ease-in-out 0s;
     transform-style: preserve-3d;
