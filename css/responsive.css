@@ -9,6 +9,7 @@
     }
 }
 
+
 /* Medium screen  */
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -129,6 +130,7 @@
         right: auto;
         top: -90px;
         margin: 0;
+        
     }
     /*** 
 =============================================
@@ -468,6 +470,33 @@
 /* Tablet Layout: 768px. */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
+/*** 
+=============================================
+    Hero Section
+=============================================
+***/
+
+#hero {
+    width: 100%;
+    height: 100vh;
+    background: url("/images/resources/tools.jpg") top center;
+    background-size: cover;
+    position: relative;
+  }
+
+  .cta .ctb {
+    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url(/images/resources/tools.jpg) center center;
+    background-size: cover;
+    padding: 60px 0;
+}
+
+.mainmenu-right .quote-button-box{
+    display: none;
+}
+  
+
+
     /*** 
 =============================================
     Top Bar Style1 Style
@@ -639,7 +668,10 @@
         right: auto;
         top: -90px;
         margin: 0;
+        
     }
+
+
     /*** 
 =============================================
     Choose Area style
@@ -1164,6 +1196,39 @@
 /* Mobile Layout: 320px. */
 
 @media only screen and (max-width: 767px) {
+
+
+/*** 
+=============================================
+    Hero Section
+=============================================
+***/
+
+#hero {
+    width: 100%;
+    height: 100vh;
+    background: url("/images/resources/tools.jpg") top center;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .ctb {
+    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("/images/resources/tools.jpg") center center;
+    background-size: cover;
+    padding: 60px 0;
+  }
+
+
+
+  .mainmenu-right .quote-button-box {
+    /* margin: 14px 0; */
+    display: none;
+}
+.mainmenu-right .quote-button-box{
+    display: none;
+}
+  
+
     /*** 
 =============================================
     Top Bar Style1 Style
@@ -1362,7 +1427,10 @@
         right: auto;
         top: -90px;
         margin: 0;
+       
     }
+
+   
     /*** 
 =============================================
     Choose Area style
@@ -1825,6 +1893,7 @@
         position: absolute;
         top: 0;
         right: 0px;
+        display: none;
     }
     .challenge-solution-box .img-holder .icon.solutions {
         top: 0px;
@@ -1836,6 +1905,12 @@
         position: relative;
         display: block;
         padding-top: 0px;
+    }
+    .challenge-solution-box .img-holder img{
+        height: 380px;
+    }
+    .mainmenu-right .quote-button-box{
+        display: none;
     }
     /*** 
 =============================================
@@ -2098,7 +2173,35 @@
 
 /* Wide Mobile Layout: 480px. */
 
-@media only screen and (min-width: 480px) and (max-width: 767px) {}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    /*** 
+=============================================
+    Hero Section
+=============================================
+***/
+.latest-project .owl-theme .owl-nav .owl-next {
+    display: none;
+ }
+ .latest-project .owl-theme .owl-nav .owl-prev{
+    display: none;
+ }
+#hero {
+    width: 100%;
+    height: 100vh;
+    background: url("/images/resources/tools.jpg") top center;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .cta {
+    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("/images/resources/tools.jpg") center center;
+    background-size: cover;
+    padding: 60px 0;
+  }
+  
+
+}
 
 @media (min-width: 992px) {
     .navbar-collapse.collapse {
@@ -2284,6 +2387,9 @@
     .main-slider .slide-content.left-slide {
         margin-left: 100px;
     }
+    .mainmenu-right .quote-button-box{
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 1199px) {
@@ -2295,6 +2401,9 @@
     }
     .main-slider .slide-content .text {
         font-size: 20px;
+    }
+    .mainmenu-right .quote-button-box{
+        display: none;
     }
 }
 
@@ -2311,9 +2420,39 @@
     .main-slider .slide-content .btn-box a {
         padding: 20px 30px 20px;
     }
+    .cta {
+        background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url(/images/resources/tools.jpg) center center;
+        background-size: cover;
+        padding: 60px 0;
+    }
 }
 
 @media only screen and (max-width: 777px) {
+    /*** 
+=============================================
+    Hero Section
+=============================================
+***/
+
+.mainmenu-right .quote-button-box{
+    display: none;
+}
+
+#hero {
+    width: 100%;
+    height: 100vh;
+    background: url("/images/resources/tools.jpg") top center;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .cta {
+    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("/images/resources/tools.jpg") center center;
+    background-size: cover;
+    padding: 60px 0;
+  }
+  
+
     .tparrows {
         display: block;
     }
@@ -2326,9 +2465,28 @@
     .main-slider .slide-content .btn-box a {
         padding: 17px 30px 17px;
     }
+
 }
 
 @media only screen and (max-width: 599px) {
+
+    
+  .ctb {
+    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("/images/resources/tools.jpg") center center;
+    background-size: cover;
+    padding: 60px 0;
+  }
+  .latest-project .owl-theme .owl-nav .owl-next {
+    display: none;
+ }
+ .latest-project .owl-theme .owl-nav .owl-prev{
+    display: none;
+ }
+
+
+   
+}
+  
     /*** 
 =============================================
     Rev slider wrapper style
@@ -2370,4 +2528,19 @@
     .main-slider .slide-content .btn-box a {
         padding: 11px 20px 11px;
     }
+    
+.latest-project .owl-theme .owl-nav .owl-next {
+    display: none;
+ }
+ .latest-project .owl-theme .owl-nav .owl-prev{
+    display: none;
+ }
 }
+
+
+.ctb {
+    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("/images/resources/tools.jpg") center center;
+    background-size: cover;
+    padding: 60px 0;
+  }
+  
