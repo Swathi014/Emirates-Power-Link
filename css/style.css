@@ -4664,7 +4664,7 @@ background-image: url(/images/resources/texture\ -01.png);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
-    border-top: 3px solid #241f40;
+    
     padding: 140px 0 132px;
     z-index: 1;
 }
