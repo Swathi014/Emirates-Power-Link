@@ -486,7 +486,7 @@
   }
 
   .cta .ctb {
-    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url(/images/resources/tools.jpg) center center;
+    background: linear-gradient(145deg, rgb(186, 20, 26, .90), rgba(25, 83, 130, 0.82)), url("/images/resources/tools.jpg") center center;
     background-size: cover;
     padding: 60px 0;
 }
@@ -2195,7 +2195,7 @@
   }
   
   .cta {
-    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("/images/resources/tools.jpg") center center;
+    background: linear-gradient(145deg, rgb(186, 20, 26, .90), rgba(25, 83, 130, 0.82)), url("/images/resources/tools.jpg") center center;
     background-size: cover;
     padding: 60px 0;
   }
@@ -2421,7 +2421,7 @@
         padding: 20px 30px 20px;
     }
     .cta {
-        background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url(/images/resources/tools.jpg) center center;
+        background: linear-gradient(145deg, rgb(186, 20, 26, .90), rgba(25, 83, 130, 0.82)), url("/images/resources/tools.jpg") center center;
         background-size: cover;
         padding: 60px 0;
     }
@@ -2447,7 +2447,7 @@
   }
   
   .cta {
-    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("/images/resources/tools.jpg") center center;
+    background: linear-gradient(145deg, rgb(186, 20, 26, .90), rgba(25, 83, 130, 0.82)), url("/images/resources/tools.jpg") center center;
     background-size: cover;
     padding: 60px 0;
   }
