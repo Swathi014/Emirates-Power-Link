@@ -178,9 +178,9 @@ li {
 .btn-one {
     position: relative;
     display: inline-block;
-  background-image: url(/images/resources/texture\ -01.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-image: url(/images/resources/texture\ -01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #ffffff;
     font-size: 18px;
     line-height: 18px;
@@ -838,7 +838,7 @@ li {
     background-position: center center;
     background-repeat: no-repeat;
     background-image: url(../images/icon/preloader.gif);
-    
+
 }
 
 /* Update header Style */
@@ -847,9 +847,11 @@ li {
     0% {
         margin-top: -100px;
     }
+
     50% {
         margin-top: -74px;
     }
+
     100% {
         margin-top: 0;
     }
@@ -861,7 +863,7 @@ li {
     left: 0;
     width: 100%;
     z-index: 99999999;
-    
+
     /*
 
    background: rgb(186,20,26);
@@ -875,7 +877,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endCo
     animation-duration: 0.60s;
     animation-timing-function: ease-out;
     transition: all .25s ease-in-out;
-    
+
 }
 
 .header-style2-area.stricky-fixed {
@@ -1510,9 +1512,9 @@ select:focus {
 .headers1-button .icon span:before {
     width: 50px;
     height: 50px;
-  background-image: url(/images/resources/texture\ -01.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-image: url(/images/resources/texture\ -01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
     border-radius: 50%;
     color: #ffffff;
@@ -1612,9 +1614,9 @@ background: -webkit-linear-gradient(45deg, rgba(186,20,26,1) 0%, rgba(97,45,52,1
 background: linear-gradient(45deg, rgba(186,20,26,1) 0%, rgba(97,45,52,1) 50%, rgba(25,83,130,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endColorstr="#195382",GradientType=1);
 */
-background-image: url("/images/resources/texture\ -01.png");
-background-repeat: no-repeat;
-background-size: cover;
+    background-image: url("/images/resources/texture\ -01.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     padding-left: 30px;
     padding-right: 30px;
     opacity: 99%;
@@ -2005,12 +2007,12 @@ background-size: cover;
 .main-slider {
     position: relative;
     z-index: 10;
-    
-   background: rgb(186,20,26);
-background: -moz-linear-gradient(45deg, rgba(186,20,26,1) 0%, rgba(97,45,52,1) 50%, rgba(25,83,130,1) 100%);
-background: -webkit-linear-gradient(45deg, rgba(186,20,26,1) 0%, rgba(97,45,52,1) 50%, rgba(25,83,130,1) 100%);
-background: linear-gradient(45deg, rgba(186,20,26,1) 0%, rgba(97,45,52,1) 50%, rgba(25,83,130,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endColorstr="#195382",GradientType=1);
+
+    background: rgb(186, 20, 26);
+    background: -moz-linear-gradient(45deg, rgba(186, 20, 26, 1) 0%, rgba(97, 45, 52, 1) 50%, rgba(25, 83, 130, 1) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(186, 20, 26, 1) 0%, rgba(97, 45, 52, 1) 50%, rgba(25, 83, 130, 1) 100%);
+    background: linear-gradient(45deg, rgba(186, 20, 26, 1) 0%, rgba(97, 45, 52, 1) 50%, rgba(25, 83, 130, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a", endColorstr="#195382", GradientType=1);
 
     opacity: 100%;
 }
@@ -2019,14 +2021,15 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endCo
     z-index: 5;
 }
 
-.main-slider .rev_slider_one{
-   background: rgb(186,20,26);
-background: -moz-linear-gradient(45deg, rgba(186,20,26,1) 0%, rgba(97,45,52,1) 50%, rgba(25,83,130,1) 100%);
-background: -webkit-linear-gradient(45deg, rgba(186,20,26,1) 0%, rgba(97,45,52,1) 50%, rgba(25,83,130,1) 100%);
-background: linear-gradient(45deg, rgba(186,20,26,1) 0%, rgba(97,45,52,1) 50%, rgba(25,83,130,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endColorstr="#195382",GradientType=1);
+.main-slider .rev_slider_one {
+    background: rgb(186, 20, 26);
+    background: -moz-linear-gradient(45deg, rgba(186, 20, 26, 1) 0%, rgba(97, 45, 52, 1) 50%, rgba(25, 83, 130, 1) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(186, 20, 26, 1) 0%, rgba(97, 45, 52, 1) 50%, rgba(25, 83, 130, 1) 100%);
+    background: linear-gradient(45deg, rgba(186, 20, 26, 1) 0%, rgba(97, 45, 52, 1) 50%, rgba(25, 83, 130, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a", endColorstr="#195382", GradientType=1);
 
 }
+
 .main-slider .tp-dottedoverlay {
     background: none !important;
 }
@@ -2034,7 +2037,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endCo
 .main-slider .slide-content {
     position: relative;
     display: block;
-    
+
 }
 
 .main-slider .slide-content .big-title {
@@ -2217,11 +2220,11 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endCo
 }
 
 .slogan-area::before {
-   background: rgb(186,20,26);
-background: -moz-linear-gradient(45deg, rgba(186,20,26,1) 0%, rgba(97,45,52,1) 50%, rgba(25,83,130,1) 100%);
-background: -webkit-linear-gradient(45deg, rgba(186,20,26,1) 0%, rgba(97,45,52,1) 50%, rgba(25,83,130,1) 100%);
-background: linear-gradient(45deg, rgba(186,20,26,1) 0%, rgba(97,45,52,1) 50%, rgba(25,83,130,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endColorstr="#195382",GradientType=1);
+    background: rgb(186, 20, 26);
+    background: -moz-linear-gradient(45deg, rgba(186, 20, 26, 1) 0%, rgba(97, 45, 52, 1) 50%, rgba(25, 83, 130, 1) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(186, 20, 26, 1) 0%, rgba(97, 45, 52, 1) 50%, rgba(25, 83, 130, 1) 100%);
+    background: linear-gradient(45deg, rgba(186, 20, 26, 1) 0%, rgba(97, 45, 52, 1) 50%, rgba(25, 83, 130, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a", endColorstr="#195382", GradientType=1);
 
     position: absolute;
     top: 0;
@@ -2595,12 +2598,12 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endCo
     background-image: url(/images/resources/texture\ -01.png);
     background-repeat: no-repeat;
     background-size: cover;
-  
+
 
     padding: 20px;
     padding-top: 20px;
     text-align: center;
-    
+
     margin: 40px auto 0;
     max-width: 370px;
     width: 100%;
@@ -2635,9 +2638,9 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endCo
 }
 
 .single-info-of-company.two {
-  background-image: url(/images/resources/texture\ -01.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-image: url(/images/resources/texture\ -01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
@@ -2660,8 +2663,8 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endCo
 
 .single-info-of-company.three {
     background-image: url(/images/resources/texture\ -01.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
 
 
 }
@@ -2713,7 +2716,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endCo
     background-image: url(/images/resources/texture\ -01.png);
     background-repeat: no-repeat;
     background-size: cover;
-  
+
 
     padding: 100px 0 100px;
 }
@@ -2769,7 +2772,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endCo
     /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom, rgba(30, 87, 153, 0) 35%, rgba(30, 87, 153, 0.02) 36%, rgba(30, 87, 153, 0.09) 40%, rgba(30, 87, 153, 0.13) 42%, rgba(30, 87, 153, 0.26) 49%, rgba(12, 10, 39, 0.67) 71%, rgba(11, 7, 34, 0.68) 72%, rgba(11, 7, 34, 1) 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', endColorstr='#0b0722', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#001e5799', endColorstr='#0b0722', GradientType=0);
     /* IE6-9 */
 }
 
@@ -3278,8 +3281,8 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endCo
     position: relative;
     display: block;
     background-image: url(/images/resources/texture\ -01.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
 
 
     border-radius: 5px;
@@ -3445,7 +3448,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endCo
     width: 100%;
     text-align: center;
     margin: 0 auto 30px;
-  border: 1px solid #ffffff;
+    border: 1px solid #ffffff;
     transition: all 700ms ease;
 }
 
@@ -3480,11 +3483,11 @@ background: linear-gradient(45deg, rgba(186,20,26,1) 0%, rgba(97,45,52,1) 50%, r
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endColorstr="#195382",GradientType=1);
 */
 
-background-image: url(/images/resources/texture\ -01.png);
+    background-image: url(/images/resources/texture\ -01.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 98px;
-  
+
 }
 
 .single-footer-widget {
@@ -3793,7 +3796,7 @@ background-image: url(/images/resources/texture\ -01.png);
     display: block;
     justify-content: center;
     padding: 32px 0 31px;
-   
+
 }
 
 .footer-bottom-area .copyright-text {
@@ -4664,7 +4667,7 @@ background-image: url(/images/resources/texture\ -01.png);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
-    
+
     padding: 140px 0 132px;
     z-index: 1;
 }
@@ -5366,8 +5369,8 @@ background-image: url(/images/resources/texture\ -01.png);
     display: block;
     width: 50%;
     background-image: url(/images/resources/texture\ -01.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
 
     float: left;
     padding: 60px 50px 60px;
@@ -6616,7 +6619,8 @@ background-image: url(/images/resources/texture\ -01.png);
     overflow: hidden;
     padding-bottom: 37px;
 }
-.single-project .img-holder .inner img{
+
+.single-project .img-holder .inner img {
     height: 350px;
     width: 500px;
     padding: 10px;
@@ -6628,7 +6632,7 @@ background-image: url(/images/resources/texture\ -01.png);
     left: 0px;
     bottom: 37px;
     right: 0px;
- /*   background: rgb(25, 83, 130, 0.65);  */
+    /*   background: rgb(25, 83, 130, 0.65);  */
     content: "";
     transition: all 0.5s ease-in-out 0s;
     transform-style: preserve-3d;
@@ -7150,11 +7154,11 @@ background-image: url(/images/resources/texture\ -01.png);
 }
 
 .challenge-solution-box .img-holder .icon span:before {
-   background: rgb(186,20,26);
-background: -moz-linear-gradient(45deg, rgba(186,20,26,1) 0%, rgba(97,45,52,1) 50%, rgba(25,83,130,1) 100%);
-background: -webkit-linear-gradient(45deg, rgba(186,20,26,1) 0%, rgba(97,45,52,1) 50%, rgba(25,83,130,1) 100%);
-background: linear-gradient(45deg, rgba(186,20,26,1) 0%, rgba(97,45,52,1) 50%, rgba(25,83,130,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endColorstr="#195382",GradientType=1);
+    background: rgb(186, 20, 26);
+    background: -moz-linear-gradient(45deg, rgba(186, 20, 26, 1) 0%, rgba(97, 45, 52, 1) 50%, rgba(25, 83, 130, 1) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(186, 20, 26, 1) 0%, rgba(97, 45, 52, 1) 50%, rgba(25, 83, 130, 1) 100%);
+    background: linear-gradient(45deg, rgba(186, 20, 26, 1) 0%, rgba(97, 45, 52, 1) 50%, rgba(25, 83, 130, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a", endColorstr="#195382", GradientType=1);
 
     font-size: 65px;
     line-height: 65px;
@@ -8072,7 +8076,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endCo
     display: block;
     margin: 0;
     margin-top: -50px;
-    border: 1px solid  #868298;
+    border: 1px solid #868298;
     padding: 95px 99px 80px;
     border-radius: 5px;
     background: #ffffff;
@@ -8790,7 +8794,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endCo
     /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom, rgba(30, 87, 153, 0) 35%, rgba(30, 87, 153, 0.02) 36%, rgba(30, 87, 153, 0.09) 40%, rgba(30, 87, 153, 0.13) 42%, rgba(30, 87, 153, 0.26) 49%, rgba(12, 10, 39, 0.67) 71%, rgba(11, 7, 34, 0.68) 72%, rgba(11, 7, 34, 1) 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', endColorstr='#0b0722', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#001e5799', endColorstr='#0b0722', GradientType=0);
     /* IE6-9 */
 }
 
@@ -11397,22 +11401,24 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endCo
 #hero {
     width: 100%;
     height: 100vh;
-    background: url("https://img.freepik.com/free-vector/digital-technology-engineering-digital-telecoms-concept-futuristic-technology-background-vector-illustration_587448-310.jpg?w=1800&t=st=1671618699~exp=1671619299~hmac=6a7642eccb1a4bf8f99cfe1a0b376e9f52915f30584a83a48c175d4096394740") top center;
+    background: url("/images/resources/background.jpg") top center;
     background-size: cover;
     position: relative;
-  }
-  
-  #hero:before {
+}
+
+#hero:before {
     content: "";
-    background: rgba(0, 0, 0, 0.6);
+    /* background: rgba(0, 0, 0, 0.6); */
+    /* background: linear-gradient(145deg, #035293cc, #0a2d4adb); */
+    background: linear-gradient(145deg, #042f52ab, #0c4b7ec7);
     position: absolute;
     bottom: 0;
     top: 0;
     left: 0;
     right: 0;
-  }
-  
-  #hero .hero-container {
+}
+
+#hero .hero-container {
     position: absolute;
     bottom: 0;
     top: 0;
@@ -11424,33 +11430,33 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endCo
     flex-direction: column;
     text-align: center;
     padding: 0 15px;
-  }
-  
-  #hero h3 {
+}
+
+#hero h3 {
     background: rgba(255, 255, 255, 0.1);
     color: #fff;
     font-size: 26px;
     padding: 10px 30px;
     margin-bottom: 30px;
     border-radius: 50px;
-  }
-  
-  #hero h1 {
+}
+
+#hero h1 {
     margin: 0 0 10px 0;
     font-size: 48px;
     font-weight: 700;
     line-height: 56px;
     text-transform: uppercase;
     color: #fff;
-  }
-  
-  #hero h2 {
+}
+
+#hero h2 {
     color: #eee;
     margin-bottom: 40px;
     font-size: 24px;
-  }
-  
-  #hero .btn-get-started {
+}
+
+#hero .btn-get-started {
     font-family: "Poppins", sans-serif;
     text-transform: uppercase;
     font-weight: 400;
@@ -11462,63 +11468,65 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endCo
     transition: 0.5s;
     border: 2px solid #fff;
     color: #fff;
-  }
-  
-  #hero .btn-get-started:hover {
+}
+
+#hero .btn-get-started:hover {
     background: #166e9e;
     border: 2px solid #166e9e;
-  }
-  
-  @media (min-width: 1024px) {
-    #hero {
-      background-attachment: fixed;
-    }
-  }
-  
-  @media (max-width: 768px) {
-    #hero h3 {
-      font-size: 22px;
-    }
-  
-    #hero h1 {
-      font-size: 28px;
-      line-height: 36px;
-    }
-  
-    #hero h2 {
-      font-size: 18px;
-      line-height: 24px;
-      margin-bottom: 30px;
-    }
-  }
-  
-  @media (max-height: 500px) {
-    #hero {
-      height: 150vh;
-    }
-  }
+}
 
-  
+@media (min-width: 1024px) {
+    #hero {
+        background-attachment: fixed;
+    }
+}
+
+@media (max-width: 768px) {
+    #hero h3 {
+        font-size: 22px;
+    }
+
+    #hero h1 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    #hero h2 {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-height: 500px) {
+    #hero {
+        height: 150vh;
+    }
+}
+
+
 /*--------------------------------------------------------------
 # Cta
 --------------------------------------------------------------*/
 .cta {
-    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("/images/resources/hero.jpg") center center;
+    /* background: linear-gradient(145deg, rgb(186, 20, 26, .90), rgba(25, 83, 130, 0.82)), url("/images/resources/background.jpg") center center; */
+    /* linear-gradient(145deg, rgb(186, 20, 26) 0%, rgba(25, 83, 130, 0.72)); */
+    background: linear-gradient(145deg, #042f52ab, #0c4b7ec7), url("/images/resources/background.jpg") center center;
     background-size: cover;
     padding: 60px 0;
-  }
-  
-  .cta h3 {
+}
+
+.cta h3 {
     color: #fff;
     font-size: 28px;
     font-weight: 700;
-  }
-  
-  .cta p {
+}
+
+.cta p {
     color: #fff;
-  }
-  
-  .cta .cta-btn {
+}
+
+.cta .cta-btn {
     font-family: "Nunito", sans-serif;
     text-transform: uppercase;
     font-weight: 500;
@@ -11531,41 +11539,41 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endCo
     margin-top: 10px;
     border: 2px solid #fff;
     color: #fff;
-  }
-  
-  .cta .cta-btn:hover {
+}
+
+.cta .cta-btn:hover {
     background: #e43c5c;
     border: 2px solid #e43c5c;
-  }
-  
-  @media (min-width: 1024px) {
+}
+
+@media (min-width: 1024px) {
     .cta {
-      background-attachment: fixed;
+        background-attachment: fixed;
     }
-  }
-  
+}
 
 
-  /*--------------------------------------------------------------
+
+/*--------------------------------------------------------------
 # Ctb
 --------------------------------------------------------------*/
 .ctb {
     background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("/images/resources/hero.jpg") center center;
     background-size: cover;
     padding: 60px 0;
-  }
-  
-  .ctb h3 {
+}
+
+.ctb h3 {
     color: #fff;
     font-size: 28px;
     font-weight: 700;
-  }
-  
-  .ctb p {
+}
+
+.ctb p {
     color: #fff;
-  }
-  
-  .ctb .ctb-btn {
+}
+
+.ctb .ctb-btn {
     font-family: "Nunito", sans-serif;
     text-transform: uppercase;
     font-weight: 500;
@@ -11578,15 +11586,15 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endCo
     margin-top: 10px;
     border: 2px solid #fff;
     color: #fff;
-  }
-  
-  .ctb .ctb-btn:hover {
+}
+
+.ctb .ctb-btn:hover {
     background: #e43c5c;
     border: 2px solid #e43c5c;
-  }
-  
-  @media (min-width: 1024px) {
+}
+
+@media (min-width: 1024px) {
     .ctb {
-      background-attachment: fixed;
+        background-attachment: fixed;
     }
-  }
+}
