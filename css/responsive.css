@@ -495,7 +495,7 @@
   }
 
   .cta .ctb {
-    background: linear-gradient(145deg, rgb(186, 20, 26, .90), rgba(25, 83, 130, 0.82)), url("/images/resources/tools.jpg") center center;
+    background: linear-gradient(145deg, #042f52ab, #0c4b7ec7), url("/images/resources/tools.jpg") center center;
     background-size: cover;
     padding: 60px 0;
 }
@@ -1222,7 +1222,7 @@
   }
   
   .ctb {
-    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("/images/resources/tools.jpg") center center;
+    background: linear-gradient(145deg, #042f52ab, #0c4b7ec7), url("/images/resources/tools.jpg") center center;
     background-size: cover;
     padding: 60px 0;
   }
@@ -2213,7 +2213,7 @@
   }
   
   .cta {
-    background: linear-gradient(145deg, rgb(186, 20, 26, .90), rgba(25, 83, 130, 0.82)), url("/images/resources/tools.jpg") center center;
+    background: linear-gradient(145deg, #042f52ab, #0c4b7ec7), url("/images/resources/tools.jpg") center center;
     background-size: cover;
     padding: 60px 0;
   }
@@ -2439,7 +2439,7 @@
         padding: 20px 30px 20px;
     }
     .cta {
-        background: linear-gradient(145deg, rgb(186, 20, 26, .90), rgba(25, 83, 130, 0.82)), url("/images/resources/tools.jpg") center center;
+        background: linear-gradient(145deg, #042f52ab, #0c4b7ec7), url("/images/resources/tools.jpg") center center;
         background-size: cover;
         padding: 60px 0;
     }
@@ -2453,7 +2453,14 @@
 ***/
 
  
-
+.breadcrumb-area .title h1 {
+    color: #222222;
+    font-size: 35px;
+    line-height: 60px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 0px 0px 10px;
+}
 .mainmenu-right .quote-button-box{
     display: none;
 }
@@ -2467,7 +2474,7 @@
   }
   
   .cta {
-    background: linear-gradient(145deg, rgb(186, 20, 26, .90), rgba(25, 83, 130, 0.82)), url("/images/resources/tools.jpg") center center;
+    background: linear-gradient(145deg, #042f52ab, #0c4b7ec7), url("/images/resources/tools.jpg") center center;
     background-size: cover;
     padding: 60px 0;
   }
