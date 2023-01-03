@@ -155,7 +155,7 @@
         <div class="row">
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                 <div class="contact-form">
-                    <form id="contact-form" name="contact_form" class="default-form" action="inc/sendmail.php" method="post">
+                    <form id="contact-form" name="contact_form" class="default-form" action="https://script.google.com/macros/s/AKfycbyUf8p4dLwGvx-lkmkd36Duc00MWJJw09S_33TuxST1C4c-3cfCMrfAGIzAlh103po4DQ/exec" method="post">
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="input-box">   
@@ -195,7 +195,7 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="input-box">
-                                    <select class="selectmenu">
+                                    <select class="selectmenu" name="Enquire">
                                         <option selected="selected">Enquire About</option>
                                         <option>Electrical Installation</option>
                                         <option>MV/LV Substation Installation</option>
@@ -227,7 +227,7 @@
                             <div class="col-md-12">
                                 <div class="button-box">
                                     <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden" value="">
-                                    <button class="btn-one" type="submit" data-loading-text="Please wait...">Submit Here</button>    
+                                    <button class="btn-one" type="submit" id="id_send_contact_form" data-loading-text="Please wait...">Submit Here</button>    
                                 </div>     
                             </div>
                         </div>
@@ -378,10 +378,36 @@
 <script src="assets/html5lightbox/html5lightbox.js"></script>
 <!--Countdown Script-->
 <script src="js/jquery.countdown.min.js"></script>
-
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 <!-- thm custom script -->
 <script src="js/custom.js"></script>
+
+  <!-- <script>
+    $('#id_send_contact_form').on('click',function(e){
+      e.preventDefault()
+      console.log($('#contact_form').serialize())
+      $.ajax({
+          url:"https://script.google.com/macros/s/AKfycbyUf8p4dLwGvx-lkmkd36Duc00MWJJw09S_33TuxST1C4c-3cfCMrfAGIzAlh103po4DQ/exec",
+          data:$('#contact_form').serialize(),
+          method:"post",
+          success:function (response){
+              swal({
+                  title: "Good job!",
+                  text: "The form has been submitted",
+                  icon: "success",
+                  button: "Ok",
+              });
+              $('#contact_form')[0].reset();
+          },
+          error:function (err){
+              alert("Something Error")
+  
+          }
+      })
+      
+  })
+  </script> -->
 
 
 
