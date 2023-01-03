@@ -359,7 +359,6 @@
         <script>
             $('#id_send_contact_form').on('click', function (e) {
                 e.preventDefault()
-                console.log($('#contact-form').serialize())
                 $.ajax({
                     url: "https://script.google.com/macros/s/AKfycbxlDsdsJlmLpN-GyIp54be4L90OYCPFNNvamYCZVY3-ltj0_1Mh2PsPlhujB3qiXAIOSQ/exec",
                     data: $('#contact-form').serialize(),
