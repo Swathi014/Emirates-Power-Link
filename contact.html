@@ -336,7 +336,33 @@
         <!--End footer area-->
 <!--Scroll to top-->
 <div class="scroll-to-top scroll-to-target thm-bg-clr" data-target="html"><span class="fa fa-angle-up"></span></div>
+<!-- sweet alert plugin  -->
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <!-- jquery plugin -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
+        <script>
+            $('#id_send_contact_form').on('click', function (e) {
+                e.preventDefault()
+                $.ajax({
+                    url: "https://script.google.com/macros/s/AKfycbxlDsdsJlmLpN-GyIp54be4L90OYCPFNNvamYCZVY3-ltj0_1Mh2PsPlhujB3qiXAIOSQ/exec",
+                    data: $('#contact-form').serialize(),
+                    method: "post",
+                    success: function (response) {
+                        swal({
+                            title: "Good job!",
+                            text: "The form has been submitted",
+                            icon: "success",
+                            button: "Ok",
+                        });
+                        $('#contact-form')[0].reset();
+                    },
+                    error: function (err) {
+                        alert("Something Went Wrong. Try Again!!!")
+                    }
+                })
+            })
+        </script>
 
 <!-- main jQuery -->
 <script src="js/jquery.js"></script>
