@@ -11409,7 +11409,8 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endCo
 #hero:before {
     content: "";
     /* background: rgba(0, 0, 0, 0.6); */
-    background: linear-gradient(145deg, rgb(186, 20, 26) 0%, #195382b8);
+    /* background: linear-gradient(145deg, #035293cc, #0a2d4adb); */
+    background: linear-gradient(145deg, #042f52ab, #0c4b7ec7);
     position: absolute;
     bottom: 0;
     top: 0;
@@ -11508,8 +11509,9 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endCo
 # Cta
 --------------------------------------------------------------*/
 .cta {
-    background: linear-gradient(145deg, rgb(186, 20, 26, .90), rgba(25, 83, 130, 0.82)), url("/images/resources/background.jpg") center center;
+    /* background: linear-gradient(145deg, rgb(186, 20, 26, .90), rgba(25, 83, 130, 0.82)), url("/images/resources/background.jpg") center center; */
     /* linear-gradient(145deg, rgb(186, 20, 26) 0%, rgba(25, 83, 130, 0.72)); */
+    background: linear-gradient(145deg, #042f52ab, #0c4b7ec7), url("/images/resources/background.jpg") center center;
     background-size: cover;
     padding: 60px 0;
 }
