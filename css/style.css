@@ -11598,3 +11598,8 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endCo
         background-attachment: fixed;
     }
 }
+
+.contactus{
+    padding: 100px;
+    text-align: center;
+}
