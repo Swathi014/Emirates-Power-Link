@@ -178,7 +178,7 @@ li {
 .btn-one {
     position: relative;
     display: inline-block;
-    background-image: url(/images/resources/texture\ -01.png);
+    background-image: url(/images/resources/texture\ -01.webp);
     background-repeat: no-repeat;
     background-size: cover;
     color: #ffffff;
@@ -918,7 +918,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endCo
 /* scroll to top styles */
 
 .scroll-to-top {
-    background-image: url(/images/resources/texture\ -01.png);
+    background-image: url(/images/resources/texture\ -01.webp);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 50%;
@@ -1512,7 +1512,7 @@ select:focus {
 .headers1-button .icon span:before {
     width: 50px;
     height: 50px;
-    background-image: url(/images/resources/texture\ -01.png);
+    background-image: url(/images/resources/texture\ -01.webp);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -1614,7 +1614,7 @@ background: -webkit-linear-gradient(45deg, rgba(186,20,26,1) 0%, rgba(97,45,52,1
 background: linear-gradient(45deg, rgba(186,20,26,1) 0%, rgba(97,45,52,1) 50%, rgba(25,83,130,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endColorstr="#195382",GradientType=1);
 */
-    background-image: url("/images/resources/texture\ -01.png");
+    background-image: url("/images/resources/texture\ -01.webp");
     background-repeat: no-repeat;
     background-size: cover;
     padding-left: 30px;
@@ -2595,7 +2595,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endCo
     position: relative;
     display: block;
     overflow: hidden;
-    background-image: url(/images/resources/texture\ -01.png);
+    background-image: url(/images/resources/texture\ -01.webp);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -2638,7 +2638,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endCo
 }
 
 .single-info-of-company.two {
-    background-image: url(/images/resources/texture\ -01.png);
+    background-image: url(/images/resources/texture\ -01.webp);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -2662,7 +2662,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endCo
 }
 
 .single-info-of-company.three {
-    background-image: url(/images/resources/texture\ -01.png);
+    background-image: url(/images/resources/texture\ -01.webp);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -2713,7 +2713,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endCo
 .latest-project-area {
     position: relative;
     display: block;
-    background-image: url(/images/resources/texture\ -01.png);
+    background-image: url(/images/resources/texture\ -01.webp);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -3280,7 +3280,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endCo
 .contact-info-box {
     position: relative;
     display: block;
-    background-image: url(/images/resources/texture\ -01.png);
+    background-image: url(/images/resources/texture\ -01.webp);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -3483,7 +3483,7 @@ background: linear-gradient(45deg, rgba(186,20,26,1) 0%, rgba(97,45,52,1) 50%, r
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endColorstr="#195382",GradientType=1);
 */
 
-    background-image: url(/images/resources/texture\ -01.png);
+    background-image: url(/images/resources/texture\ -01.webp);
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 98px;
@@ -5368,7 +5368,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endCo
     position: relative;
     display: block;
     width: 50%;
-    background-image: url(/images/resources/texture\ -01.png);
+    background-image: url(/images/resources/texture\ -01.webp);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -6329,7 +6329,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endCo
     position: relative;
     display: block;
     overflow: hidden;
-    background-image: url(/images/resources/texture\ -01.png);
+    background-image: url(/images/resources/texture\ -01.webp);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 45px 30px 50px;
@@ -11401,7 +11401,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endCo
 #hero {
     width: 100%;
     height: 100vh;
-    background: url("/images/resources/back\ \(4\).jpeg") top center;
+    background: url("/images/resources/back\ \(4\).webp") top center;
     background-size: cover;
     position: relative;
 }
@@ -11511,7 +11511,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endCo
 .cta {
     /* background: linear-gradient(145deg, rgb(186, 20, 26, .90), rgba(25, 83, 130, 0.82)), url("/images/resources/background.jpg") center center; */
     /* linear-gradient(145deg, rgb(186, 20, 26) 0%, rgba(25, 83, 130, 0.72)); */
-    background: linear-gradient(145deg, #042f52ab, #0c4b7ec7), url("/images/resources/back\ \(4\).jpeg") center center;
+    background: linear-gradient(145deg, #042f52ab, #0c4b7ec7), url("/images/resources/back\ \(4\).webp") center center;
     background-size: cover;
     padding: 60px 0;
 }
@@ -11558,7 +11558,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endCo
 # Ctb
 --------------------------------------------------------------*/
 .ctb {
-    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("/images/resources/hero.jpg") center center;
+    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("/images/resources/hero.webp") center center;
     background-size: cover;
     padding: 60px 0;
 }
