@@ -3286,7 +3286,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endCo
 
 
     border-radius: 5px;
-    padding: 35px 40px 17px;
+    padding: 65px 40px 65px;
 }
 
 .contact-info-box ul {
@@ -8710,7 +8710,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endCo
 }
 
 .breadcrumb-area.blog-single-post {
-    padding: 142px 0 180px;
+    padding: 100px 0 100px;
 }
 
 .blog-single-social-links {

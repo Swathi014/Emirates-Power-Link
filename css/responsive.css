@@ -1039,9 +1039,9 @@
     Breadcrumb Area style
 =============================================
 ***/
-    .breadcrumb-area {
-        padding: 100px 0 132px;
-    }
+.breadcrumb-area.blog-single-post {
+    padding: 50px 0 50px;
+}
     /*** 
 =============================================
     Main project area style
@@ -1873,8 +1873,8 @@
     Breadcrumb Area S1 style
 =============================================
 ***/
-    .breadcrumb-area {
-        padding: 100px 0 132px;
+.breadcrumb-area.blog-single-post{
+        padding: 40px 0 0px;
     }
     /*** 
 =============================================
@@ -2456,7 +2456,7 @@
 .breadcrumb-area .title h1 {
     color: #222222;
     font-size: 35px;
-    line-height: 60px;
+    line-height: 45px;
     font-weight: 700;
     text-transform: capitalize;
     margin: 0px 0px 10px;
