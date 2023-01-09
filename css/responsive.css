@@ -58,6 +58,7 @@
         font-size: 36px;
         line-height: 58px;
         margin: 0 0 20px;
+        text-transform: capitalize;
     }
     .single-service-style2 {
         padding: 24px 15px 22px;
@@ -604,6 +605,7 @@
         font-size: 36px;
         line-height: 58px;
         margin: 0 0 20px;
+        text-transform: capitalize;
     }
     /*** 
 =============================================
@@ -1379,6 +1381,7 @@
         font-size: 36px;
         line-height: 50px;
         margin: 0 0 20px;
+        text-transform: capitalize;
     }
     .single-service-style2 {
         padding: 24px 15px 22px;
@@ -2431,6 +2434,9 @@
     }
     .mainmenu-right .quote-button-box{
         display: none;
+    }
+    .about-title h1 {
+        text-transform: capitalize;
     }
 }
 

@@ -260,6 +260,7 @@ li {
     display: block;
     margin-top: -7px;
     padding-bottom: 73px;
+    text-transform: capitalize;
 }
 
 .sec-title .title {
@@ -325,7 +326,9 @@ li {
     font-size: 20px;
     line-height: 30px;
     margin: 36px 0 0;
+   
 }
+
 
 
 
@@ -2100,6 +2103,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endCo
 .about-title h1 {
     font-size: 36px;
     line-height: 58px;
+    text-transform: capitalize;
 }
 
 .about-text {
