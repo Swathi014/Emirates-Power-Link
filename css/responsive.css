@@ -476,7 +476,9 @@
     Hero Section
 =============================================
 ***/
-
+.breadcrumb-area{
+    padding: 60px 0 60px;
+}
  
 .single-service-top .img-holder {
     position: relative;
@@ -1212,6 +1214,11 @@
     Hero Section
 =============================================
 ***/
+
+.breadcrumb-area{
+    padding: 60px 0 60px;
+}
+ 
 
 #hero {
     width: 100%;
@@ -2423,6 +2430,10 @@
     .mainmenu-right .quote-button-box{
         display: none;
     }
+    .breadcrumb-area{
+        padding: 100px 0 100px;
+    }
+     
 }
 
 @media only screen and (max-width: 1039px) {
