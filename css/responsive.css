@@ -477,6 +477,10 @@
     Hero Section
 =============================================
 ***/
+
+.single-info-of-company{
+    padding: 0px;
+}
 .breadcrumb-area{
     padding: 60px 0 60px;
 }
@@ -2219,6 +2223,9 @@
        
         width: 382px;
     }
+    .single-info-of-company{
+        padding: 0px;
+    }
     /*** 
 =============================================
     Hero Section
@@ -2474,6 +2481,9 @@
         background: linear-gradient(145deg, #042f52ab, #0c4b7ec7), url("/images/resources/tools.jpg") center center;
         background-size: cover;
         padding: 60px 0;
+    }
+    .single-info-of-company{
+        padding: 0px;
     }
 }
 
