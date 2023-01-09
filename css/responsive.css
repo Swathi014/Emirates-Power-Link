@@ -1215,6 +1215,23 @@
 =============================================
 ***/
 
+.single-service-area {
+    position: relative;
+    display: block;
+    padding: 50px 0 50px;
+}
+.single-service-top .text {
+    position: relative;
+    display: block;
+   padding-bottom: 25px;
+}
+.team-support h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    margin: -50px 0 41px;
+}
+
 .breadcrumb-area{
     padding: 60px 0 60px;
 }
@@ -2430,9 +2447,7 @@
     .mainmenu-right .quote-button-box{
         display: none;
     }
-    .breadcrumb-area{
-        padding: 100px 0 100px;
-    }
+    
      
 }
 
