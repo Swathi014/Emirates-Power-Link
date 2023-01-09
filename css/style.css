@@ -5051,12 +5051,12 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endCo
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
-    padding: 100px 0 100px;
+    padding: 20px 0 20px;
     z-index: 1;
 }
 
 .certifications-area:before {
-    background: rgba(26, 22, 46, 0.90) none repeat scroll 0 0;
+    background: rgba(255, 255, 255, 0.9) none repeat scroll 0 0;
     position: absolute;
     top: 0;
     left: 0;
@@ -5087,8 +5087,8 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endCo
     max-width: 170px;
     width: 100%;
     margin: 0 auto;
-    background: #39345a;
-    border: 1px solid #4e4a6d;
+   
+   
     text-align: center;
     padding: 30px 0 23px;
     transition: all 900ms ease;
@@ -5120,14 +5120,14 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endCo
 }
 
 .certifications-area .outer-box {
-    max-width: 670px;
+    max-width: 570px;
     width: 100%;
     margin: 0 auto;
 }
 
 .certifications {
     overflow: hidden;
-    max-width: 570px;
+    
     width: 100%;
     margin: 0 auto;
 }
