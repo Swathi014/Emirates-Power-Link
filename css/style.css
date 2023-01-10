@@ -1,5 +1,5 @@
 /***************************************************************************************************************
-||||||||||||||||||||||||||       MASTER STYLESHEET FOR SCREWER             |||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||||||||       MASTER STYLESHEET           |||||||||||||||||||||||||||||||||||||
 ****************************************************************************************************************
 ||||||||||||||||||||||||||                TABLE OF CONTENT               |||||||||||||||||||||||||||||||||||||||
 ****************************************************************************************************************
@@ -178,9 +178,9 @@ li {
 .btn-one {
     position: relative;
     display: inline-block;
-    background-color: #ba141a;
-background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
-
+    background-image: url(/images/resources/texture\ -01.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #ffffff;
     font-size: 18px;
     line-height: 18px;
@@ -209,7 +209,7 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
 }
 
 .btn-two {
-    color: #195382;
+    color: #fcfeff;
     font-size: 18px;
     font-weight: 700;
     text-transform: capitalize;
@@ -231,11 +231,36 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
     color: #195382;
 }
 
+
+.btn-three {
+    color: #195382;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: 'Rubik', sans-serif;
+    transition: all 500ms ease;
+}
+
+.btn-three span:before {
+    position: relative;
+    top: 2px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 10px;
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.btn-three:hover {
+    color: #195382;
+}
+
 .sec-title {
     position: relative;
     display: block;
     margin-top: -7px;
     padding-bottom: 73px;
+    text-transform: capitalize;
 }
 
 .sec-title .title {
@@ -246,7 +271,7 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
 .sec-title .title span {
     position: relative;
     display: inline-block;
-    color: #222222;
+    color: #000000;
     font-size: 30px;
     line-height: 36px;
     font-weight: 700;
@@ -298,6 +323,85 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
 }
 
 .sec-title p {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 36px 0 0;
+   
+}
+
+
+
+
+/*  third title  */
+
+
+.third-title {
+    position: relative;
+    display: block;
+    margin-top: -7px;
+    padding-bottom: 73px;
+}
+
+.third-title .title {
+    position: relative;
+    display: block;
+}
+
+.third-title .title span {
+    position: relative;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    z-index: 1;
+}
+
+.third-title .title span:before {
+    position: absolute;
+    left: 0;
+    bottom: -13px;
+    width: 100%;
+    height: 1px;
+    background: #f2f1f9;
+    content: "";
+}
+
+.third-title .title span:after {
+    position: absolute;
+    left: 0;
+    bottom: -13px;
+    width: 60px;
+    height: 1px;
+    background: #195382;
+    content: "";
+}
+
+.third-title.clr-white {}
+
+.third-title.clr-white .title span {
+    color: #ffffff;
+}
+
+.third-title.clr-white .title span:before {
+    background: #ffffff;
+}
+
+.third-title.center .title span:after {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.third-title.max-width {
+    max-width: 770px;
+    margin: -7px auto 0;
+    padding-bottom: 52px;
+}
+
+.third-title p {
     font-size: 20px;
     line-height: 30px;
     margin: 36px 0 0;
@@ -737,7 +841,7 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
     background-position: center center;
     background-repeat: no-repeat;
     background-image: url(../images/icon/preloader.gif);
-    
+
 }
 
 /* Update header Style */
@@ -746,9 +850,11 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
     0% {
         margin-top: -100px;
     }
+
     50% {
         margin-top: -74px;
     }
+
     100% {
         margin-top: 0;
     }
@@ -760,15 +866,21 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
     left: 0;
     width: 100%;
     z-index: 99999999;
-    background-color: #ba141a;
-background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
 
+    /*
+
+   background: rgb(186,20,26);
+background: -moz-linear-gradient(45deg, rgba(186,20,26,1) 0%, rgba(97,45,52,1) 50%, rgba(25,83,130,1) 100%);
+background: -webkit-linear-gradient(45deg, rgba(186,20,26,1) 0%, rgba(97,45,52,1) 50%, rgba(25,83,130,1) 100%);
+background: linear-gradient(45deg, rgba(186,20,26,1) 0%, rgba(97,45,52,1) 50%, rgba(25,83,130,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endColorstr="#195382",GradientType=1);
+*/
     margin: 0;
     animation-name: menu_sticky;
     animation-duration: 0.60s;
     animation-timing-function: ease-out;
     transition: all .25s ease-in-out;
-    
+
 }
 
 .header-style2-area.stricky-fixed {
@@ -809,7 +921,9 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
 /* scroll to top styles */
 
 .scroll-to-top {
-    background: #195382;
+    background-image: url(/images/resources/texture\ -01.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 50%;
     bottom: 25px;
     color: #ffffff;
@@ -1284,7 +1398,6 @@ select:focus {
 .top-right-style2 .sociallinks-style-one li a:hover i {
     color: #195382;
 }
-
 /*==============================================
     Header Style1 Area Css        
 ===============================================*/
@@ -1391,7 +1504,7 @@ select:focus {
 .headers1-button .icon:before {
     content: "\f0da";
     font-family: FontAwesome;
-    color: #195382;
+    color: #530808;
     font-size: 30px;
     position: absolute;
     top: 15px;
@@ -1401,8 +1514,9 @@ select:focus {
 .headers1-button .icon span:before {
     width: 50px;
     height: 50px;
-    background-color: #ba141a;
-background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
+    background-image: url(/images/resources/texture\ -01.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
     border-radius: 50%;
     color: #ffffff;
@@ -1429,7 +1543,6 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
     font-size: 18px;
     margin: 2px 0 0;
 }
-
 /*==============================================
     Header Style2 Area Css        
 ===============================================*/
@@ -1495,9 +1608,16 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
 .mainmenu-area .inner-content {
     position: relative;
     display: block;
-    background-color: #ba141a;
-background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
-
+    /*
+   background: rgb(186,20,26);
+background: -moz-linear-gradient(45deg, rgba(186,20,26,1) 0%, rgba(97,45,52,1) 50%, rgba(25,83,130,1) 100%);
+background: -webkit-linear-gradient(45deg, rgba(186,20,26,1) 0%, rgba(97,45,52,1) 50%, rgba(25,83,130,1) 100%);
+background: linear-gradient(45deg, rgba(186,20,26,1) 0%, rgba(97,45,52,1) 50%, rgba(25,83,130,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endColorstr="#195382",GradientType=1);
+*/
+    background-image: url("/images/resources/texture\ -01.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
     padding-left: 30px;
     padding-right: 30px;
     opacity: 99%;
@@ -1888,9 +2008,12 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
 .main-slider {
     position: relative;
     z-index: 10;
-    
-    background-color: #ba141a;
-background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
+
+    background: rgb(186, 20, 26);
+    background: -moz-linear-gradient(45deg, rgba(186, 20, 26, 1) 0%, rgba(97, 45, 52, 1) 50%, rgba(25, 83, 130, 1) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(186, 20, 26, 1) 0%, rgba(97, 45, 52, 1) 50%, rgba(25, 83, 130, 1) 100%);
+    background: linear-gradient(45deg, rgba(186, 20, 26, 1) 0%, rgba(97, 45, 52, 1) 50%, rgba(25, 83, 130, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a", endColorstr="#195382", GradientType=1);
 
     opacity: 100%;
 }
@@ -1899,11 +2022,15 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
     z-index: 5;
 }
 
-.main-slider .rev_slider_one{
-    background-color: #ba141a;
-background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
+.main-slider .rev_slider_one {
+    background: rgb(186, 20, 26);
+    background: -moz-linear-gradient(45deg, rgba(186, 20, 26, 1) 0%, rgba(97, 45, 52, 1) 50%, rgba(25, 83, 130, 1) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(186, 20, 26, 1) 0%, rgba(97, 45, 52, 1) 50%, rgba(25, 83, 130, 1) 100%);
+    background: linear-gradient(45deg, rgba(186, 20, 26, 1) 0%, rgba(97, 45, 52, 1) 50%, rgba(25, 83, 130, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a", endColorstr="#195382", GradientType=1);
 
 }
+
 .main-slider .tp-dottedoverlay {
     background: none !important;
 }
@@ -1911,7 +2038,7 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
 .main-slider .slide-content {
     position: relative;
     display: block;
-    
+
 }
 
 .main-slider .slide-content .big-title {
@@ -1974,6 +2101,7 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
 .about-title h1 {
     font-size: 36px;
     line-height: 58px;
+    text-transform: capitalize;
 }
 
 .about-text {
@@ -2094,8 +2222,11 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
 }
 
 .slogan-area::before {
-    background-color: #ba141a;
-background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
+    background: rgb(186, 20, 26);
+    background: -moz-linear-gradient(45deg, rgba(186, 20, 26, 1) 0%, rgba(97, 45, 52, 1) 50%, rgba(25, 83, 130, 1) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(186, 20, 26, 1) 0%, rgba(97, 45, 52, 1) 50%, rgba(25, 83, 130, 1) 100%);
+    background: linear-gradient(45deg, rgba(186, 20, 26, 1) 0%, rgba(97, 45, 52, 1) 50%, rgba(25, 83, 130, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a", endColorstr="#195382", GradientType=1);
 
     position: absolute;
     top: 0;
@@ -2182,7 +2313,7 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
     display: block;
     overflow: hidden;
     z-index: 1;
-    height: 210px;
+    height: 184px;
 }
 
 .single-service-style1 .img-holder::before {
@@ -2291,7 +2422,12 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
 }
 
 .single-service-style1 .text-holder .text-box h3 a {
-    color: #222222;
+    color: #000000;
+    transition: all 500ms ease;
+}
+
+.single-service-style1 .text-holder .text-box-one h3 a {
+    color: #ffffff;
     transition: all 500ms ease;
 }
 
@@ -2303,6 +2439,34 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
     line-height: 24px;
     margin: 0;
 }
+
+
+/* text-box-one */
+
+
+.single-service-style1 .text-holder .text-box-one h3 {
+    margin: 0 0 18px;
+}
+
+.single-service-style1 .text-holder .text-box-one h3 a {
+    color: #000000;
+    transition: all 500ms ease;
+}
+
+.single-service-style1 .text-holder .text-box-one h3 a {
+    color: #ffffff;
+    transition: all 500ms ease;
+}
+
+.single-service-style1 .text-holder .text-box-one h3 a:hover {
+    color: #195382;
+}
+
+.single-service-style1 .text-holder .text-box-one p {
+    line-height: 24px;
+    margin: 0;
+}
+
 
 /*** 
 =============================================
@@ -2433,13 +2597,15 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
     position: relative;
     display: block;
     overflow: hidden;
-    background-color: #ba141a;
-background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
+    background-image: url(/images/resources/texture\ -01.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 
     padding: 20px;
     padding-top: 20px;
     text-align: center;
-    
+
     margin: 40px auto 0;
     max-width: 370px;
     width: 100%;
@@ -2474,8 +2640,9 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
 }
 
 .single-info-of-company.two {
-    background-color: #ba141a;
-background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
+    background-image: url(/images/resources/texture\ -01.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
@@ -2497,8 +2664,10 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
 }
 
 .single-info-of-company.three {
-    background-color: #ba141a;
-background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
+    background-image: url(/images/resources/texture\ -01.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 
 }
 
@@ -2546,8 +2715,10 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
 .latest-project-area {
     position: relative;
     display: block;
-    background-color: #ba141a;
-background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
+    background-image: url(/images/resources/texture\ -01.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 
     padding: 100px 0 100px;
 }
@@ -2603,7 +2774,7 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
     /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom, rgba(30, 87, 153, 0) 35%, rgba(30, 87, 153, 0.02) 36%, rgba(30, 87, 153, 0.09) 40%, rgba(30, 87, 153, 0.13) 42%, rgba(30, 87, 153, 0.26) 49%, rgba(12, 10, 39, 0.67) 71%, rgba(11, 7, 34, 0.68) 72%, rgba(11, 7, 34, 1) 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', endColorstr='#0b0722', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#001e5799', endColorstr='#0b0722', GradientType=0);
     /* IE6-9 */
 }
 
@@ -2804,6 +2975,7 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
     display: block;
     overflow: hidden;
     transition: all 0.5s ease-in-out 0.6s;
+    height: 340px;
 }
 
 .single-blog-post .img-holder1::before {
@@ -2926,7 +3098,7 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
 
 .single-blog-post .text-holder .text {
     display: block;
-    margin-top: 16px;
+    margin-top: 90px;
 }
 
 .single-blog-post .text-holder .text p {
@@ -3075,7 +3247,7 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
 
 .call-us-area .call-us-bg::before {
     position: absolute;
-    background: rgba(248, 247, 255, 0.85);
+    background: rgba(248, 247, 255, 0.95);
     content: "";
     width: 100%;
     height: 320px;
@@ -3110,11 +3282,13 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
 .contact-info-box {
     position: relative;
     display: block;
-    background-color: #ba141a;
-background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
+    background-image: url(/images/resources/texture\ -01.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 
     border-radius: 5px;
-    padding: 35px 40px 17px;
+    padding: 65px 40px 65px;
 }
 
 .contact-info-box ul {
@@ -3271,11 +3445,12 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
 .single-brand-item {
     position: relative;
     display: block;
-    max-width: 270px;
+    max-width: 250px;
+    height: 200px;
     width: 100%;
     text-align: center;
     margin: 0 auto 30px;
-    border: 1px solid #f0eef9;
+    border: 1px solid #ffffff;
     transition: all 700ms ease;
 }
 
@@ -3301,11 +3476,20 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
 .footer-area {
     position: relative;
     display: block;
-    background-color: #ba141a;
-background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
 
+    /*
+   background: rgb(186,20,26);
+background: -moz-linear-gradient(45deg, rgba(186,20,26,1) 0%, rgba(97,45,52,1) 50%, rgba(25,83,130,1) 100%);
+background: -webkit-linear-gradient(45deg, rgba(186,20,26,1) 0%, rgba(97,45,52,1) 50%, rgba(25,83,130,1) 100%);
+background: linear-gradient(45deg, rgba(186,20,26,1) 0%, rgba(97,45,52,1) 50%, rgba(25,83,130,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endColorstr="#195382",GradientType=1);
+*/
+
+    background-image: url(/images/resources/texture\ -01.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding-top: 98px;
-    padding-bottom: 100px;
+
 }
 
 .single-footer-widget {
@@ -3612,10 +3796,9 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
 .footer-bottom-area {
     position: relative;
     display: block;
-    background-color: #ba141a;
-background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
-
+    justify-content: center;
     padding: 32px 0 31px;
+
 }
 
 .footer-bottom-area .copyright-text {
@@ -4486,7 +4669,7 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
-    border-top: 3px solid #241f40;
+
     padding: 140px 0 132px;
     z-index: 1;
 }
@@ -4734,7 +4917,7 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
 .single-testimonial-style2 {
     position: relative;
     display: block;
-    border: 1px solid #f0eef9;
+    
     padding: 32px 35px 39px;
     border-radius: 7px;
 }
@@ -4767,8 +4950,7 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
 .single-testimonial-style2 .logo-box {
     position: relative;
     display: block;
-    border: 1px solid #f0eef9;
-    border-bottom: none;
+   
     padding: 19px 0;
 }
 
@@ -4786,13 +4968,14 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
     display: block;
     overflow: hidden;
     width: 100%;
-    height: 45px;
+    height: 80px;
     text-align: center;
     padding: 0 50px;
 }
 
 .single-testimonial-style2 .company-logo img {
-    width: auto;
+    width: 150px;
+    height: 80px;
 }
 
 .testimonial-area-s2 .inner-content {
@@ -4814,7 +4997,7 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
 .testimonial-area-s2 .owl-carousel .owl-stage-outer .owl-item.active .single-testimonial-style2 {
     transform: translateY(0px);
     -webkit-box-shadow: 0px 2px 9px 2px #f0eef9;
-    box-shadow: 0px 2px 9px 2px #f0eef9;
+    
     border: 1px solid transparent;
 }
 
@@ -4822,7 +5005,7 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
     position: relative;
     display: block;
     margin: 0px !important;
-    line-height: 4px;
+    line-height: 40px;
 }
 
 .testimonial-area-s2 .owl-dots .owl-dot {
@@ -4866,12 +5049,12 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
-    padding: 100px 0 100px;
+    padding: 20px 0 20px;
     z-index: 1;
 }
 
 .certifications-area:before {
-    background: rgba(26, 22, 46, 0.90) none repeat scroll 0 0;
+    background: rgb(255, 255, 255) none repeat scroll 0 0;
     position: absolute;
     top: 0;
     left: 0;
@@ -4890,7 +5073,7 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
 }
 
 .sec-title.certifications-title .title span:before {
-    background: #4e4a6d;
+    background: #ffffff;
 }
 
 .sec-title.certifications-title p {
@@ -4902,8 +5085,8 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
     max-width: 170px;
     width: 100%;
     margin: 0 auto;
-    background: #39345a;
-    border: 1px solid #4e4a6d;
+   
+   
     text-align: center;
     padding: 30px 0 23px;
     transition: all 900ms ease;
@@ -4935,14 +5118,14 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
 }
 
 .certifications-area .outer-box {
-    max-width: 670px;
+    max-width: 570px;
     width: 100%;
     margin: 0 auto;
 }
 
 .certifications {
     overflow: hidden;
-    max-width: 570px;
+    
     width: 100%;
     margin: 0 auto;
 }
@@ -5187,8 +5370,9 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
     position: relative;
     display: block;
     width: 50%;
-    background-color: #ba141a;
-background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
+    background-image: url(/images/resources/texture\ -01.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
 
     float: left;
     padding: 60px 50px 60px;
@@ -5431,6 +5615,8 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
 .single-service-top .img-holder {
     position: relative;
     display: block;
+    height: 500px;
+    width: 620px;
 }
 
 .single-service-top .img-holder img {
@@ -6145,8 +6331,9 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
     position: relative;
     display: block;
     overflow: hidden;
-    background-color: #ba141a;
-    background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
+    background-image: url(/images/resources/texture\ -01.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 45px 30px 50px;
 }
 
@@ -6435,13 +6622,19 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
     padding-bottom: 37px;
 }
 
+.single-project .img-holder .inner img {
+    height: 350px;
+    width: 500px;
+    padding: 10px;
+}
+
 .single-project .img-holder .inner::before {
     position: absolute;
     top: 0px;
     left: 0px;
     bottom: 37px;
     right: 0px;
-    background: rgba(60, 55, 90, 0.85);
+    /*   background: rgb(25, 83, 130, 0.65);  */
     content: "";
     transition: all 0.5s ease-in-out 0s;
     transform-style: preserve-3d;
@@ -6963,8 +7156,11 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
 }
 
 .challenge-solution-box .img-holder .icon span:before {
-    background-color: #ba141a;
-background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
+    background: rgb(186, 20, 26);
+    background: -moz-linear-gradient(45deg, rgba(186, 20, 26, 1) 0%, rgba(97, 45, 52, 1) 50%, rgba(25, 83, 130, 1) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(186, 20, 26, 1) 0%, rgba(97, 45, 52, 1) 50%, rgba(25, 83, 130, 1) 100%);
+    background: linear-gradient(45deg, rgba(186, 20, 26, 1) 0%, rgba(97, 45, 52, 1) 50%, rgba(25, 83, 130, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a", endColorstr="#195382", GradientType=1);
 
     font-size: 65px;
     line-height: 65px;
@@ -7882,7 +8078,7 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
     display: block;
     margin: 0;
     margin-top: -50px;
-    border: 1px solid  #868298;
+    border: 1px solid #868298;
     padding: 95px 99px 80px;
     border-radius: 5px;
     background: #ffffff;
@@ -8516,7 +8712,7 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
 }
 
 .breadcrumb-area.blog-single-post {
-    padding: 142px 0 180px;
+    padding: 100px 0 100px;
 }
 
 .blog-single-social-links {
@@ -8600,7 +8796,7 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
     /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom, rgba(30, 87, 153, 0) 35%, rgba(30, 87, 153, 0.02) 36%, rgba(30, 87, 153, 0.09) 40%, rgba(30, 87, 153, 0.13) 42%, rgba(30, 87, 153, 0.26) 49%, rgba(12, 10, 39, 0.67) 71%, rgba(11, 7, 34, 0.68) 72%, rgba(11, 7, 34, 1) 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', endColorstr='#0b0722', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#001e5799', endColorstr='#0b0722', GradientType=0);
     /* IE6-9 */
 }
 
@@ -11198,3 +11394,216 @@ background-image: linear-gradient(160deg, #ba141a 18%, #166e9e 90%);
     height: 480px;
     width: 100%;
 }
+
+
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+    width: 100%;
+    height: 100vh;
+    background: url("/images/resources/back\ \(4\).webp") top center;
+    background-size: cover;
+    position: relative;
+}
+
+#hero:before {
+    content: "";
+    /* background: rgba(0, 0, 0, 0.6); */
+    /* background: linear-gradient(145deg, #035293cc, #0a2d4adb); */
+    background: linear-gradient(145deg, #042f52ab, #0c4b7ec7);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#hero .hero-container {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 15px;
+}
+
+#hero h3 {
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    font-size: 26px;
+    padding: 10px 30px;
+    margin-bottom: 30px;
+    border-radius: 50px;
+}
+
+#hero h1 {
+    margin: 0 0 10px 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+#hero h2 {
+    color: #eee;
+    margin-bottom: 40px;
+    font-size: 24px;
+}
+
+#hero .btn-get-started {
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 30px 9px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+#hero .btn-get-started:hover {
+    background: #166e9e;
+    border: 2px solid #166e9e;
+}
+
+@media (min-width: 1024px) {
+    #hero {
+        background-attachment: fixed;
+    }
+}
+
+@media (max-width: 768px) {
+    #hero h3 {
+        font-size: 22px;
+    }
+
+    #hero h1 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    #hero h2 {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-height: 500px) {
+    #hero {
+        height: 150vh;
+    }
+}
+
+
+/*--------------------------------------------------------------
+# Cta
+--------------------------------------------------------------*/
+.cta {
+    /* background: linear-gradient(145deg, rgb(186, 20, 26, .90), rgba(25, 83, 130, 0.82)), url("/images/resources/background.jpg") center center; */
+    /* linear-gradient(145deg, rgb(186, 20, 26) 0%, rgba(25, 83, 130, 0.72)); */
+    background: linear-gradient(145deg, #042f52ab, #0c4b7ec7), url("/images/resources/back\ \(4\).webp") center center;
+    background-size: cover;
+    padding: 60px 0;
+}
+
+.cta h3 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.cta p {
+    color: #fff;
+}
+
+.cta .cta-btn {
+    font-family: "Nunito", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 25px;
+    transition: 0.5s;
+    margin-top: 10px;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.cta .cta-btn:hover {
+    background: #e43c5c;
+    border: 2px solid #e43c5c;
+}
+
+@media (min-width: 1024px) {
+    .cta {
+        background-attachment: fixed;
+    }
+}
+
+
+
+/*--------------------------------------------------------------
+# Ctb
+--------------------------------------------------------------*/
+.ctb {
+    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("/images/resources/hero.webp") center center;
+    background-size: cover;
+    padding: 60px 0;
+}
+
+.ctb h3 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.ctb p {
+    color: #fff;
+}
+
+.ctb .ctb-btn {
+    font-family: "Nunito", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 25px;
+    transition: 0.5s;
+    margin-top: 10px;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.ctb .ctb-btn:hover {
+    background: #e43c5c;
+    border: 2px solid #e43c5c;
+}
+
+@media (min-width: 1024px) {
+    .ctb {
+        background-attachment: fixed;
+    }
+}
+
+.contactus{
+    padding: 100px;
+    text-align: center;
+}
+
+

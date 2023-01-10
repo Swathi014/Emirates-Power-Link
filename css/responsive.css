@@ -9,6 +9,7 @@
     }
 }
 
+
 /* Medium screen  */
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -57,6 +58,7 @@
         font-size: 36px;
         line-height: 58px;
         margin: 0 0 20px;
+        text-transform: capitalize;
     }
     .single-service-style2 {
         padding: 24px 15px 22px;
@@ -129,6 +131,7 @@
         right: auto;
         top: -90px;
         margin: 0;
+        
     }
     /*** 
 =============================================
@@ -468,6 +471,48 @@
 /* Tablet Layout: 768px. */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
+/*** 
+=============================================
+    Hero Section
+=============================================
+***/
+
+.single-info-of-company{
+    padding: 0px;
+}
+.breadcrumb-area{
+    padding: 60px 0 60px;
+}
+ 
+.single-service-top .img-holder {
+    position: relative;
+    display: block;
+    height: 472px;
+    width: 685px;
+
+}
+
+#hero {
+    width: 100%;
+    height: 100vh;
+    background: url("/images/resources/back\ \(4\).jpeg") top center;
+    background-size: cover;
+    position: relative;
+  }
+
+  .cta .ctb {
+    background: linear-gradient(145deg, #042f52ab, #0c4b7ec7), url("/images/resources/back\ \(4\).jpeg") center center;
+    background-size: cover;
+    padding: 60px 0;
+}
+
+.mainmenu-right .quote-button-box{
+    display: none;
+}
+  
+
+
     /*** 
 =============================================
     Top Bar Style1 Style
@@ -564,6 +609,7 @@
         font-size: 36px;
         line-height: 58px;
         margin: 0 0 20px;
+        text-transform: capitalize;
     }
     /*** 
 =============================================
@@ -639,7 +685,10 @@
         right: auto;
         top: -90px;
         margin: 0;
+        
     }
+
+
     /*** 
 =============================================
     Choose Area style
@@ -998,9 +1047,9 @@
     Breadcrumb Area style
 =============================================
 ***/
-    .breadcrumb-area {
-        padding: 100px 0 132px;
-    }
+.breadcrumb-area.blog-single-post {
+    padding: 50px 0 50px;
+}
     /*** 
 =============================================
     Main project area style
@@ -1164,6 +1213,61 @@
 /* Mobile Layout: 320px. */
 
 @media only screen and (max-width: 767px) {
+
+
+/*** 
+=============================================
+    Hero Section
+=============================================
+***/
+
+.single-service-area {
+    position: relative;
+    display: block;
+    padding: 50px 0 50px;
+}
+.single-service-top .text {
+    position: relative;
+    display: block;
+   padding-bottom: 25px;
+}
+.team-support h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    margin: -50px 0 41px;
+}
+
+.breadcrumb-area{
+    padding: 60px 0 60px;
+}
+ 
+
+#hero {
+    width: 100%;
+    height: 100vh;
+    background: url("/images/resources/tools.jpg") top center;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .ctb {
+    background: linear-gradient(145deg, #042f52ab, #0c4b7ec7), url("/images/resources/tools.jpg") center center;
+    background-size: cover;
+    padding: 60px 0;
+  }
+
+
+
+  .mainmenu-right .quote-button-box {
+    /* margin: 14px 0; */
+    display: none;
+}
+.mainmenu-right .quote-button-box{
+    display: none;
+}
+  
+
     /*** 
 =============================================
     Top Bar Style1 Style
@@ -1281,6 +1385,7 @@
         font-size: 36px;
         line-height: 50px;
         margin: 0 0 20px;
+        text-transform: capitalize;
     }
     .single-service-style2 {
         padding: 24px 15px 22px;
@@ -1362,7 +1467,10 @@
         right: auto;
         top: -90px;
         margin: 0;
+       
     }
+
+   
     /*** 
 =============================================
     Choose Area style
@@ -1796,8 +1904,8 @@
     Breadcrumb Area S1 style
 =============================================
 ***/
-    .breadcrumb-area {
-        padding: 100px 0 132px;
+.breadcrumb-area.blog-single-post{
+        padding: 40px 0 0px;
     }
     /*** 
 =============================================
@@ -1825,6 +1933,7 @@
         position: absolute;
         top: 0;
         right: 0px;
+        display: none;
     }
     .challenge-solution-box .img-holder .icon.solutions {
         top: 0px;
@@ -1836,6 +1945,12 @@
         position: relative;
         display: block;
         padding-top: 0px;
+    }
+    .challenge-solution-box .img-holder img{
+        height: 380px;
+    }
+    .mainmenu-right .quote-button-box{
+        display: none;
     }
     /*** 
 =============================================
@@ -2098,7 +2213,47 @@
 
 /* Wide Mobile Layout: 480px. */
 
-@media only screen and (min-width: 480px) and (max-width: 767px) {}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+
+
+    .single-service-top .img-holder {
+        position: relative;
+        display: block;
+       
+        width: 382px;
+    }
+    .single-info-of-company{
+        padding: 0px;
+    }
+    /*** 
+=============================================
+    Hero Section
+=============================================
+***/
+
+.latest-project .owl-theme .owl-nav .owl-next {
+    display: none;
+ }
+ .latest-project .owl-theme .owl-nav .owl-prev{
+    display: none;
+ }
+#hero {
+    width: 100%;
+    height: 100vh;
+    background: url("/images/resources/tools.jpg") top center;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .cta {
+    background: linear-gradient(145deg, #042f52ab, #0c4b7ec7), url("/images/resources/tools.jpg") center center;
+    background-size: cover;
+    padding: 60px 0;
+  }
+  
+
+}
 
 @media (min-width: 992px) {
     .navbar-collapse.collapse {
@@ -2284,6 +2439,12 @@
     .main-slider .slide-content.left-slide {
         margin-left: 100px;
     }
+    .mainmenu-right .quote-button-box{
+        display: none;
+    }
+    .about-title h1 {
+        text-transform: capitalize;
+    }
 }
 
 @media only screen and (max-width: 1199px) {
@@ -2296,6 +2457,11 @@
     .main-slider .slide-content .text {
         font-size: 20px;
     }
+    .mainmenu-right .quote-button-box{
+        display: none;
+    }
+    
+     
 }
 
 @media only screen and (max-width: 1039px) {
@@ -2311,9 +2477,51 @@
     .main-slider .slide-content .btn-box a {
         padding: 20px 30px 20px;
     }
+    .cta {
+        background: linear-gradient(145deg, #042f52ab, #0c4b7ec7), url("/images/resources/tools.jpg") center center;
+        background-size: cover;
+        padding: 60px 0;
+    }
+    .single-info-of-company{
+        padding: 0px;
+    }
 }
 
 @media only screen and (max-width: 777px) {
+    /*** 
+=============================================
+    Hero Section
+=============================================
+***/
+
+ 
+.breadcrumb-area .title h1 {
+    color: #222222;
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 0px 0px 10px;
+}
+.mainmenu-right .quote-button-box{
+    display: none;
+}
+
+#hero {
+    width: 100%;
+    height: 100vh;
+    background: url("/images/resources/back\ \(4\).jpeg") top center;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .cta {
+    background: linear-gradient(145deg, #042f52ab, #0c4b7ec7), url("/images/resources/back\ \(4\).jpeg") center center;
+    background-size: cover;
+    padding: 60px 0;
+  }
+  
+
     .tparrows {
         display: block;
     }
@@ -2326,9 +2534,35 @@
     .main-slider .slide-content .btn-box a {
         padding: 17px 30px 17px;
     }
+
 }
 
 @media only screen and (max-width: 599px) {
+
+    
+    
+    .single-service-top .img-holder {
+        position: relative;
+        display: block;
+        height: 300px;
+        width: 350px;
+    }
+  .ctb {
+    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("/images/resources/tools.jpg") center center;
+    background-size: cover;
+    padding: 60px 0;
+  }
+  .latest-project .owl-theme .owl-nav .owl-next {
+    display: none;
+ }
+ .latest-project .owl-theme .owl-nav .owl-prev{
+    display: none;
+ }
+
+
+   
+}
+  
     /*** 
 =============================================
     Rev slider wrapper style
@@ -2370,4 +2604,19 @@
     .main-slider .slide-content .btn-box a {
         padding: 11px 20px 11px;
     }
+    
+.latest-project .owl-theme .owl-nav .owl-next {
+    display: none;
+ }
+ .latest-project .owl-theme .owl-nav .owl-prev{
+    display: none;
+ }
 }
+
+
+.ctb {
+    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("/images/resources/tools.jpg") center center;
+    background-size: cover;
+    padding: 60px 0;
+  }
+  
