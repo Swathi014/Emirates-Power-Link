@@ -1884,8 +1884,8 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endCo
     top: 6px;
     width: 34px;
     height: 30px;
-    border: 1px solid #ffffff;
-    background: url(../images/icon/submenu-icon.png) center center no-repeat;
+    
+    background: url(../images/icon/arrow.png) center center no-repeat;
     background-size: 20px;
     cursor: pointer;
     z-index: 5;
@@ -3098,7 +3098,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endCo
 
 .single-blog-post .text-holder .text {
     display: block;
-    margin-top: 90px;
+    
 }
 
 .single-blog-post .text-holder .text p {
