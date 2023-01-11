@@ -1398,7 +1398,6 @@ select:focus {
 .top-right-style2 .sociallinks-style-one li a:hover i {
     color: #195382;
 }
-
 /*==============================================
     Header Style1 Area Css        
 ===============================================*/
@@ -1544,7 +1543,6 @@ select:focus {
     font-size: 18px;
     margin: 2px 0 0;
 }
-
 /*==============================================
     Header Style2 Area Css        
 ===============================================*/
@@ -1886,8 +1884,8 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endCo
     top: 6px;
     width: 34px;
     height: 30px;
-    border: 1px solid #ffffff;
-    background: url(../images/icon/submenu-icon.png) center center no-repeat;
+    
+    background: url(../images/icon/arrow.png) center center no-repeat;
     background-size: 20px;
     cursor: pointer;
     z-index: 5;
@@ -3100,7 +3098,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endCo
 
 .single-blog-post .text-holder .text {
     display: block;
-    margin-top: 16px;
+    
 }
 
 .single-blog-post .text-holder .text p {
@@ -4919,7 +4917,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endCo
 .single-testimonial-style2 {
     position: relative;
     display: block;
-    border: 1px solid #f0eef9;
+    
     padding: 32px 35px 39px;
     border-radius: 7px;
 }
@@ -4952,8 +4950,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endCo
 .single-testimonial-style2 .logo-box {
     position: relative;
     display: block;
-    border: 1px solid #f0eef9;
-    border-bottom: none;
+   
     padding: 19px 0;
 }
 
@@ -4971,13 +4968,14 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endCo
     display: block;
     overflow: hidden;
     width: 100%;
-    height: 45px;
+    height: 80px;
     text-align: center;
     padding: 0 50px;
 }
 
 .single-testimonial-style2 .company-logo img {
-    width: auto;
+    width: 150px;
+    height: 80px;
 }
 
 .testimonial-area-s2 .inner-content {
@@ -4999,7 +4997,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endCo
 .testimonial-area-s2 .owl-carousel .owl-stage-outer .owl-item.active .single-testimonial-style2 {
     transform: translateY(0px);
     -webkit-box-shadow: 0px 2px 9px 2px #f0eef9;
-    box-shadow: 0px 2px 9px 2px #f0eef9;
+    
     border: 1px solid transparent;
 }
 
@@ -5007,7 +5005,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endCo
     position: relative;
     display: block;
     margin: 0px !important;
-    line-height: 4px;
+    line-height: 40px;
 }
 
 .testimonial-area-s2 .owl-dots .owl-dot {
@@ -5051,12 +5049,12 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endCo
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
-    padding: 100px 0 100px;
+    padding: 20px 0 20px;
     z-index: 1;
 }
 
 .certifications-area:before {
-    background: rgba(26, 22, 46, 0.90) none repeat scroll 0 0;
+    background: rgb(255, 255, 255) none repeat scroll 0 0;
     position: absolute;
     top: 0;
     left: 0;
@@ -5075,7 +5073,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endCo
 }
 
 .sec-title.certifications-title .title span:before {
-    background: #4e4a6d;
+    background: #ffffff;
 }
 
 .sec-title.certifications-title p {
@@ -5087,8 +5085,8 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endCo
     max-width: 170px;
     width: 100%;
     margin: 0 auto;
-    background: #39345a;
-    border: 1px solid #4e4a6d;
+   
+   
     text-align: center;
     padding: 30px 0 23px;
     transition: all 900ms ease;
@@ -5120,14 +5118,14 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endCo
 }
 
 .certifications-area .outer-box {
-    max-width: 670px;
+    max-width: 570px;
     width: 100%;
     margin: 0 auto;
 }
 
 .certifications {
     overflow: hidden;
-    max-width: 570px;
+    
     width: 100%;
     margin: 0 auto;
 }
@@ -6658,7 +6656,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endCo
 .single-project .img-holder .overlay-content {
     position: absolute;
     left: 30px;
-    bottom: 0;
+    bottom: 70px;
     right: 30px;
     transition: all 0.7s ease-in-out 0s;
     transform: translateX(0%) translateY(117px) scale(1.0);
@@ -11607,3 +11605,5 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endCo
     padding: 100px;
     text-align: center;
 }
+
+
