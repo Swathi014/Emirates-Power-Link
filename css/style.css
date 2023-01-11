@@ -6656,7 +6656,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba141a",endCo
 .single-project .img-holder .overlay-content {
     position: absolute;
     left: 30px;
-    bottom: 0;
+    bottom: 70px;
     right: 30px;
     transition: all 0.7s ease-in-out 0s;
     transform: translateX(0%) translateY(117px) scale(1.0);
