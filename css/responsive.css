@@ -9,7 +9,6 @@
     }
 }
 
-
 /* Medium screen  */
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -46,7 +45,7 @@
     .main-menu .navigation li {
         margin-right: 25px;
     }
-    .class2{ 
+    .class2 {
         padding: 0% !important;
     }
     /*** 
@@ -131,7 +130,6 @@
         right: auto;
         top: -90px;
         margin: 0;
-        
     }
     /*** 
 =============================================
@@ -395,8 +393,8 @@
     .challenge-solution-box .img-holder .icon.solutions {
         top: 0px;
         left: 0px;
-        -webkit-box-shadow: -3px 0px 6px 0px #F6F6F6;
-        box-shadow: -3px 0px 6px 0px #F6F6F6;
+        -webkit-box-shadow: -3px 0px 6px 0px #f6f6f6;
+        box-shadow: -3px 0px 6px 0px #f6f6f6;
     }
     .challenge-solution-box .text-holder {
         position: relative;
@@ -471,47 +469,44 @@
 /* Tablet Layout: 768px. */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-
-/*** 
+    /*** 
 =============================================
     Hero Section
 =============================================
 ***/
 
-.single-info-of-company{
-    padding: 0px;
-}
-.breadcrumb-area{
-    padding: 60px 0 60px;
-}
- 
-.single-service-top .img-holder {
-    position: relative;
-    display: block;
-    height: 472px;
-    width: 685px;
+    .single-info-of-company {
+        padding: 0px;
+    }
+    .breadcrumb-area {
+        padding: 60px 0 60px;
+    }
 
-}
+    .single-service-top .img-holder {
+        position: relative;
+        display: block;
+        height: 472px;
+        width: 685px;
+    }
 
-#hero {
-    width: 100%;
-    height: 100vh;
-    background: url("/images/resources/back\ \(4\).jpeg") top center;
-    background-size: cover;
-    position: relative;
-  }
+    #hero {
+        width: 100%;
+        height: 100vh;
+        background: url("/images/resources/back\ \(4\).jpeg") top center;
+        background-size: cover;
+        position: relative;
+    }
 
-  .cta .ctb {
-    background: linear-gradient(145deg, #042f52ab, #0c4b7ec7), url("/images/resources/back\ \(4\).jpeg") center center;
-    background-size: cover;
-    padding: 60px 0;
-}
+    .cta .ctb {
+        background: linear-gradient(145deg, #042f52ab, #0c4b7ec7),
+            url("/images/resources/back\ \(4\).jpeg") center center;
+        background-size: cover;
+        padding: 60px 0;
+    }
 
-.mainmenu-right .quote-button-box{
-    display: none;
-}
-  
-
+    .mainmenu-right .quote-button-box {
+        display: none;
+    }
 
     /*** 
 =============================================
@@ -546,18 +541,14 @@
 ***/
     .header-style1-area {
         padding: 30px 0 30px;
-       
     }
     .header-style1-logo {
         float: none !important;
         text-align: center;
         margin: 0 0 25px;
-      
-
     }
     .header-style1-logo a {
         display: inline-block;
-        
     }
     .headers1-header-right {
         position: relative;
@@ -597,7 +588,7 @@
         float: none;
         z-index: 99;
     }
-    .class2{ 
+    .class2 {
         padding: 0% !important;
     }
     /*** 
@@ -685,9 +676,7 @@
         right: auto;
         top: -90px;
         margin: 0;
-        
     }
-
 
     /*** 
 =============================================
@@ -1047,9 +1036,9 @@
     Breadcrumb Area style
 =============================================
 ***/
-.breadcrumb-area.blog-single-post {
-    padding: 50px 0 50px;
-}
+    .breadcrumb-area.blog-single-post {
+        padding: 50px 0 50px;
+    }
     /*** 
 =============================================
     Main project area style
@@ -1074,8 +1063,8 @@
     .challenge-solution-box .img-holder .icon.solutions {
         top: 0px;
         left: 0px;
-        -webkit-box-shadow: -3px 0px 6px 0px #F6F6F6;
-        box-shadow: -3px 0px 6px 0px #F6F6F6;
+        -webkit-box-shadow: -3px 0px 6px 0px #f6f6f6;
+        box-shadow: -3px 0px 6px 0px #f6f6f6;
     }
     .challenge-solution-box .text-holder {
         position: relative;
@@ -1213,60 +1202,54 @@
 /* Mobile Layout: 320px. */
 
 @media only screen and (max-width: 767px) {
-
-
-/*** 
+    /*** 
 =============================================
     Hero Section
 =============================================
 ***/
 
-.single-service-area {
-    position: relative;
-    display: block;
-    padding: 50px 0 50px;
-}
-.single-service-top .text {
-    position: relative;
-    display: block;
-   padding-bottom: 25px;
-}
-.team-support h2 {
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 32px;
-    margin: -50px 0 41px;
-}
+    .single-service-area {
+        position: relative;
+        display: block;
+        padding: 50px 0 50px;
+    }
+    .single-service-top .text {
+        position: relative;
+        display: block;
+        padding-bottom: 25px;
+    }
+    .team-support h2 {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        margin: -50px 0 41px;
+    }
 
-.breadcrumb-area{
-    padding: 60px 0 60px;
-}
- 
+    .breadcrumb-area {
+        padding: 60px 0 60px;
+    }
 
-#hero {
-    width: 100%;
-    height: 100vh;
-    background: url("/images/resources/tools.jpg") top center;
-    background-size: cover;
-    position: relative;
-  }
-  
-  .ctb {
-    background: linear-gradient(145deg, #042f52ab, #0c4b7ec7), url("/images/resources/tools.jpg") center center;
-    background-size: cover;
-    padding: 60px 0;
-  }
+    #hero {
+        width: 100%;
+        height: 100vh;
+        background: url("/images/resources/tools.jpg") top center;
+        background-size: cover;
+        position: relative;
+    }
 
+    .ctb {
+        background: linear-gradient(145deg, #042f52ab, #0c4b7ec7), url("/images/resources/tools.jpg") center center;
+        background-size: cover;
+        padding: 60px 0;
+    }
 
-
-  .mainmenu-right .quote-button-box {
-    /* margin: 14px 0; */
-    display: none;
-}
-.mainmenu-right .quote-button-box{
-    display: none;
-}
-  
+    .mainmenu-right .quote-button-box {
+        /* margin: 14px 0; */
+        display: none;
+    }
+    .mainmenu-right .quote-button-box {
+        display: none;
+    }
 
     /*** 
 =============================================
@@ -1373,7 +1356,7 @@
     .outer-search-box {
         margin-right: 0px;
     }
-    .class2{ 
+    .class2 {
         padding: 0% !important;
     }
     /*** 
@@ -1467,10 +1450,8 @@
         right: auto;
         top: -90px;
         margin: 0;
-       
     }
 
-   
     /*** 
 =============================================
     Choose Area style
@@ -1904,7 +1885,7 @@
     Breadcrumb Area S1 style
 =============================================
 ***/
-.breadcrumb-area.blog-single-post{
+    .breadcrumb-area.blog-single-post {
         padding: 40px 0 0px;
     }
     /*** 
@@ -1938,18 +1919,18 @@
     .challenge-solution-box .img-holder .icon.solutions {
         top: 0px;
         left: 0px;
-        -webkit-box-shadow: -3px 0px 6px 0px #F6F6F6;
-        box-shadow: -3px 0px 6px 0px #F6F6F6;
+        -webkit-box-shadow: -3px 0px 6px 0px #f6f6f6;
+        box-shadow: -3px 0px 6px 0px #f6f6f6;
     }
     .challenge-solution-box .text-holder {
         position: relative;
         display: block;
         padding-top: 0px;
     }
-    .challenge-solution-box .img-holder img{
+    .challenge-solution-box .img-holder img {
         height: 380px;
     }
-    .mainmenu-right .quote-button-box{
+    .mainmenu-right .quote-button-box {
         display: none;
     }
     /*** 
@@ -2214,16 +2195,13 @@
 /* Wide Mobile Layout: 480px. */
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-
-
-
     .single-service-top .img-holder {
         position: relative;
         display: block;
-       
+
         width: 382px;
     }
-    .single-info-of-company{
+    .single-info-of-company {
         padding: 0px;
     }
     /*** 
@@ -2232,27 +2210,25 @@
 =============================================
 ***/
 
-.latest-project .owl-theme .owl-nav .owl-next {
-    display: none;
- }
- .latest-project .owl-theme .owl-nav .owl-prev{
-    display: none;
- }
-#hero {
-    width: 100%;
-    height: 100vh;
-    background: url("/images/resources/tools.jpg") top center;
-    background-size: cover;
-    position: relative;
-  }
-  
-  .cta {
-    background: linear-gradient(145deg, #042f52ab, #0c4b7ec7), url("/images/resources/tools.jpg") center center;
-    background-size: cover;
-    padding: 60px 0;
-  }
-  
+    .latest-project .owl-theme .owl-nav .owl-next {
+        display: none;
+    }
+    .latest-project .owl-theme .owl-nav .owl-prev {
+        display: none;
+    }
+    #hero {
+        width: 100%;
+        height: 100vh;
+        background: url("/images/resources/tools.jpg") top center;
+        background-size: cover;
+        position: relative;
+    }
 
+    .cta {
+        background: linear-gradient(145deg, #042f52ab, #0c4b7ec7), url("/images/resources/tools.jpg") center center;
+        background-size: cover;
+        padding: 60px 0;
+    }
 }
 
 @media (min-width: 992px) {
@@ -2337,24 +2313,24 @@
         height: 2px;
         border-radius: 1px;
     }
-    .main-menu .navbar-header .navbar-toggle .icon-bar+.icon-bar {
+    .main-menu .navbar-header .navbar-toggle .icon-bar + .icon-bar {
         margin-top: 6px;
     }
-    .main-menu .navbar-collapse>.navigation {
+    .main-menu .navbar-collapse > .navigation {
         float: none !important;
         width: 100% !important;
         margin-top: 0px;
         margin-bottom: 0px;
     }
-    .main-menu .navbar-collapse .navigation>li {
+    .main-menu .navbar-collapse .navigation > li {
         display: block;
         margin: 0px !important;
         padding: 0;
         float: none !important;
         width: 100%;
     }
-    .main-menu .navbar-collapse>.navigation>li>ul,
-    .main-menu .navbar-collapse>.navigation>li>ul>li>ul {
+    .main-menu .navbar-collapse > .navigation > li > ul,
+    .main-menu .navbar-collapse > .navigation > li > ul > li > ul {
         position: relative;
         float: none;
         visibility: visible;
@@ -2380,11 +2356,11 @@
         left: 0px !important;
         visibility: visible !important;
     }
-    .main-menu .navbar-collapse>.navigation>li:last-child,
-    .main-menu .navbar-collapse>.navigation>li>ul>li:last-child {
+    .main-menu .navbar-collapse > .navigation > li:last-child,
+    .main-menu .navbar-collapse > .navigation > li > ul > li:last-child {
         border-bottom: 1px solid #131121;
     }
-    .main-menu .navbar-collapse>.navigation>li>a {
+    .main-menu .navbar-collapse > .navigation > li > a {
         padding: 10px 10px !important;
         line-height: 22px;
         color: #ffffff;
@@ -2404,33 +2380,34 @@
         font-size: 14px;
         font-weight: 400;
         text-transform: capitalize;
-        font-family: 'Rubik', sans-serif;
+        font-family: "Rubik", sans-serif;
     }
     .main-menu .navbar-collapse .navigation li ul li a:before {
         display: none !important;
     }
-    .main-menu .navbar-collapse>.navigation>li>a:hover,
-    .main-menu .navbar-collapse>.navigation>li>a:active,
-    .main-menu .navbar-collapse>.navigation>li>a:focus {}
-    .main-menu .navbar-collapse>.navigation>li:hover>a,
-    .main-menu .navbar-collapse>.navigation>li>ul>li:hover>a,
-    .main-menu .navbar-collapse>.navigation>li>ul>li>ul>li:hover>a,
-    .main-menu .navbar-collapse>.navigation>li.current>a {
+    .main-menu .navbar-collapse > .navigation > li > a:hover,
+    .main-menu .navbar-collapse > .navigation > li > a:active,
+    .main-menu .navbar-collapse > .navigation > li > a:focus {
+    }
+    .main-menu .navbar-collapse > .navigation > li:hover > a,
+    .main-menu .navbar-collapse > .navigation > li > ul > li:hover > a,
+    .main-menu .navbar-collapse > .navigation > li > ul > li > ul > li:hover > a,
+    .main-menu .navbar-collapse > .navigation > li.current > a {
         background: #195382;
         color: #222222 !important;
     }
-    .main-menu .navbar-collapse>.navigation li.dropdown .dropdown-btn {
+    .main-menu .navbar-collapse > .navigation li.dropdown .dropdown-btn {
         display: block;
     }
-    .main-menu .navbar-collapse .navigation>li>ul {
+    .main-menu .navbar-collapse .navigation > li > ul {
         border: none;
         padding: 0;
         margin: 0;
     }
-    .main-menu .navbar-collapse .navigation>li>ul:before {
+    .main-menu .navbar-collapse .navigation > li > ul:before {
         display: none;
     }
-    .main-menu .navbar-collapse .navigation>li>ul>li:before {
+    .main-menu .navbar-collapse .navigation > li > ul > li:before {
         display: none;
     }
 }
@@ -2439,7 +2416,7 @@
     .main-slider .slide-content.left-slide {
         margin-left: 100px;
     }
-    .mainmenu-right .quote-button-box{
+    .mainmenu-right .quote-button-box {
         display: none;
     }
     .about-title h1 {
@@ -2457,11 +2434,9 @@
     .main-slider .slide-content .text {
         font-size: 20px;
     }
-    .mainmenu-right .quote-button-box{
+    .mainmenu-right .quote-button-box {
         display: none;
     }
-    
-     
 }
 
 @media only screen and (max-width: 1039px) {
@@ -2482,7 +2457,7 @@
         background-size: cover;
         padding: 60px 0;
     }
-    .single-info-of-company{
+    .single-info-of-company {
         padding: 0px;
     }
 }
@@ -2494,33 +2469,32 @@
 =============================================
 ***/
 
- 
-.breadcrumb-area .title h1 {
-    color: #222222;
-    font-size: 35px;
-    line-height: 45px;
-    font-weight: 700;
-    text-transform: capitalize;
-    margin: 0px 0px 10px;
-}
-.mainmenu-right .quote-button-box{
-    display: none;
-}
+    .breadcrumb-area .title h1 {
+        color: #222222;
+        font-size: 35px;
+        line-height: 45px;
+        font-weight: 700;
+        text-transform: capitalize;
+        margin: 0px 0px 10px;
+    }
+    .mainmenu-right .quote-button-box {
+        display: none;
+    }
 
-#hero {
-    width: 100%;
-    height: 100vh;
-    background: url("/images/resources/back\ \(4\).jpeg") top center;
-    background-size: cover;
-    position: relative;
-  }
-  
-  .cta {
-    background: linear-gradient(145deg, #042f52ab, #0c4b7ec7), url("/images/resources/back\ \(4\).jpeg") center center;
-    background-size: cover;
-    padding: 60px 0;
-  }
-  
+    #hero {
+        width: 100%;
+        height: 100vh;
+        background: url("/images/resources/back\ \(4\).jpeg") top center;
+        background-size: cover;
+        position: relative;
+    }
+
+    .cta {
+        background: linear-gradient(145deg, #042f52ab, #0c4b7ec7),
+            url("/images/resources/back\ \(4\).jpeg") center center;
+        background-size: cover;
+        padding: 60px 0;
+    }
 
     .tparrows {
         display: block;
@@ -2534,57 +2508,50 @@
     .main-slider .slide-content .btn-box a {
         padding: 17px 30px 17px;
     }
-
 }
 
 @media only screen and (max-width: 599px) {
-
-    
-    
     .single-service-top .img-holder {
         position: relative;
         display: block;
         height: 300px;
         width: 350px;
     }
-  .ctb {
-    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("/images/resources/tools.jpg") center center;
-    background-size: cover;
-    padding: 60px 0;
-  }
-  .latest-project .owl-theme .owl-nav .owl-next {
-    display: none;
- }
- .latest-project .owl-theme .owl-nav .owl-prev{
-    display: none;
- }
-
-
-   
+    .ctb {
+        background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)),
+            url("/images/resources/tools.jpg") center center;
+        background-size: cover;
+        padding: 60px 0;
+    }
+    .latest-project .owl-theme .owl-nav .owl-next {
+        display: none;
+    }
+    .latest-project .owl-theme .owl-nav .owl-prev {
+        display: none;
+    }
 }
-  
-    /*** 
+
+/*** 
 =============================================
     Rev slider wrapper style
 =============================================
 ***/
-    .main-slider {
-        position: relative;
-        margin-top: 0;
-    }
-    .tparrows {
-        display: block;
-    }
-    .main-slider .slide-content.left-slide {
-        margin-left: 0px;
-    }
-    .main-slider .slide-content .big-title {
-        font-size: 25px;
-    }
-    .main-slider .slide-content .btn-box a {
-        padding: 17px 20px 17px;
-    }
-
+.main-slider {
+    position: relative;
+    margin-top: 0;
+}
+.tparrows {
+    display: block;
+}
+.main-slider .slide-content.left-slide {
+    margin-left: 0px;
+}
+.main-slider .slide-content .big-title {
+    font-size: 25px;
+}
+.main-slider .slide-content .btn-box a {
+    padding: 17px 20px 17px;
+}
 
 @media only screen and (max-width: 479px) {
     .main-slider .slide-content .big-title {
@@ -2604,19 +2571,18 @@
     .main-slider .slide-content .btn-box a {
         padding: 11px 20px 11px;
     }
-    
-.latest-project .owl-theme .owl-nav .owl-next {
-    display: none;
- }
- .latest-project .owl-theme .owl-nav .owl-prev{
-    display: none;
- }
+
+    .latest-project .owl-theme .owl-nav .owl-next {
+        display: none;
+    }
+    .latest-project .owl-theme .owl-nav .owl-prev {
+        display: none;
+    }
 }
 
-
 .ctb {
-    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("/images/resources/tools.jpg") center center;
+    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)),
+        url("/images/resources/tools.jpg") center center;
     background-size: cover;
     padding: 60px 0;
-  }
-  
+}
