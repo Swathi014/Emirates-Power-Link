@@ -615,17 +615,17 @@
                     </div>
                     <div class="col-xl-8 col-lg-7">
                         <div class="contact-info-form">
-                            <form id="contact-info-form" name="contact_info_form" class="default-form" action="#" method="post">
+                            <form id="contact_info_form" name="contact_info_form" class="default-form" action="#" method="post">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="input-box">
-                                            <input type="text" name="form_name" value="" placeholder="Full Name*" required="">
+                                            <input type="text" name="form1_name" value="" placeholder="Full Name*" required="">
                                         </div>
                                         <div class="input-box">
-                                            <input type="email" name="form_email" value="" placeholder="Email Address*" required="">
+                                            <input type="email" name="form1_email" value="" placeholder="Email Address*" required="">
                                         </div>
                                         <div class="input-box">
-                                            <input type="text" name="form_phn" value="" placeholder="Phone Number">
+                                            <input type="text" name="form1_phn" value="" placeholder="Phone Number">
                                         </div>
                                         <div class="input-box">
                                             <input type="text" name="company_name" value="" placeholder="Company Name">
@@ -633,10 +633,10 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="input-box">
-                                            <textarea name="requirements" placeholder="Your Requirements"></textarea>
+                                            <textarea name="requirements1" placeholder="Your Requirements"></textarea>
                                         </div>
                                         <div class="input-box">
-                                            <button class="btn-one" id="id_send_contact_form" type="submit">Submit</button>
+                                            <button class="btn-one" id="id_send_contact_info_form" type="submit">Submit</button>
                                         </div>
                                     </div>
                                 </div>
@@ -909,25 +909,31 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
         <script>
-            $('#id_send_contact_form').on('click', function (e) {
+            $('#id_send_contact_info_form').on('click', function (e) {
                 e.preventDefault()
-                $.ajax({
-                    url: "https://script.google.com/macros/s/AKfycbz_lwQvtRHWreCWLvTsQbLwz9RkKjZcWLsB40SBcfS_w1CjNb3f1Bjr1ZvBiCPFUiiY/exec",
-                    data: $('#contact-info-form').serialize(),
-                    method: "post",
-                    success: function (response) {
-                        swal({
-                            title: "Good job!",
-                            text: "The form has been submitted",
-                            icon: "success",
-                            button: "Ok",
-                        });
-                        $('#contact-info-form')[0].reset();
-                    },
-                    error: function (err) {
-                        alert("Something Went Wrong. Try Again!!!")
-                    }
-                })
+                // console.log($('#contact_info_form').serialize());
+                var form1_email = document.contact_info_form.form1_email.value;
+                var regEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/g;
+                if (form1_email == "" || !regEmail.test(form1_email)) { alert("Enter a valid email") } else {
+                    $.ajax({
+                        url: "https://script.google.com/macros/s/AKfycbxlDsdsJlmLpN-GyIp54be4L90OYCPFNNvamYCZVY3-ltj0_1Mh2PsPlhujB3qiXAIOSQ/exec",
+                        data: $('#contact_info_form').serialize(),
+                        method: "post",
+                        success: function (response) {
+                            // swal({
+                            //     title: "Good job!",
+                            //     text: "The form has been submitted",
+                            //     icon: "success",
+                            //     button: "Ok",
+                            // });
+                            alert('Success!, We\'ll get in touch')
+                            $('#contact_info_form')[0].reset();
+                        },
+                        error: function (err) {
+                            alert("Something Went Wrong. Try Again!!!")
+                        }
+                    })
+                }
             })
         </script>
 
